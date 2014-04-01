@@ -35,7 +35,7 @@ public class HelloController {
 			*/
 			
 			Statement st = conn.createStatement();
-			ResultSet rs = st.executeQuery("SELECT COUNT(*) FROM Teams");
+			ResultSet rs = st.executeQuery("SELECT COUNT(*) FROM \"Teams\"");
 			
 			if (rs.next()) {
 				model.addAttribute("teamcount", rs.getInt(0));
