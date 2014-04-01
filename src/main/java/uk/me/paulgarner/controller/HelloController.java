@@ -19,9 +19,12 @@ public class HelloController {
 		// postgres://cpjwhqyuffnbfl:SXW92-4b0j8VEsb-24gXQoUJqW@ec2-107-20-224-35.compute-1.amazonaws.com:5432/d83nparjc40mn3
 		
 		try {
+			Class.forName("org.postgresql.Driver");
+
 			DriverManager.getConnection(
 				"jdbc:postgresql://ec2-107-20-224-35.compute-1.amazonaws.com:5432/d83nparjc40mn3",
 				"cpjwhqyuffnbfl", "SXW92-4b0j8VEsb-24gXQoUJqW");
+
 			/*
 			DriverManager.getConnection(
 					"jdbc:postgresql://localhost:5432/familyhistory",
