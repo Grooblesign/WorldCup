@@ -9,5 +9,7 @@
 		${databaseurl}
 		<br />
 		${message}
+		<br />
+		${teamcount}
 	</body>
 </html>
