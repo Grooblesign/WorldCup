@@ -32,7 +32,7 @@ public class HelloController {
 			*/
 			model.addAttribute("message", "Connected");
 		} catch (Exception exception) {
-			model.addAttribute("message", exception.getMessage());
+			model.addAttribute("message", "Exception: " + exception.getMessage());
 		}
 		
 		return "index";
