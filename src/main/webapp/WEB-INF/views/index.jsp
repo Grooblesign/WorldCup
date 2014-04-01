@@ -7,5 +7,7 @@
 		${datetime}
 		<br />
 		${databaseurl}
+		<br />
+		${message}
 	</body>
 </html>
