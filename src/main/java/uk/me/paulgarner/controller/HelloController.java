@@ -12,7 +12,8 @@ public class HelloController {
 	@RequestMapping(value="/")
 	public String Index(Model model) {
 		model.addAttribute("datetime", new Date().toString());
-		
+		model.addAttribute("databaseurl", System.getenv("DATABASE_UR"));
+
 		return "index";
 	}
 
