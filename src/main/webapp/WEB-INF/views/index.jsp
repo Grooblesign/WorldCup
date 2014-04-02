@@ -15,8 +15,8 @@
 		<br />
 		${teamcount}
 		<br />
-		<c:forEach items="${teams}" var="team">		
-			${team}
+		<c:forEach items="${groupA}" var="team">		
+			${team.name}
 			<br />
 		</c:forEach>	
 	</body>

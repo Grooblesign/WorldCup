@@ -12,6 +12,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 
+import uk.me.paulgarner.model.Team;
+
 @Controller
 public class HelloController {
 
@@ -44,19 +46,24 @@ public class HelloController {
 				model.addAttribute("teamcount", rs.getInt(1));
 			}
 
-			rs = st.executeQuery("SELECT \"Name\" FROM \"Teams\" ORDER BY \"Name\"");
+			rs = st.executeQuery("SELECT \"Group\", \"Index\", \"Name\" FROM \"Teams\" WHERE \"Group\"='A' ORDER BY \"Index\"");
 			
-			List<String> teams = new ArrayList<String>();
+			List<Team> groupA = new ArrayList<Team>();
 			
 			while (rs.next()) {
-				teams.add(rs.getString(1));
+				Team team = new Team();
+				team.setGroup(rs.getString(1));
+				team.setIndex(rs.getInt(2));
+				team.setName(rs.getString(3));
+				
+				groupA.add(team);
 			}
 			
 			rs.close();
 
 			conn.close();
 
-			model.addAttribute("teams", teams);
+			model.addAttribute("groupA", groupA);
 			
 			model.addAttribute("message", "Connected");
 		} catch (Exception exception) {
