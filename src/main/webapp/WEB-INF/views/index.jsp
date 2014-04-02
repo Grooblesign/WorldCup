@@ -2,6 +2,7 @@
 <html>
 	<head>
 		<title>World Cop 2014</title>
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
 	</head>		
 	<body>
 		<h1>World Cup 2014</h1>
