@@ -1,3 +1,4 @@
+<%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <html>
 	<head>
 		<title>World Cop 2014</title>
@@ -11,5 +12,10 @@
 		${message}
 		<br />
 		${teamcount}
+		<br />
+		<c:forEach items="${teams}" var="team">		
+			$team
+			<br />
+		</c:forEach>c:forEach	
 	</body>
 </html>
