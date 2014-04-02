@@ -7,6 +7,8 @@
 		<h1>World Cup 2014</h1>
 		${datetime}
 		<br />
+		${os}
+		<br />
 		${databaseurl}
 		<br />
 		${message}
