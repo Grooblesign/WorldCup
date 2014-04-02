@@ -38,7 +38,7 @@ public class HelloController {
 			ResultSet rs = st.executeQuery("SELECT COUNT(*) FROM \"Teams\"");
 			
 			if (rs.next()) {
-				model.addAttribute("teamcount", rs.getInt(0));
+				model.addAttribute("teamcount", rs.getInt(1));
 			}
 			rs.close();
 
