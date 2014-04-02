@@ -79,6 +79,61 @@ public class HelloController {
 				groupC.add(team);
 			}
 
+			rs = st.executeQuery("SELECT \"Group\", \"Index\", \"Name\" FROM \"Teams\" WHERE \"Group\"='D' ORDER BY \"Index\"");
+			List<Team> groupD = new ArrayList<Team>();
+			while (rs.next()) {
+				Team team = new Team();
+				team.setGroup(rs.getString(1));
+				team.setIndex(rs.getInt(2));
+				team.setName(rs.getString(3));
+				
+				groupD.add(team);
+			}
+
+			rs = st.executeQuery("SELECT \"Group\", \"Index\", \"Name\" FROM \"Teams\" WHERE \"Group\"='E' ORDER BY \"Index\"");
+			List<Team> groupE = new ArrayList<Team>();
+			while (rs.next()) {
+				Team team = new Team();
+				team.setGroup(rs.getString(1));
+				team.setIndex(rs.getInt(2));
+				team.setName(rs.getString(3));
+				
+				groupE.add(team);
+			}
+
+			rs = st.executeQuery("SELECT \"Group\", \"Index\", \"Name\" FROM \"Teams\" WHERE \"Group\"='F' ORDER BY \"Index\"");
+			List<Team> groupF = new ArrayList<Team>();
+			while (rs.next()) {
+				Team team = new Team();
+				team.setGroup(rs.getString(1));
+				team.setIndex(rs.getInt(2));
+				team.setName(rs.getString(3));
+				
+				groupF.add(team);
+			}
+
+			rs = st.executeQuery("SELECT \"Group\", \"Index\", \"Name\" FROM \"Teams\" WHERE \"Group\"='G' ORDER BY \"Index\"");
+			List<Team> groupG = new ArrayList<Team>();
+			while (rs.next()) {
+				Team team = new Team();
+				team.setGroup(rs.getString(1));
+				team.setIndex(rs.getInt(2));
+				team.setName(rs.getString(3));
+				
+				groupG.add(team);
+			}
+
+			rs = st.executeQuery("SELECT \"Group\", \"Index\", \"Name\" FROM \"Teams\" WHERE \"Group\"='H' ORDER BY \"Index\"");
+			List<Team> groupH = new ArrayList<Team>();
+			while (rs.next()) {
+				Team team = new Team();
+				team.setGroup(rs.getString(1));
+				team.setIndex(rs.getInt(2));
+				team.setName(rs.getString(3));
+				
+				groupH.add(team);
+			}
+
 			rs.close();
 
 			conn.close();

@@ -28,5 +28,45 @@
 			</tr>
 		</c:forEach>
 		</table>	
+		<br />
+		<table>
+		<c:forEach items="${groupD}" var="team">
+			<tr>		
+			<td>${team.name}</td>
+			</tr>
+		</c:forEach>
+		</table>	
+		<br />
+		<table>
+		<c:forEach items="${groupE}" var="team">
+			<tr>		
+			<td>${team.name}</td>
+			</tr>
+		</c:forEach>
+		</table>	
+		<br />
+		<table>
+		<c:forEach items="${groupF}" var="team">
+			<tr>		
+			<td>${team.name}</td>
+			</tr>
+		</c:forEach>
+		</table>	
+		<br />
+		<table>
+		<c:forEach items="${groupG}" var="team">
+			<tr>		
+			<td>${team.name}</td>
+			</tr>
+		</c:forEach>
+		</table>	
+		<br />
+		<table>
+		<c:forEach items="${groupH}" var="team">
+			<tr>		
+			<td>${team.name}</td>
+			</tr>
+		</c:forEach>
+		</table>	
 	</body>
 </html>
