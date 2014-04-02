@@ -9,15 +9,26 @@
 		<br />
 		${os}
 		<br />
-		${databaseurl}
-		<br />
-		${message}
-		<br />
-		${teamcount}
-		<br />
-		<c:forEach items="${groupA}" var="team">		
-			${team.name}
-			<br />
-		</c:forEach>	
+		<table>
+		<c:forEach items="${groupA}" var="team">
+			<tr>		
+			<td>${team.name}</td>
+			</tr>
+		</c:forEach>
+		</table>	
+		<table>
+		<c:forEach items="${groupB}" var="team">
+			<tr>		
+			<td>${team.name}</td>
+			</tr>
+		</c:forEach>
+		</table>	
+		<table>
+		<c:forEach items="${groupC}" var="team">
+			<tr>		
+			<td>${team.name}</td>
+			</tr>
+		</c:forEach>
+		</table>	
 	</body>
 </html>

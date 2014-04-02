@@ -47,9 +47,7 @@ public class HelloController {
 			}
 
 			rs = st.executeQuery("SELECT \"Group\", \"Index\", \"Name\" FROM \"Teams\" WHERE \"Group\"='A' ORDER BY \"Index\"");
-			
 			List<Team> groupA = new ArrayList<Team>();
-			
 			while (rs.next()) {
 				Team team = new Team();
 				team.setGroup(rs.getString(1));
@@ -59,11 +57,35 @@ public class HelloController {
 				groupA.add(team);
 			}
 			
+			rs = st.executeQuery("SELECT \"Group\", \"Index\", \"Name\" FROM \"Teams\" WHERE \"Group\"='B' ORDER BY \"Index\"");
+			List<Team> groupB = new ArrayList<Team>();
+			while (rs.next()) {
+				Team team = new Team();
+				team.setGroup(rs.getString(1));
+				team.setIndex(rs.getInt(2));
+				team.setName(rs.getString(3));
+				
+				groupB.add(team);
+			}
+
+			rs = st.executeQuery("SELECT \"Group\", \"Index\", \"Name\" FROM \"Teams\" WHERE \"Group\"='C' ORDER BY \"Index\"");
+			List<Team> groupC = new ArrayList<Team>();
+			while (rs.next()) {
+				Team team = new Team();
+				team.setGroup(rs.getString(1));
+				team.setIndex(rs.getInt(2));
+				team.setName(rs.getString(3));
+				
+				groupC.add(team);
+			}
+
 			rs.close();
 
 			conn.close();
 
 			model.addAttribute("groupA", groupA);
+			model.addAttribute("groupB", groupB);
+			model.addAttribute("groupC", groupC);
 			
 			model.addAttribute("message", "Connected");
 		} catch (Exception exception) {
