@@ -18,6 +18,7 @@ public class HelloController {
 	@RequestMapping(value="/")
 	public String Index(Model model) {
 		model.addAttribute("datetime", new Date().toString());
+		model.addAttribute("os", System.getProperty("os.name"));
 		model.addAttribute("databaseurl", System.getenv("DATABASE_URL"));
 
 		// postgres://postgres:Quizzle1792@localhost:5432/familyhistory
@@ -43,7 +44,7 @@ public class HelloController {
 				model.addAttribute("teamcount", rs.getInt(1));
 			}
 
-			rs = st.executeQuery("SELECT \"Name\" FROM \"Teams\"");
+			rs = st.executeQuery("SELECT \"Name\" FROM \"Teams\" ORDER BY \"Name\"");
 			
 			List<String> teams = new ArrayList<String>();
 			
