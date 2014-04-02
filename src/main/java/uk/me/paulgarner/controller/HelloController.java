@@ -141,6 +141,11 @@ public class HelloController {
 			model.addAttribute("groupA", groupA);
 			model.addAttribute("groupB", groupB);
 			model.addAttribute("groupC", groupC);
+			model.addAttribute("groupD", groupD);
+			model.addAttribute("groupE", groupE);
+			model.addAttribute("groupF", groupF);
+			model.addAttribute("groupG", groupG);
+			model.addAttribute("groupH", groupH);
 			
 			model.addAttribute("message", "Connected");
 		} catch (Exception exception) {
