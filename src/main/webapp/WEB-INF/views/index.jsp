@@ -14,8 +14,8 @@
 		${teamcount}
 		<br />
 		<c:forEach items="${teams}" var="team">		
-			$team
+			${team}
 			<br />
-		</c:forEach>c:forEach	
+		</c:forEach>	
 	</body>
 </html>
