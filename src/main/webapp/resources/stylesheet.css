@@ -6,6 +6,7 @@ body {
 }
 table {
 	border-style: solid;
+	border-width: thin;
 	border-color: #000000;
 	border-collapse: collapse;
 	cursor: pointer;
