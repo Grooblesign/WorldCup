@@ -5,10 +5,6 @@
 	</head>		
 	<body>
 		<h1>World Cup 2014</h1>
-		${datetime}
-		<br />
-		${os}
-		<br />
 		<table>
 		<c:forEach items="${groupA}" var="team">
 			<tr>		
@@ -16,6 +12,7 @@
 			</tr>
 		</c:forEach>
 		</table>	
+		<br />
 		<table>
 		<c:forEach items="${groupB}" var="team">
 			<tr>		
@@ -23,6 +20,7 @@
 			</tr>
 		</c:forEach>
 		</table>	
+		<br />
 		<table>
 		<c:forEach items="${groupC}" var="team">
 			<tr>		
