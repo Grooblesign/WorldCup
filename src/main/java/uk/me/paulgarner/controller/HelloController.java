@@ -25,9 +25,6 @@ public class HelloController {
 	
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String Index(Model model) {
-		model.addAttribute("datetime", new Date().toString());
-		model.addAttribute("os", System.getProperty("os.name"));
-		model.addAttribute("databaseurl", System.getenv("DATABASE_URL"));
 
 		// postgres://postgres:Quizzle1792@localhost:5432/familyhistory
 		// postgres://cpjwhqyuffnbfl:SXW92-4b0j8VEsb-24gXQoUJqW@ec2-107-20-224-35.compute-1.amazonaws.com:5432/d83nparjc40mn3
@@ -206,11 +203,12 @@ public class HelloController {
 		return "index";
 	}
 
-	@RequestMapping(value = "/greeting")
+	@RequestMapping(value = "/info")
 	public String SayHello(Model model) {
-		model.addAttribute("greeting", "Hello World");
 		model.addAttribute("datetime", new Date().toString());
+		model.addAttribute("os", System.getProperty("os.name"));
+		model.addAttribute("databaseurl", System.getenv("DATABASE_URL"));
 
-		return "hello";
+		return "info";
 	}
 }
