@@ -6,6 +6,16 @@ public class Team {
 	private String name;
 	private String group;
 	
+	public Team() {
+	
+	}
+	
+	public Team(String name, String group, int index) {
+		this.name = name;
+		this.group = group;
+		this.index = index;
+	}
+
 	public int getIndex() {
 		return index;
 	}

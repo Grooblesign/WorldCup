@@ -7,6 +7,11 @@
 	<body>
 		<h1>World Cup 2014</h1>
 		<table width="30%">
+		<thead>
+			<tr>
+			<td>Group A</td>
+			</tr>
+		</thead>
 		<c:forEach items="${groupA}" var="team">
 			<tr>		
 			<td>${team.name}</td>
@@ -15,6 +20,11 @@
 		</table>	
 		<br />
 		<table width="30%">
+		<thead>
+			<tr>
+			<td>Group B</td>
+			</tr>
+		</thead>
 		<c:forEach items="${groupB}" var="team">
 			<tr>		
 			<td>${team.name}</td>
@@ -23,6 +33,11 @@
 		</table>	
 		<br />
 		<table width="30%">
+		<thead>
+			<tr>
+			<td>Group C</td>
+			</tr>
+		</thead>
 		<c:forEach items="${groupC}" var="team">
 			<tr>		
 			<td>${team.name}</td>
@@ -31,6 +46,11 @@
 		</table>	
 		<br />
 		<table width="30%">
+		<thead>
+			<tr>
+			<td>Group D</td>
+			</tr>
+		</thead>
 		<c:forEach items="${groupD}" var="team">
 			<tr>		
 			<td>${team.name}</td>
@@ -39,6 +59,11 @@
 		</table>	
 		<br />
 		<table width="30%">
+		<thead>
+			<tr>
+			<td>Group E</td>
+			</tr>
+		</thead>
 		<c:forEach items="${groupE}" var="team">
 			<tr>		
 			<td>${team.name}</td>
@@ -47,6 +72,11 @@
 		</table>	
 		<br />
 		<table width="30%">
+		<thead>
+			<tr>
+			<td>Group F</td>
+			</tr>
+		</thead>
 		<c:forEach items="${groupF}" var="team">
 			<tr>		
 			<td>${team.name}</td>
@@ -55,6 +85,11 @@
 		</table>	
 		<br />
 		<table width="30%">
+		<thead>
+			<tr>
+			<td>Group G</td>
+			</tr>
+		</thead>
 		<c:forEach items="${groupG}" var="team">
 			<tr>		
 			<td>${team.name}</td>
@@ -63,6 +98,11 @@
 		</table>	
 		<br />
 		<table width="30%">
+		<thead>
+			<tr>
+			<td>Group H</td>
+			</tr>
+		</thead>
 		<c:forEach items="${groupH}" var="team">
 			<tr>		
 			<td>${team.name}</td>
