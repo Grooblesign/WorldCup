@@ -1,0 +1,19 @@
+* {
+
+}
+body {
+	background: antiquewhite;
+}
+table {
+	background: white;
+	border-style: solid;
+	border-width: thin;
+	border-color: #000000;
+	border-collapse: collapse;
+	cursor: pointer;
+}
+thead {
+	background: gray;
+	color: yellow;
+	font-weight: bold;
+}
