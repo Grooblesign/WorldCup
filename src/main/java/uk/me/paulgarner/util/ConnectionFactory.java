@@ -4,11 +4,9 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-import org.apache.log4j.Logger;
-
 public class ConnectionFactory {
 
-	static Logger logger = Logger.getLogger("uk.me.paulgarner");	
+	// static Logger logger = Logger.getLogger("uk.me.paulgarner");	
 	
 	public static Connection getConnection() throws SQLException {
 		
@@ -28,7 +26,7 @@ public class ConnectionFactory {
 						"postgres", "Tazzle11!");
 			}
 		} catch (Exception exception) {
-			logger.info(exception.getMessage());
+			// logger.info(exception.getMessage());
 		}
 		
 		return conn;
@@ -39,7 +37,7 @@ public class ConnectionFactory {
 		try {
 			connection.close();
 		} catch (SQLException exception) {
-			logger.info(exception.getMessage());
+			// logger.info(exception.getMessage());
 		}
 	}
 }

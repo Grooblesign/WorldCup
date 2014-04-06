@@ -6,15 +6,13 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apache.log4j.Logger;
-
 import uk.me.paulgarner.model.Constants;
 import uk.me.paulgarner.model.Match;
 import uk.me.paulgarner.model.Team;
 
 public class DataLoader {
 
-	static Logger logger = Logger.getLogger("uk.me.paulgarner");
+	// static Logger logger = Logger.getLogger("uk.me.paulgarner");
 
 	public static void Load() throws SQLException {
 		Connection conn = ConnectionFactory.getConnection();
@@ -517,7 +515,7 @@ public class DataLoader {
 								_match.getTime(), _match.getVenue()));
 			}
 		} catch (Exception ex) {
-			logger.info(ex.getMessage());
+			// logger.info(ex.getMessage());
 		}
 
 		ConnectionFactory.closeConnection(conn);
