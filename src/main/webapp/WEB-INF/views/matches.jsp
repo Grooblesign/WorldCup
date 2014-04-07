@@ -7,7 +7,7 @@
 	<body>
 		<h1>Matches</h1>	
 		<div id="container">
-			<table>
+			<table id="matchesTable">
 			<c:forEach items="${matches}" var="match">
 				<tr>		
 				<td>${match.date}</td>
