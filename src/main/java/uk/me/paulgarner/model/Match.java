@@ -10,16 +10,16 @@ public class Match {
 	private String time;
 	private String venue;
 	
-	private int Team1Goals;
-	private int Team2Goals;
-	private int Team1GoalsAdam;
-	private int Team2GoalsAdam;
-	private int Team1GoalsEmily;
-	private int Team2GoalsEmily;
-	private int Team1GoalsLuke;
-	private int Team2GoalsLuke;
-	private int Team1GoalsPaul;
-	private int Team2GoalsPaul;
+	private int team1Goals;
+	private int team2Goals;
+	private int team1GoalsAdam;
+	private int team2GoalsAdam;
+	private int team1GoalsEmily;
+	private int team2GoalsEmily;
+	private int team1GoalsLuke;
+	private int team2GoalsLuke;
+	private int team1GoalsPaul;
+	private int team2GoalsPaul;
 	
 	public int getIndex() {
 		return index;
@@ -68,5 +68,65 @@ public class Match {
 	}
 	public void setTeam2Name(String team2Name) {
 		this.team2Name = team2Name;
+	}
+	public int getTeam1Goals() {
+		return team1Goals;
+	}
+	public void setTeam1Goals(int team1Goals) {
+		this.team1Goals = team1Goals;
+	}
+	public int getTeam2Goals() {
+		return team2Goals;
+	}
+	public void setTeam2Goals(int team2Goals) {
+		this.team2Goals = team2Goals;
+	}
+	public int getTeam1GoalsAdam() {
+		return team1GoalsAdam;
+	}
+	public void setTeam1GoalsAdam(int team1GoalsAdam) {
+		this.team1GoalsAdam = team1GoalsAdam;
+	}
+	public int getTeam2GoalsAdam() {
+		return team2GoalsAdam;
+	}
+	public void setTeam2GoalsAdam(int team2GoalsAdam) {
+		this.team2GoalsAdam = team2GoalsAdam;
+	}
+	public int getTeam1GoalsEmily() {
+		return team1GoalsEmily;
+	}
+	public void setTeam1GoalsEmily(int team1GoalsEmily) {
+		this.team1GoalsEmily = team1GoalsEmily;
+	}
+	public int getTeam2GoalsEmily() {
+		return team2GoalsEmily;
+	}
+	public void setTeam2GoalsEmily(int team2GoalsEmily) {
+		this.team2GoalsEmily = team2GoalsEmily;
+	}
+	public int getTeam1GoalsLuke() {
+		return team1GoalsLuke;
+	}
+	public void setTeam1GoalsLuke(int team1GoalsLuke) {
+		this.team1GoalsLuke = team1GoalsLuke;
+	}
+	public int getTeam2GoalsLuke() {
+		return team2GoalsLuke;
+	}
+	public void setTeam2GoalsLuke(int team2GoalsLuke) {
+		this.team2GoalsLuke = team2GoalsLuke;
+	}
+	public int getTeam1GoalsPaul() {
+		return team1GoalsPaul;
+	}
+	public void setTeam1GoalsPaul(int team1GoalsPaul) {
+		this.team1GoalsPaul = team1GoalsPaul;
+	}
+	public int getTeam2GoalsPaul() {
+		return team2GoalsPaul;
+	}
+	public void setTeam2GoalsPaul(int team2GoalsPaul) {
+		this.team2GoalsPaul = team2GoalsPaul;
 	}
 }

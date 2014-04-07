@@ -1,0 +1,25 @@
+* {
+
+}
+body {
+	background: antiquewhite;
+    font-family: Geneva, Tahoma, sans-serif;
+}
+table {
+	background: white;
+	border-style: solid;
+	border-width: thin;
+	border-color: #000000;
+	border-collapse: collapse;
+	cursor: pointer;
+}
+thead {
+	background: darkgray;
+	color: black;
+	font-weight: bold;
+}
+#matchesTable td {
+    border: thin solid;
+    background-color: silver;
+    padding: 0.25em;
+}

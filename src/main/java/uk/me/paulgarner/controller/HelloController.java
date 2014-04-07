@@ -10,16 +10,15 @@ import java.util.List;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import uk.me.paulgarner.model.Constants;
 import uk.me.paulgarner.model.Match;
 import uk.me.paulgarner.model.Team;
 import uk.me.paulgarner.service.MatchService;
 import uk.me.paulgarner.util.ConnectionFactory;
-import uk.me.paulgarner.util.DataLoader;
 
 @Controller
 public class HelloController {
@@ -33,6 +32,11 @@ public class HelloController {
 		return "info";
 	}
 
+	@RequestMapping(value = "/spa")
+	public String Spa(Model model) {
+		return "spa";
+	}
+	
 	@RequestMapping(value = "/matches/rest")
 	public @ResponseBody List<Match> JsonMatches(Model model) throws SQLException {
 	
@@ -40,12 +44,22 @@ public class HelloController {
 		
 	}
 	
+	@RequestMapping(value = "/matches/rest/{index}")
+	public @ResponseBody Match JsonMatch(@PathVariable int index) throws SQLException {
+	
+		return (new MatchService()).find(index);
+		
+	}
+	
+	@RequestMapping(value = "/matches/rest/team/{name}")
+	public @ResponseBody List<Match> JsonMatchesForTeam(@PathVariable String name) throws SQLException {
+	
+		return (new MatchService()).findForTeam(name);
+		
+	}
+	
 	@RequestMapping(value = "/matches")
 	public String Matches(Model model) throws SQLException {
-		/*
-		SELECT m."Index", "Team1", t1."Name", "Team2", t2."Name", "Date", "Time", "Venue"
-		  FROM "Matches" m LEFT JOIN "Teams" t1 ON m."Team1" = t1."Index" LEFT JOIN "Teams" t2 ON m."Team2" = t2."Index"
-		*/
 		
 		model.addAttribute("matches", (new MatchService()).findAll());
 		

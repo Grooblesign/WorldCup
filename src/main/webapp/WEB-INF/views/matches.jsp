@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>Matches</title>
-		<link rel="stylesheet" href="<c:url value="/resources/stylesheet.css" />" type="text/css" />
+		<link rel="stylesheet" href="<c:url value="/resources/style/stylesheet.css" />" type="text/css" />
 	</head>
 	<body>
 		<h1>Matches</h1>	
