@@ -10,6 +10,17 @@ public class Match {
 	private String time;
 	private String venue;
 	
+	private int Team1Goals;
+	private int Team2Goals;
+	private int Team1GoalsAdam;
+	private int Team2GoalsAdam;
+	private int Team1GoalsEmily;
+	private int Team2GoalsEmily;
+	private int Team1GoalsLuke;
+	private int Team2GoalsLuke;
+	private int Team1GoalsPaul;
+	private int Team2GoalsPaul;
+	
 	public int getIndex() {
 		return index;
 	}

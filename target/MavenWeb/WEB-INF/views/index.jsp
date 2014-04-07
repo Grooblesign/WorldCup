@@ -6,6 +6,7 @@
 	</head>		
 	<body>
 		<h1>World Cup 2014</h1>
+		<div id="container">
 		<table width="30%">
 		<thead>
 			<tr>
@@ -109,5 +110,6 @@
 			</tr>
 		</c:forEach>
 		</table>	
+		</div>
 	</body>
 </html>

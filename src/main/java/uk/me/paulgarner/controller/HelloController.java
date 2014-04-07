@@ -12,9 +12,12 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
+import uk.me.paulgarner.model.Constants;
 import uk.me.paulgarner.model.Match;
 import uk.me.paulgarner.model.Team;
+import uk.me.paulgarner.service.MatchService;
 import uk.me.paulgarner.util.ConnectionFactory;
 import uk.me.paulgarner.util.DataLoader;
 
@@ -30,6 +33,13 @@ public class HelloController {
 		return "info";
 	}
 
+	@RequestMapping(value = "/matches/rest")
+	public @ResponseBody List<Match> JsonMatches(Model model) throws SQLException {
+	
+		return (new MatchService()).findAll();
+		
+	}
+	
 	@RequestMapping(value = "/matches")
 	public String Matches(Model model) throws SQLException {
 		/*
@@ -37,37 +47,7 @@ public class HelloController {
 		  FROM "Matches" m LEFT JOIN "Teams" t1 ON m."Team1" = t1."Index" LEFT JOIN "Teams" t2 ON m."Team2" = t2."Index"
 		*/
 		
-		Connection conn = ConnectionFactory.getConnection();
-		Statement st = conn.createStatement();
-		ResultSet rs;
-
-		StringBuilder SQL = new StringBuilder();
-		SQL.append("SELECT m.\"Index\", \"Team1\", t1.\"Name\", \"Team2\", t2.\"Name\", \"Date\", \"Time\", \"Venue\"");
-		SQL.append("FROM \"Matches\" m ");
-		SQL.append("LEFT JOIN \"Teams\" t1 ON m.\"Team1\" = t1.\"Index\" ");
-		SQL.append("LEFT JOIN \"Teams\" t2 ON m.\"Team2\" = t2.\"Index\"");
-		SQL.append("ORDER BY m.\"Index\"");
-
-		rs = st.executeQuery(SQL.toString());
-		
-		List<Match> matches = new ArrayList<Match>();
-		while (rs.next()) {
-			Match match = new Match();
-			match.setDate(rs.getString(6));
-			match.setIndex(rs.getInt(1));
-			match.setTeam1Index(rs.getInt(2));
-			match.setTeam1Name(rs.getString(3));
-			match.setTeam2Index(rs.getInt(4));
-			match.setTeam2Name(rs.getString(5));
-			match.setTime(rs.getString(7));
-			match.setVenue(rs.getString(8));
-
-			matches.add(match);
-		}
-
-		ConnectionFactory.closeConnection(conn);
-		
-		model.addAttribute("matches", matches);
+		model.addAttribute("matches", (new MatchService()).findAll());
 		
 		return "matches";
 	}
@@ -80,7 +60,7 @@ public class HelloController {
 	@RequestMapping(value = "/", method = RequestMethod.GET)
 	public String Index(Model model) throws SQLException {
 
-		DataLoader.Load();
+		// DataLoader.Load();
 
 		Connection conn = ConnectionFactory.getConnection();
 		Statement st = conn.createStatement();
