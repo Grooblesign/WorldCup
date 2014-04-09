@@ -81,7 +81,7 @@ public class MatchService {
 		return match;
 	}
 
-	public List<Match> findForTeam(String name) throws SQLException {
+	public List<Match> findAllForTeam(String name) throws SQLException {
 		
 		List<Match> matches = new ArrayList<Match>();
 		

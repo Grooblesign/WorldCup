@@ -10,12 +10,15 @@ import java.util.List;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import uk.me.paulgarner.model.Match;
+import uk.me.paulgarner.model.Player;
 import uk.me.paulgarner.model.Team;
 import uk.me.paulgarner.service.MatchService;
 import uk.me.paulgarner.util.ConnectionFactory;
@@ -32,6 +35,23 @@ public class HelloController {
 		return "info";
 	}
 
+	@RequestMapping(value = "/post", method = RequestMethod.GET)
+	public String PostTest(Model model) {
+		Player player = new Player();
+		player.setLastname("Lampard");
+		player.setFirstname("Frank");
+		
+		model.addAttribute("player", player);
+		
+		return "posttest";
+	}
+	
+	@RequestMapping(value = "/post", method = RequestMethod.POST)
+	public String PostTestPost(@ModelAttribute("player") Player player, BindingResult result) {
+		System.out.println(player.getLastname());
+		return "info";
+	}
+	
 	@RequestMapping(value = "/spa")
 	public String Spa(Model model) {
 		return "spa";
@@ -54,7 +74,7 @@ public class HelloController {
 	@RequestMapping(value = "/matches/rest/team/{name}")
 	public @ResponseBody List<Match> JsonMatchesForTeam(@PathVariable String name) throws SQLException {
 	
-		return (new MatchService()).findForTeam(name);
+		return (new MatchService()).findAllForTeam(name);
 		
 	}
 	
