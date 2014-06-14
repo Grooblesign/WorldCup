@@ -222,8 +222,8 @@ public class DataLoader {
 			match.setTime("13:00");
 			match.setVenue("Estádio Mineirão, Belo Horizonte");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(3);    
+			match.setTeam2Goals(0);
 
 			match.setTeam1GoalsAdam(2);
 			match.setTeam2GoalsAdam(1);
