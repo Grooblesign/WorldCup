@@ -16,8 +16,14 @@ public class Match {
 	private int team2GoalsAdam;
 	private int team1GoalsEmily;
 	private int team2GoalsEmily;
+	private int team1GoalsJohn;
+	private int team2GoalsJohn;
+	private int team1GoalsKyle;
+	private int team2GoalsKyle;
 	private int team1GoalsLuke;
 	private int team2GoalsLuke;
+	private int team1GoalsNicola;
+	private int team2GoalsNicola;
 	private int team1GoalsPaul;
 	private int team2GoalsPaul;
 	
@@ -128,5 +134,41 @@ public class Match {
 	}
 	public void setTeam2GoalsPaul(int team2GoalsPaul) {
 		this.team2GoalsPaul = team2GoalsPaul;
+	}
+	public int getTeam1GoalsKyle() {
+		return team1GoalsKyle;
+	}
+	public void setTeam1GoalsKyle(int team1GoalsKyle) {
+		this.team1GoalsKyle = team1GoalsKyle;
+	}
+	public int getTeam2GoalsKyle() {
+		return team2GoalsKyle;
+	}
+	public void setTeam2GoalsKyle(int team2GoalsKyle) {
+		this.team2GoalsKyle = team2GoalsKyle;
+	}
+	public int getTeam1GoalsNicola() {
+		return team1GoalsNicola;
+	}
+	public void setTeam1GoalsNicola(int team1GoalsNicola) {
+		this.team1GoalsNicola = team1GoalsNicola;
+	}
+	public int getTeam2GoalsNicola() {
+		return team2GoalsNicola;
+	}
+	public void setTeam2GoalsNicola(int team2GoalsNicola) {
+		this.team2GoalsNicola = team2GoalsNicola;
+	}
+	public int getTeam1GoalsJohn() {
+		return team1GoalsJohn;
+	}
+	public void setTeam1GoalsJohn(int team1GoalsJohn) {
+		this.team1GoalsJohn = team1GoalsJohn;
+	}
+	public int getTeam2GoalsJohn() {
+		return team2GoalsJohn;
+	}
+	public void setTeam2GoalsJohn(int team2GoalsJohn) {
+		this.team2GoalsJohn = team2GoalsJohn;
 	}
 }

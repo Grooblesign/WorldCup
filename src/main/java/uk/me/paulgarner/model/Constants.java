@@ -9,10 +9,10 @@ public class Constants {
 	public static final int NETHERLANDS = 6;
 	public static final int CHILE = 7;
 	public static final int AUSTRALIA = 8;
-	public static final int IVORY_COAST = 9;
-	public static final int COLOMBIA = 10;
-	public static final int JAPAN = 11;
-	public static final int GREECE = 12;
+	public static final int COLOMBIA = 9;
+	public static final int GREECE = 10;
+	public static final int IVORY_COAST = 11;
+	public static final int JAPAN = 12;
 	public static final int URUGUAY = 13;
 	public static final int COSTA_RICA = 14;
 	public static final int ENGLAND = 15;

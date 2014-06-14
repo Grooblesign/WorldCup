@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>World Cop 2014</title>
-		<link rel="stylesheet" href="<c:url value="/resources/stylesheet.css" />" type="text/css" />
+		<link rel="stylesheet" href="<c:url value="/resources/style/stylesheet.css" />" type="text/css" />
 	</head>		
 	<body>
 		<h1>World Cup 2014</h1>

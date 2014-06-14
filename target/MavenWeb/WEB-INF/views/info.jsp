@@ -8,10 +8,12 @@
 </head>
 <body>
 	<h1>Info</h1>
-	${datetime}
+	${datetime}	
 	<br/>
 	${os}
 	<br/>
 	${databaseurl}
+	<br />
+	${username}
 </body>
 </html>

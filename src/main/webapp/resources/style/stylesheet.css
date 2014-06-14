@@ -5,6 +5,14 @@ body {
 	background: antiquewhite;
     font-family: Geneva, Tahoma, sans-serif;
 }
+h1 {
+	font-size: 36px;
+	margin: 0 0 18;
+	border-bottom: 4px solid #eee;
+	color: #333;
+	font-weight: bold;
+	line-height: 1.25;
+}
 table {
 	background: white;
 	border-style: solid;
@@ -20,6 +28,9 @@ thead {
 }
 #matchesTable td {
     border: thin solid;
-    background-color: silver;
-    padding: 0.25em;
+    background-color: white;
+    padding: 0.35em;
+}
+.matchesTableResult {
+	text-align: center;
 }

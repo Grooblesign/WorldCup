@@ -1,0 +1,5422 @@
+<players>
+	<!-- Brazil -->
+	<player>
+		<name>Julio Cesar</name>
+		<team>Brazil</team>
+		<club>Toronto FC</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Jefferson</name>
+		<team>Brazil</team>
+		<club>Botafogo</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Victor</name>
+		<team>Brazil</team>
+		<club>Atletico Mineiro</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Marcelo</name>
+		<team>Brazil</team>
+		<club>Real Madrid</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Daniel Alves</name>
+		<team>Brazil</team>
+		<club>Barcelona</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Maicon</name>
+		<team>Brazil</team>
+		<club>AS Roma</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Maxwell</name>
+		<team>Brazil</team>
+		<club>Paris St-Germain</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Thiago Silva</name>
+		<team>Brazil</team>
+		<club>Paris St-Germain</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>David Luiz</name>
+		<team>Brazil</team>
+		<club>Chelsea</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Dante</name>
+		<team>Brazil</team>
+		<club>Bayern Munich</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Henrique</name>
+		<team>Brazil</team>
+		<club>Napoli</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Paulinho</name>
+		<team>Brazil</team>
+		<club>Tottenham Hotspur</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ramires</name>
+		<team>Brazil</team>
+		<club>Chelsea</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Willian</name>
+		<team>Brazil</team>
+		<club>Chelsea</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Oscar</name>
+		<team>Brazil</team>
+		<club>Chelsea</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Hernanes</name>
+		<team>Brazil</team>
+		<club>Inter Milan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Luiz Gustavo</name>
+		<team>Brazil</team>
+		<club>Wolfsburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Fernandinho</name>
+		<team>Brazil</team>
+		<club>Manchester City</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Bernard</name>
+		<team>Brazil</team>
+		<club>Shakhtar Donetsk</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Neymar</name>
+		<team>Brazil</team>
+		<club>Barcelona</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Fred</name>
+		<team>Brazil</team>
+		<club>Fluminense</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jo</name>
+		<team>Brazil</team>
+		<club>Atletico Mineiro</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Hulk</name>
+		<team>Brazil</team>
+		<club>Zenit St Petersburg</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Diego Cavalieri</name>
+		<team>Brazil</team>
+		<club>Fluminese</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Filipe Luis</name>
+		<team>Brazil</team>
+		<club>both Atletico Madrid</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Rafinha</name>
+		<team>Brazil</team>
+		<club>Bayern Munich</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Lucas Leiva</name>
+		<team>Brazil</team>
+		<club>Liverpool</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Lucas Moura</name>
+		<team>Brazil</team>
+		<club>Paris St-Germain</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Alan Kardec</name>
+		<team>Brazil</team>
+		<club>Sao Paulo</club>
+		<position>S</position>
+	</player>
+	<!-- Croatia -->
+	<player>
+		<name>Stipe Pletikosa</name>
+		<team>Croatia</team>
+		<club>Rostov</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Danijel Subasic</name>
+		<team>Croatia</team>
+		<club>Monaco</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Oliver Zelenika</name>
+		<team>Croatia</team>
+		<club>Dinamo Zagreb</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Darijo Srna</name>
+		<team>Croatia</team>
+		<club>Shakhtar Donetsk</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Dejan Lovren</name>
+		<team>Croatia</team>
+		<club>Southampton</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Vedran Corluka</name>
+		<team>Croatia</team>
+		<club>Lokomotiv Moscow</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Gordon Schildenfeld</name>
+		<team>Croatia</team>
+		<club>Panathinaikos</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Danijel Pranjic</name>
+		<team>Croatia</team>
+		<club>Panathinaikos</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ivan Strinic</name>
+		<team>Croatia</team>
+		<club>Dnipro Dnipropetrovsk</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Domagoj Vida</name>
+		<team>Croatia</team>
+		<club>Dynamo Kiev</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Sime Vrsaljko</name>
+		<team>Croatia</team>
+		<club>Genoa</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Igor Bubnjic</name>
+		<team>Croatia</team>
+		<club>Udinese</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Luka Modric</name>
+		<team>Croatia</team>
+		<club>Real Madrid</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ivan Rakitic</name>
+		<team>Croatia</team>
+		<club>Sevilla</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Niko Kranjcar</name>
+		<team>Croatia</team>
+		<club>Queens Park Rangers</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ognjen Vukojevic</name>
+		<team>Croatia</team>
+		<club>Dynamo Kiev</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ivan Perisic</name>
+		<team>Croatia</team>
+		<club>Wolfsburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mateo Kovacic</name>
+		<team>Croatia</team>
+		<club>Inter Milan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Milan Badelj</name>
+		<team>Croatia</team>
+		<club>Hamburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ivo Ilicevic</name>
+		<team>Croatia</team>
+		<club>Hamburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Marcelo Brozovic</name>
+		<team>Croatia</team>
+		<club>Dinamo Zagreb</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ivan Mocinic</name>
+		<team>Croatia</team>
+		<club>Rijeka</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mario Pasalic</name>
+		<team>Croatia</team>
+		<club>Hajduk Split</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Sammir</name>
+		<team>Croatia</team>
+		<club>Getafe</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mario Mandzukic</name>
+		<team>Croatia</team>
+		<club>Bayern Munich</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Ivica Olic</name>
+		<team>Croatia</team>
+		<club>Wolfsburg</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Eduardo</name>
+		<team>Croatia</team>
+		<club>Shakhtar Donetsk</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Nikica Jelavic</name>
+		<team>Croatia</team>
+		<club>Hull City</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Ante Rebic</name>
+		<team>Croatia</team>
+		<club>Fiorentina</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Duje Cop</name>
+		<team>Croatia</team>
+		<club>Dinamo Zagreb</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jose de Jesus Corona</name>
+		<team>Mexico</team>
+		<club>Cruz Azul</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Guillermo Ochoa</name>
+		<team>Mexico</team>
+		<club>Ajaccio</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Alfredo Talavera</name>
+		<team>Mexico</team>
+		<club>Toluca</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Miguel Layun</name>
+		<team>Mexico</team>
+		<club>America</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Carlos Salcido</name>
+		<team>Mexico</team>
+		<club>Tigres</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Paul Aguilar</name>
+		<team>Mexico</team>
+		<club>America</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Andres Guardado</name>
+		<team>Mexico</team>
+		<club>Bayer Leverkusen</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Hector Moreno</name>
+		<team>Mexico</team>
+		<club>Espanyol</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Francisco Javier Rodriguez</name>
+		<team>Mexico</team>
+		<club>America</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Diego Reyes</name>
+		<team>Mexico</team>
+		<club>Porto</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Rafael Marquez</name>
+		<team>Mexico</team>
+		<club>Leon</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Juan Carlos Medina</name>
+		<team>Mexico</team>
+		<club>America</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jose Juan Vazquez</name>
+		<team>Mexico</team>
+		<club>Leon</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Luis Montes</name>
+		<team>Mexico</team>
+		<club>Leon</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Hector Herrera</name>
+		<team>Mexico</team>
+		<club>Porto</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Isaac Brizuela</name>
+		<team>Mexico</team>
+		<club>Toluca</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Marco Fabian</name>
+		<team>Mexico</team>
+		<club>Cruz Azul</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Carlos Pena</name>
+		<team>Mexico</team>
+		<club>Leon</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Oribe Peralta</name>
+		<team>Mexico</team>
+		<club>Santos</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Javier Hernandez</name>
+		<team>Mexico</team>
+		<club>Manchester United</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Giovani dos Santos</name>
+		<team>Mexico</team>
+		<club>Villarreal</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Raul Jimenez</name>
+		<team>Mexico</team>
+		<club>America</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Alan Pulido</name>
+		<team>Mexico</team>
+		<club>Tigres</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Charles Itandje</name>
+		<team>Cameroon</team>
+		<club>Konyaspor</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Guy Roland Ndy Assembe</name>
+		<team>Cameroon</team>
+		<club>Guingamp</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Sammy Ndjock</name>
+		<team>Cameroon</team>
+		<club>Fethiyespor</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Feudjou Loic</name>
+		<team>Cameroon</team>
+		<club>Coton Sport</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Allan Nyom</name>
+		<team>Cameroon</team>
+		<club>Granada</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Nounkeu Dany</name>
+		<team>Cameroon</team>
+		<club>Besiktas</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Cedric Djeugoue</name>
+		<team>Cameroon</team>
+		<club>Coton Sport</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Aurelien Chedjou</name>
+		<team>Cameroon</team>
+		<club>Galatasaray</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Nicolas Nkoulou</name>
+		<team>Cameroon</team>
+		<club>Marseille</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jean-Armel Kana-Biyick</name>
+		<team>Cameroon</team>
+		<club>Rennes</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Henri Bedimo</name>
+		<team>Cameroon</team>
+		<club>Lyon</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Benoit Assou-Ekotto</name>
+		<team>Cameroon</team>
+		<club>Queens Park Rangers</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Gaetang Bong</name>
+		<team>Cameroon</team>
+		<club>Olympiakos</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Enoh Eyong</name>
+		<team>Cameroon</team>
+		<club>Antalyaspor</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jean Makoun</name>
+		<team>Cameroon</team>
+		<club>Rennes</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Joel Matip</name>
+		<team>Cameroon</team>
+		<club>Schalke 04</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Stephane Mbia</name>
+		<team>Cameroon</team>
+		<club>Sevilla</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Landry Nguemo</name>
+		<team>Cameroon</team>
+		<club>Bordeaux</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alexandre Song</name>
+		<team>Cameroon</team>
+		<club>Barcelona</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Cedric Loe</name>
+		<team>Cameroon</team>
+		<club>Osasuna</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Edgar Salli</name>
+		<team>Cameroon</team>
+		<club>Lens</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Samuel Eto'o</name>
+		<team>Cameroon</team>
+		<club>Chelsea</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Eric-Maxime Choupo-Moting</name>
+		<team>Cameroon</team>
+		<club>Mainz 05</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Benjamin Moukandjo</name>
+		<team>Cameroon</team>
+		<club>Nancy</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Vincent Aboubakar</name>
+		<team>Cameroon</team>
+		<club>Lorient</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Pierre Achille Webo</name>
+		<team>Cameroon</team>
+		<club>Fenerbahce</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Mohamadou Idrissou</name>
+		<team>Cameroon</team>
+		<club>Kaiserslautern</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Fabrice Olinga</name>
+		<team>Cameroon</team>
+		<club>Zulte Waregem</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Iker Casillas</name>
+		<team>Spain</team>
+		<club>Real Madrid</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Pepe Reina</name>
+		<team>Spain</team>
+		<club>Napoli</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>David De Gea</name>
+		<team>Spain</team>
+		<club>Manchester United</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Dani Carvajal</name>
+		<team>Spain</team>
+		<club>Real Madrid</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Sergio Ramos</name>
+		<team>Spain</team>
+		<club>Real Madrid</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Gerard Pique</name>
+		<team>Spain</team>
+		<club>Barcelona</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jordi Alba</name>
+		<team>Spain</team>
+		<club>Barcelona</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Cesar Azplicueta</name>
+		<team>Spain</team>
+		<club>Chelsea</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Juanfran</name>
+		<team>Spain</team>
+		<club>Atletico Madrid</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Javi Martinez</name>
+		<team>Spain</team>
+		<club>Bayern Munich</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Raul Albiol</name>
+		<team>Spain</team>
+		<club>Napoli</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Alberto Moreno</name>
+		<team>Spain</team>
+		<club>Sevilla</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Sergio Busquets</name>
+		<team>Spain</team>
+		<club>Barcelona</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Xavi Hernandez</name>
+		<team>Spain</team>
+		<club>Barcelona</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Andres Iniesta</name>
+		<team>Spain</team>
+		<club>Barcelona</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Cesc Fabregas</name>
+		<team>Spain</team>
+		<club>Barcelona</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Xabi Alonso</name>
+		<team>Spain</team>
+		<club>Real Madrid</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ander Iturraspe</name>
+		<team>Spain</team>
+		<club>Athletic Bilbao</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>David Silva</name>
+		<team>Spain</team>
+		<club>Manchester City</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Santi Cazorla</name>
+		<team>Spain</team>
+		<club>Arsenal</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Koke</name>
+		<team>Spain</team>
+		<club>Atletico Madrid</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Juan Mata</name>
+		<team>Spain</team>
+		<club>Manchester United</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jesus Navas</name>
+		<team>Spain</team>
+		<club>Manchester City</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Diego Costa</name>
+		<team>Spain</team>
+		<club>Atletico Madrid</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>David Villa</name>
+		<team>Spain</team>
+		<club>Atletico Madrid</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Alvaro Negredo</name>
+		<team>Spain</team>
+		<club>Manchester City</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Pedro Rodriguez</name>
+		<team>Spain</team>
+		<club>Barcelona</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Fernando Llorente</name>
+		<team>Spain</team>
+		<club>Juventus</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Fernando Torres</name>
+		<team>Spain</team>
+		<club>Chelsea</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jasper Cillessen</name>
+		<team>Netherlands</team>
+		<club>Ajax</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Tim Krul</name>
+		<team>Netherlands</team>
+		<club>Newcastle</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Michel Vorm</name>
+		<team>Netherlands</team>
+		<club>Swansea</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Jeroen Zoet</name>
+		<team>Netherlands</team>
+		<club>PSV Eindhoven</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Daley Blind</name>
+		<team>Netherlands</team>
+		<club>Ajax</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Joel Veltman</name>
+		<team>Netherlands</team>
+		<club>Ajax</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Stefan de Vrij</name>
+		<team>Netherlands</team>
+		<club>Feyenoord</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Daryl Janmaat</name>
+		<team>Netherlands</team>
+		<club>Feyenoord</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Terence Kongolo</name>
+		<team>Netherlands</team>
+		<club>Feyenoord</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Bruno Martins Indi</name>
+		<team>Netherlands</team>
+		<club>Feyenoord</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Tonny Vilhena</name>
+		<team>Netherlands</team>
+		<club>Feyenoord</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Karim Rekik</name>
+		<team>Netherlands</team>
+		<club>PSV Eindhoven</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Patrick van Aanholt</name>
+		<team>Netherlands</team>
+		<club>Vitesse Arnhem</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Paul Verhaegh</name>
+		<team>Netherlands</team>
+		<club>FC Augsburg</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ron Vlaar</name>
+		<team>Netherlands</team>
+		<club>Aston Villa</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jordy Clasie</name>
+		<team>Netherlands</team>
+		<club>Feyenoord</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jonathan de Guzman</name>
+		<team>Netherlands</team>
+		<club>Swansea</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Nigel de Jong</name>
+		<team>Netherlands</team>
+		<club>AC Milan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Leroy Fer</name>
+		<team>Netherlands</team>
+		<club>Norwich City</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Arjen Robben</name>
+		<team>Netherlands</team>
+		<club>Bayern Munich</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Wesley Sneijder</name>
+		<team>Netherlands</team>
+		<club>Galatasaray</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Rafael van der Vaart</name>
+		<team>Netherlands</team>
+		<club>Hamburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Georginio Wijnaldum</name>
+		<team>Netherlands</team>
+		<club>PSV Eindhoven</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jean-Paul Boetius</name>
+		<team>Netherlands</team>
+		<club>Feyenoord</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Memphis Depay</name>
+		<team>Netherlands</team>
+		<club>PSV Eindhoven</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Klaas-Jan Huntelaar</name>
+		<team>Netherlands</team>
+		<club>Schalke 04</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Dirk Kuyt</name>
+		<team>Netherlands</team>
+		<club>Fenerbahce</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jeremain Lens</name>
+		<team>Netherlands</team>
+		<club>Dynamo Kiev</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Quincy Promes</name>
+		<team>Netherlands</team>
+		<club>Twente</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Robin van Persie</name>
+		<team>Netherlands</team>
+		<club>Manchester United</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Claudio Bravo</name>
+		<team>Chile</team>
+		<club>Real Sociedad</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Johnny Herrera</name>
+		<team>Chile</team>
+		<club>Universidad de Chile</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Cristopher Toselli</name>
+		<team>Chile</team>
+		<club>Universidad Catolica</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Paulo Garces</name>
+		<team>Chile</team>
+		<club>O'Higgins</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Gary Medel</name>
+		<team>Chile</team>
+		<club>Cardiff City</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Gonzalo Jara</name>
+		<team>Chile</team>
+		<club>Nottingham Forest</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Marcos Gonzalez</name>
+		<team>Chile</team>
+		<club>Union Espanola</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Enzo Andia</name>
+		<team>Chile</team>
+		<club>Universidad Catolica</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jose Rojas</name>
+		<team>Chile</team>
+		<club>Universidad de Chile</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Eugenio Mena</name>
+		<team>Chile</team>
+		<club>Santos</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Mauricio Isla</name>
+		<team>Chile</team>
+		<club>Juventus</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jorge Valdivia</name>
+		<team>Chile</team>
+		<club>Palmeiras</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Felipe Gutierrez</name>
+		<team>Chile</team>
+		<club>Twente</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Rodrigo Millar</name>
+		<team>Chile</team>
+		<club>Atlas</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jose Pedro Fuenzalida</name>
+		<team>Chile</team>
+		<club>Colo Colo</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Pablo Hernandez</name>
+		<team>Chile</team>
+		<club>O'Higgins</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Matias Fernandez</name>
+		<team>Chile</team>
+		<club>Fiorentina</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Francisco Silva</name>
+		<team>Chile</team>
+		<club>Osasuna</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Arturo Vidal</name>
+		<team>Chile</team>
+		<club>Juventus</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Charles Aranguiz</name>
+		<team>Chile</team>
+		<club>Internacional</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Marcelo Diaz</name>
+		<team>Chile</team>
+		<club>Basel</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Carlos Carmona</name>
+		<team>Chile</team>
+		<club>Atalanta</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Miiko Albornoz</name>
+		<team>Chile</team>
+		<club>Malmo</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alexis Sanchez</name>
+		<team>Chile</team>
+		<club>Barcelona</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Esteban Paredes</name>
+		<team>Chile</team>
+		<club>Colo Colo</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Eduardo Vargas</name>
+		<team>Chile</team>
+		<club>Valencia</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Gustavo Canales</name>
+		<team>Chile</team>
+		<club>Union Espanola</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jean Beausejour</name>
+		<team>Chile</team>
+		<club>Wigan Athletic</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Mauricio Pinilla</name>
+		<team>Chile</team>
+		<club>Cagliari</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Fabian Orellana</name>
+		<team>Chile</team>
+		<club>Celta</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Mark Birighitti</name>
+		<team>Australia</team>
+		<club>Newcastle Jets</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Eugene Galekovic</name>
+		<team>Australia</team>
+		<club>Adelaide United</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Mitchell Langerak</name>
+		<team>Australia</team>
+		<club>Borussia Dortmund</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Mat Ryan</name>
+		<team>Australia</team>
+		<club>Club Brugge</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Jason Davidson</name>
+		<team>Australia</team>
+		<club>Heracles Almelo</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ivan Franjic</name>
+		<team>Australia</team>
+		<club>Brisbane Roar</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Curtis Good</name>
+		<team>Australia</team>
+		<club>Dundee United</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ryan McGowan</name>
+		<team>Australia</team>
+		<club>Shandong Luneng Taishan</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Matthew Spiranovic</name>
+		<team>Australia</team>
+		<club>Western Sydney Wanderers</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Alex Wilkinson</name>
+		<team>Australia</team>
+		<club>Jeonbuk Hyundai</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Luke Wilkshire</name>
+		<team>Australia</team>
+		<club>Dinamo Moscow</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Bailey Wright</name>
+		<team>Australia</team>
+		<club>Preston North End</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Oliver Bozanic</name>
+		<team>Australia</team>
+		<club>Luzern</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mark Bresciano</name>
+		<team>Australia</team>
+		<club>Al Gharafa</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Joshua Brillante</name>
+		<team>Australia</team>
+		<club>Newcastle Jets</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>James Holland</name>
+		<team>Australia</team>
+		<club>Austria Vienna</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mile Jedinak</name>
+		<team>Australia</team>
+		<club>Crystal Palace</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Massimo Luongo</name>
+		<team>Australia</team>
+		<club>Swindon Town</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Matthew McKay</name>
+		<team>Australia</team>
+		<club>Brisbane Roar</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mark Milligan</name>
+		<team>Australia</team>
+		<club>Melbourne Victory</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Tommy Oar</name>
+		<team>Australia</team>
+		<club>Utrecht</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Tommy Rogic</name>
+		<team>Australia</team>
+		<club>Melbourne Victory</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Adam Sarota</name>
+		<team>Australia</team>
+		<club>Utrecht</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>James Troisi</name>
+		<team>Australia</team>
+		<club>Melbourne Victory</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Dario Vidosic</name>
+		<team>Australia</team>
+		<club>Sion</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Tim Cahill</name>
+		<team>Australia</team>
+		<club>New York Red Bulls</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Ben Halloran</name>
+		<team>Australia</team>
+		<club>Fortuna Dusseldorf</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Josh Kennedy</name>
+		<team>Australia</team>
+		<club>Nagoya Grampus 8</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Matthew Leckie</name>
+		<team>Australia</team>
+		<club>FSV Frankfurt 1899</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Adam Taggart</name>
+		<team>Australia</team>
+		<club>Newcastle Jets</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>David Ospina</name>
+		<team>Colombia</team>
+		<club>Nice</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Faryd Mondragon</name>
+		<team>Colombia</team>
+		<club>Deportivo Cali</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Camilo Vargas</name>
+		<team>Colombia</team>
+		<club>Independiente Santa Fe</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Mario Yepes</name>
+		<team>Colombia</team>
+		<club>AC Milan</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Cristian Zapata</name>
+		<team>Colombia</team>
+		<club>AC Milan</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Pablo Armero</name>
+		<team>Colombia</team>
+		<club>West Ham</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Camilo Zuniga</name>
+		<team>Colombia</team>
+		<club>Napoli</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Aquivaldo Mosquera</name>
+		<team>Colombia</team>
+		<club>Club America</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Santiago Arias</name>
+		<team>Colombia</team>
+		<club>PSV Eindhoven</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Luis Amaranto Perea</name>
+		<team>Colombia</team>
+		<club>Cruz Azul</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Eder Alvarez Balanta</name>
+		<team>Colombia</team>
+		<club>River Plate</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Carlos Valdes</name>
+		<team>Colombia</team>
+		<club>San Lorenzo</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Fredy Guarin</name>
+		<team>Colombia</team>
+		<club>Inter Milan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Juan Cuadrado</name>
+		<team>Colombia</team>
+		<club>Fiorentina</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Victor Ibarbo</name>
+		<team>Colombia</team>
+		<club>Cagliari</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>James Rodriguez</name>
+		<team>Colombia</team>
+		<club>Monaco</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Abel Aguilar</name>
+		<team>Colombia</team>
+		<club>Toulouse</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Juan Fernando Quintero</name>
+		<team>Colombia</team>
+		<club>Porto</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Carlos Sanchez</name>
+		<team>Colombia</team>
+		<club>Elche</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Macnelly Torres</name>
+		<team>Colombia</team>
+		<club>Al Shabab</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Aldo Leao Ramirez</name>
+		<team>Colombia</team>
+		<club>Morelia</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Edwin Valencia</name>
+		<team>Colombia</team>
+		<club>Fluminense</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alexander Mejia</name>
+		<team>Colombia</team>
+		<club>Atletico Nacional</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Elkin Soto</name>
+		<team>Colombia</team>
+		<club>Mainz</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Radamel Falcao</name>
+		<team>Colombia</team>
+		<club>Monaco</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Luis Fernando Muriel</name>
+		<team>Colombia</team>
+		<club>Udinese</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jackson Martinez</name>
+		<team>Colombia</team>
+		<club>Porto</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Carlos Bacca</name>
+		<team>Colombia</team>
+		<club>Sevilla</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Adrian Ramos</name>
+		<team>Colombia</team>
+		<club>Hertha Berlin</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Teofilo Gutierrez</name>
+		<team>Colombia</team>
+		<club>River Plate</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Alexandros Tzorvas</name>
+		<team>Greece</team>
+		<club>Apollon Smyrnis</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Michalis Sifakis</name>
+		<team>Greece</team>
+		<club>Atromitos</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Orestis Karnezis</name>
+		<team>Greece</team>
+		<club>Granada</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Panaglotis Glykos</name>
+		<team>Greece</team>
+		<club>PAOK</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Stefanos Kapino</name>
+		<team>Greece</team>
+		<club>Panathinaikos</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Avraam Papadopoulos</name>
+		<team>Greece</team>
+		<club>Olympiakos</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Dimitris Siovas</name>
+		<team>Greece</team>
+		<club>Olympiakos</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Kostas Manolas</name>
+		<team>Greece</team>
+		<club>Olympiakos</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Giannis Maniatis</name>
+		<team>Greece</team>
+		<club>Olympiakos</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jose Holebas</name>
+		<team>Greece</team>
+		<club>Olympiakos</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Sokratis Papastathopoulos</name>
+		<team>Greece</team>
+		<club>Borussia Dortmund</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Giorgios Tzavellas</name>
+		<team>Greece</team>
+		<club>PAOK</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Loukas Vyntra</name>
+		<team>Greece</team>
+		<club>Levante</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Vasilis Torosidis</name>
+		<team>Greece</team>
+		<club>Roma</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Alexandros Tziolis</name>
+		<team>Greece</team>
+		<club>Kayserispor</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Andreas Samaris</name>
+		<team>Greece</team>
+		<club>Olympiakos</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Kostas Katsouranis</name>
+		<team>Greece</team>
+		<club>PAOK</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Giorgos Karagounis</name>
+		<team>Greece</team>
+		<club>Fulham</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Panagiotis Tachtsidis</name>
+		<team>Greece</team>
+		<club>Torino</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Sotiris Ninis</name>
+		<team>Greece</team>
+		<club>PAOK</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ioannis Fetfatzidis</name>
+		<team>Greece</team>
+		<club>Genoa</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Kostas Fortounis</name>
+		<team>Greece</team>
+		<club>Kaiserslautern</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Lazaros Christodoulopoulos</name>
+		<team>Greece</team>
+		<club>Bologna</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Dimitris Papadopoulos</name>
+		<team>Greece</team>
+		<club>Atromitos</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Dimitris Salpingidis</name>
+		<team>Greece</team>
+		<club>PAOK</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Giorgios Samaras</name>
+		<team>Greece</team>
+		<club>Celtic</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Konstantinos Mitroglou</name>
+		<team>Greece</team>
+		<club>Fulham</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Theofanis Gekas</name>
+		<team>Greece</team>
+		<club>Konyaspor</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Boubacar Barry</name>
+		<team>Ivory Coast</team>
+		<club>Lokeren</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Sylvain Gbohouo</name>
+		<team>Ivory Coast</team>
+		<club>Sewe Sport</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Ali Sangare Badra</name>
+		<team>Ivory Coast</team>
+		<club>Asec Mimosas</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Sayouba Sande</name>
+		<team>Ivory Coast</team>
+		<club>Stabaek</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Kolo Toure</name>
+		<team>Ivory Coast</team>
+		<club>Liverpool</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Sol Bamba</name>
+		<team>Ivory Coast</team>
+		<club>Trabzonspor</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Didier Zokora</name>
+		<team>Ivory Coast</team>
+		<club>Trabzonspor</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Serge Aurier</name>
+		<team>Ivory Coast</team>
+		<club>Toulouse</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Arthur Boka</name>
+		<team>Ivory Coast</team>
+		<club>Stuttgart</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Benjamin Angoua</name>
+		<team>Ivory Coast</team>
+		<club>Valenciennes</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ousmane Viera Diarrassouba</name>
+		<team>Ivory Coast</team>
+		<club>Caykur Rizespor</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Constant Djakpa</name>
+		<team>Ivory Coast</team>
+		<club>Frankfurt</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Brice Dja Djedje</name>
+		<team>Ivory Coast</team>
+		<club>Marseille</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jean-Daniel Akpa-Akpro</name>
+		<team>Ivory Coast</team>
+		<club>Toulouse</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Yaya Toure</name>
+		<team>Ivory Coast</team>
+		<club>Manchester City</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Cheick Tiote</name>
+		<team>Ivory Coast</team>
+		<club>Newcastle</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Serey Die</name>
+		<team>Ivory Coast</team>
+		<club>Basel</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Max Gradel</name>
+		<team>Ivory Coast</team>
+		<club>Saint Etienne</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Diomande Ismael</name>
+		<team>Ivory Coast</team>
+		<club>Saint Etienne</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Didier Ya Konan</name>
+		<team>Ivory Coast</team>
+		<club>Hannover</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mathis Bolly</name>
+		<team>Ivory Coast</team>
+		<club>Dusseldorf</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Gervinho</name>
+		<team>Ivory Coast</team>
+		<club>Roma</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Didier Drogba</name>
+		<team>Ivory Coast</team>
+		<club>Galatasaray</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Salomon Kalou</name>
+		<team>Ivory Coast</team>
+		<club>Lille</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Wilfried Bony</name>
+		<team>Ivory Coast</team>
+		<club>Swansea</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Seydou Doumbia</name>
+		<team>Ivory Coast</team>
+		<club>CSKA Moscow</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Lacina Traore</name>
+		<team>Ivory Coast</team>
+		<club>Everton</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Giovanni Sio</name>
+		<team>Ivory Coast</team>
+		<club>Basel</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Eiji Kawashima</name>
+		<team>Japan</team>
+		<club>Standard Liege</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Shusaku Nishikawa</name>
+		<team>Japan</team>
+		<club>Urawa Reds</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Shuichi Gonda</name>
+		<team>Japan</team>
+		<club>FC Tokyo</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Masato Morishige</name>
+		<team>Japan</team>
+		<club>FC Tokyo</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Yasuyuki Konno</name>
+		<team>Japan</team>
+		<club>Gamba Osaka</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Yuto Nagatomo</name>
+		<team>Japan</team>
+		<club>Inter Milan</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Maya Yoshida</name>
+		<team>Japan</team>
+		<club>Southampton</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Masahiko Inoha</name>
+		<team>Japan</team>
+		<club>Jubilo Iwata</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Atsuto Uchida</name>
+		<team>Japan</team>
+		<club>Schalke 04</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Hiroki Sakai</name>
+		<team>Japan</team>
+		<club>Hannover 96</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Gotoku Sakai</name>
+		<team>Japan</team>
+		<club>VfB Stuttgart</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Yasuhito Endo</name>
+		<team>Japan</team>
+		<club>Gamba Osaka</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Keisuke Honda</name>
+		<team>Japan</team>
+		<club>AC Milan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Shinji Kagawa</name>
+		<team>Japan</team>
+		<club>Manchester United</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Makoto Hasebe</name>
+		<team>Japan</team>
+		<club>FC Nuremberg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Hiroshi Kiyotake</name>
+		<team>Japan</team>
+		<club>FC Nuremberg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Hotaru Yamaguchi</name>
+		<team>Japan</team>
+		<club>Cerezo Osaka</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Toshihiro Aoyama</name>
+		<team>Japan</team>
+		<club>Sanfrecce Hiroshima</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Manabu Saito</name>
+		<team>Japan</team>
+		<club>Yokohama F. Marinos</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Shinji Okazaki</name>
+		<team>Japan</team>
+		<club>Mainz</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Yoichiro Kakitani</name>
+		<team>Japan</team>
+		<club>Cerezo Osaka</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Yuya Osako</name>
+		<team>Japan</team>
+		<club>TSV Munich 1860</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Yoshito Okubo</name>
+		<team>Japan</team>
+		<club>Kawasaki Frontale</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Fernando Muslera</name>
+		<team>Uruguay</team>
+		<club>Galatasaray</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Martin Silva</name>
+		<team>Uruguay</team>
+		<club>Vasco da Gama</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Rodrigo Munoz</name>
+		<team>Uruguay</team>
+		<club>Libertad</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Maximiliano Pereira</name>
+		<team>Uruguay</team>
+		<club>Benfica</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Diego Lugano</name>
+		<team>Uruguay</team>
+		<club>West Bromwich Albion</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Diego Godin</name>
+		<team>Uruguay</team>
+		<club>Atletico Madrid</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jose Maria Gimenez</name>
+		<team>Uruguay</team>
+		<club>Atletico Madrid</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Sebastian Coates</name>
+		<team>Uruguay</team>
+		<club>Liverpool</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Martin Caceres</name>
+		<team>Uruguay</team>
+		<club>Juventus</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jorge Fucile</name>
+		<team>Uruguay</team>
+		<club>Porto</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Alejandro Silva</name>
+		<team>Uruguay</team>
+		<club>Lanus</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alvaro Gonzalez</name>
+		<team>Uruguay</team>
+		<club>Lazio</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alvaro Pereira</name>
+		<team>Uruguay</team>
+		<club>Sao Paulo</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Walter Gargano</name>
+		<team>Uruguay</team>
+		<club>Parma</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Egidio Arevalo Rios</name>
+		<team>Uruguay</team>
+		<club>Morelia</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Diego Perez</name>
+		<team>Uruguay</team>
+		<club>Bologna</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Sebastian Eguren</name>
+		<team>Uruguay</team>
+		<club>Palmeiras</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Cristian Rodriguez</name>
+		<team>Uruguay</team>
+		<club>Atletico Madrid</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Gaston Ramirez</name>
+		<team>Uruguay</team>
+		<club>Southampton</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Nicolas Lodeiro</name>
+		<team>Uruguay</team>
+		<club>Botafogo</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Luis Suarez</name>
+		<team>Uruguay</team>
+		<club>Liverpool</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Edinson Cavani</name>
+		<team>Uruguay</team>
+		<club>Paris St-Germain</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Abel Hernandez</name>
+		<team>Uruguay</team>
+		<club>Palermo</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Diego Forlan</name>
+		<team>Uruguay</team>
+		<club>Cerezo Osaka</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Christian Stuani</name>
+		<team>Uruguay</team>
+		<club>Espanyol</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Andres Scotti</name>
+		<team>Uruguay</team>
+		<club>Nacional</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Alvaro Fernandez</name>
+		<team>Uruguay</team>
+		<club>Gimnasia-La Plata</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Gonzalo Castro</name>
+		<team>Uruguay</team>
+		<club>Real Sociedad</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Keylor Navas</name>
+		<team>Costa Rica</team>
+		<club>Levante</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Patrick Pemberton</name>
+		<team>Costa Rica</team>
+		<club>Alajuelense</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Esteban Alvarado</name>
+		<team>Costa Rica</team>
+		<club>AZ Alkmaar</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Johnny Acosta</name>
+		<team>Costa Rica</team>
+		<club>Alajuelense</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Giancarlo Gonzalez</name>
+		<team>Costa Rica</team>
+		<club>Columbus Crew</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Michael Umana</name>
+		<team>Costa Rica</team>
+		<club>Saprissa</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Oscar Duarte</name>
+		<team>Costa Rica</team>
+		<club>Bruges</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Waylon Francis</name>
+		<team>Costa Rica</team>
+		<club>Columbus Crew</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Heiner Mora</name>
+		<team>Costa Rica</team>
+		<club>Saprissa</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Junior Diaz</name>
+		<team>Costa Rica</team>
+		<club>Mainz 05</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Christian Gamboa</name>
+		<team>Costa Rica</team>
+		<club>Rosenborg</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Roy Miller</name>
+		<team>Costa Rica</team>
+		<club>New York Red Bulls</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Kendall Waston</name>
+		<team>Costa Rica</team>
+		<club>Saprissa</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Celso Borges</name>
+		<team>Costa Rica</team>
+		<club>AIK</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Christian Bolanos</name>
+		<team>Costa Rica</team>
+		<club>Copenhagen</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Esteban Granados</name>
+		<team>Costa Rica</team>
+		<club>Herediano</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Michael Barrantes</name>
+		<team>Costa Rica</team>
+		<club>Aalesund</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Yeltsin Tejeda</name>
+		<team>Costa Rica</team>
+		<club>Saprissa</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Diego Calvo</name>
+		<team>Costa Rica</team>
+		<club>Valerenga</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jose Miguel Cubero</name>
+		<team>Costa Rica</team>
+		<club>Herediano</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ariel Rodriguez</name>
+		<team>Costa Rica</team>
+		<club>Alajuelense</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Hansell Arauz</name>
+		<team>Costa Rica</team>
+		<club>Saprissa</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alvaro Saborio</name>
+		<team>Costa Rica</team>
+		<club>Real Salt Lake</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Bryan Ruiz</name>
+		<team>Costa Rica</team>
+		<club>PSV Eindhoven</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Joel Campbell</name>
+		<team>Costa Rica</team>
+		<club>Olympiakos</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Randall Brenes</name>
+		<team>Costa Rica</team>
+		<club>Cartagines</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Marco Urena</name>
+		<team>Costa Rica</team>
+		<club>FC Kuban Krasnodar</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jairo Arrieta</name>
+		<team>Costa Rica</team>
+		<club>Columbus Crew</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Fraser Forster</name>
+		<team>England</team>
+		<club>Celtic</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Ben Foster</name>
+		<team>England</team>
+		<club>West Bromwich Albion</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Joe Hart</name>
+		<team>England</team>
+		<club>Manchester City</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Leighton Baines</name>
+		<team>England</team>
+		<club>Everton</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Gary Cahill</name>
+		<team>England</team>
+		<club>Chelsea</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Phil Jagielka</name>
+		<team>England</team>
+		<club>Everton</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Glen Johnson</name>
+		<team>England</team>
+		<club>Liverpool</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Phil Jones</name>
+		<team>England</team>
+		<club>Manchester United</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Luke Shaw</name>
+		<team>England</team>
+		<club>Southampton</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Chris Smalling</name>
+		<team>England</team>
+		<club>Manchester United</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ross Barkley</name>
+		<team>England</team>
+		<club>Everton</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Steven Gerrard</name>
+		<team>England</team>
+		<club>Liverpool</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jordan Henderson</name>
+		<team>England</team>
+		<club>Liverpool</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Adam Lallana</name>
+		<team>England</team>
+		<club>Southampton</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Frank Lampard</name>
+		<team>England</team>
+		<club>Chelsea</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>James Milner</name>
+		<team>England</team>
+		<club>Manchester City</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alex Oxlade-Chamberlain</name>
+		<team>England</team>
+		<club>Arsenal</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Raheem Sterling</name>
+		<team>England</team>
+		<club>Liverpool</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jack Wilshere</name>
+		<team>England</team>
+		<club>Arsenal</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Rickie Lambert</name>
+		<team>England</team>
+		<club>Southampton</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Wayne Rooney</name>
+		<team>England</team>
+		<club>Manchester United</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Daniel Sturridge</name>
+		<team>England</team>
+		<club>Liverpool</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Danny Welbeck</name>
+		<team>England</team>
+		<club>Manchester United</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>John Ruddy</name>
+		<team>England</team>
+		<club>Norwich City</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Jon Flanagan</name>
+		<team>England</team>
+		<club>Liverpool</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>John Stones</name>
+		<team>England</team>
+		<club>Everton</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Michael Carrick</name>
+		<team>England</team>
+		<club>Manchester United</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Tom Cleverley</name>
+		<team>England</team>
+		<club>Manchester United</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Andy Carroll</name>
+		<team>England</team>
+		<club>West Ham United</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Jermain Defoe</name>
+		<team>England</team>
+		<club>Toronto FC</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Gianluigi Buffon</name>
+		<team>Italy</team>
+		<club>Juventus</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Salvatore Sirigu</name>
+		<team>Italy</team>
+		<club>Paris St-Germain</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Mattia Perin</name>
+		<team>Italy</team>
+		<club>Genoa</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Andrea Barzagli</name>
+		<team>Italy</team>
+		<club>Juventus</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Leonardo Bonucci</name>
+		<team>Italy</team>
+		<club>Juventus</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Giorigo Chiellini</name>
+		<team>Italy</team>
+		<club>Juventus</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Gabriel Paletta</name>
+		<team>Italy</team>
+		<club>Parma</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Andrea Ranocchia</name>
+		<team>Italy</team>
+		<club>Inter Milan</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ignazio Abate</name>
+		<team>Italy</team>
+		<club>AC Milan</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Mattia De Sciglio</name>
+		<team>Italy</team>
+		<club>AC Milan</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Christian Maggio</name>
+		<team>Italy</team>
+		<club>Napoli</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Matteo Darmian</name>
+		<team>Italy</team>
+		<club>Torino</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Manuel Pasqual</name>
+		<team>Italy</team>
+		<club>Fiorentina</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Andrea Pirlo</name>
+		<team>Italy</team>
+		<club>Juventus</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Claudio Marchisio</name>
+		<team>Italy</team>
+		<club>Juventus</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Thiago Motta</name>
+		<team>Italy</team>
+		<club>Paris St-Germain</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Marco Verratti</name>
+		<team>Italy</team>
+		<club>Paris St-Germain</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Riccardo Montolivo</name>
+		<team>Italy</team>
+		<club>AC Milan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Daniele De Rossi</name>
+		<team>Italy</team>
+		<club>AS Roma</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Antonio Candreva</name>
+		<team>Italy</team>
+		<club>Lazio</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Marco Parolo</name>
+		<team>Italy</team>
+		<club>Parma</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alberto Aquilani</name>
+		<team>Italy</team>
+		<club>Fiorentina</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Romulo</name>
+		<team>Italy</team>
+		<club>Verona</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mario Balotelli</name>
+		<team>Italy</team>
+		<club>AC Milan</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Antonio Cassano</name>
+		<team>Italy</team>
+		<club>Parma</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Alessio Cerci</name>
+		<team>Italy</team>
+		<club>Torino</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Ciro Immobile</name>
+		<team>Italy</team>
+		<club>Torino</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Giuseppe Rossi</name>
+		<team>Italy</team>
+		<club>Fiorentina</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Mattia Destro</name>
+		<team>Italy</team>
+		<club>AS Roma</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Lorenzo Insigne</name>
+		<team>Italy</team>
+		<club>Napoli</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Diego Benaglio</name>
+		<team>Switzerland</team>
+		<club>Wolfsburg</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Roman Buerki</name>
+		<team>Switzerland</team>
+		<club>Grasshopper</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Yann Sommer</name>
+		<team>Switzerland</team>
+		<club>Basel</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Johan Djourou</name>
+		<team>Switzerland</team>
+		<club>Hamburg</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Michael Lang</name>
+		<team>Switzerland</team>
+		<club>Grasshopper</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Stephan Lichtsteiner</name>
+		<team>Switzerland</team>
+		<club>Juventus</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ricardo Rodriguez</name>
+		<team>Switzerland</team>
+		<club>Wolfsburg</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Fabian Schaer</name>
+		<team>Switzerland</team>
+		<club>Basel</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Philippe Senderos</name>
+		<team>Switzerland</team>
+		<club>Valencia</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Steve von Bergen</name>
+		<team>Switzerland</team>
+		<club>Young Boys</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Reto Ziegler</name>
+		<team>Switzerland</team>
+		<club>Sassuolo</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Tranquillo Barnetta</name>
+		<team>Switzerland</team>
+		<club>Eintracht Frankfurt</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Valon Behrami</name>
+		<team>Switzerland</team>
+		<club>Napoli</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Blerim Dzemaili</name>
+		<team>Switzerland</team>
+		<club>Napoli</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Gelson Fernandes</name>
+		<team>Switzerland</team>
+		<club>Freiburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Gokhan Inler</name>
+		<team>Switzerland</team>
+		<club>Napoli</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Xherdan Shaqiri</name>
+		<team>Switzerland</team>
+		<club>Bayern Munich</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Valentin Stocker</name>
+		<team>Switzerland</team>
+		<club>Basel</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Josip Drmic</name>
+		<team>Switzerland</team>
+		<club>Nuremberg</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Mario Gavranovic</name>
+		<team>Switzerland</team>
+		<club>Zurich</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Admir Mehmedi</name>
+		<team>Switzerland</team>
+		<club>Freiburg</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Haris Seferovic</name>
+		<team>Switzerland</team>
+		<club>Real Sociedad</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Granit Xhaka</name>
+		<team>Switzerland</team>
+		<club>Borussia Monchengladbach</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Marwin Hitz</name>
+		<team>Switzerland</team>
+		<club>Augsburg</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Timm Klose</name>
+		<team>Switzerland</team>
+		<club>Wolfsburg</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Silvan Widmer</name>
+		<team>Switzerland</team>
+		<club>Udinese</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Eren Derdiyok</name>
+		<team>Switzerland</team>
+		<club>Bayer Leverkusen</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Fabian Frei</name>
+		<team>Switzerland</team>
+		<club>Basel</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Pajtim Kasami</name>
+		<team>Switzerland</team>
+		<club>Fulham</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Pirmin Schwegler</name>
+		<team>Switzerland</team>
+		<club>Eintracht Frankfurt</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Maximo Banguera</name>
+		<team>Ecuador</team>
+		<club>Barcelona SC</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Alexander Dominguez</name>
+		<team>Ecuador</team>
+		<club>LDU Quito</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Adrian Bone</name>
+		<team>Ecuador</team>
+		<club>El Nacional</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Frickson Erazo</name>
+		<team>Ecuador</team>
+		<club>Flamengo</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jorge Guagua</name>
+		<team>Ecuador</team>
+		<club>Emelec</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jhon Narvaez</name>
+		<team>Ecuador</team>
+		<club>Emelec</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Oscar Bagui</name>
+		<team>Ecuador</team>
+		<club>Emelec</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Gabriel Achilier</name>
+		<team>Ecuador</team>
+		<club>Emelec</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Walter Ayovi</name>
+		<team>Ecuador</team>
+		<club>Pachuca</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Juan Carlos Paredes</name>
+		<team>Ecuador</team>
+		<club>Barcelona SC</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Cristian Ramirez</name>
+		<team>Ecuador</team>
+		<club>Fortuna Duesseldorf</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Segundo Castillo</name>
+		<team>Ecuador</team>
+		<club>Al-Hilal</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Carlos Gruezo</name>
+		<team>Ecuador</team>
+		<club>Stuttgart</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Renato Ibarra</name>
+		<team>Ecuador</team>
+		<club>Vitesse Arnhem</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Cristian Noboa</name>
+		<team>Ecuador</team>
+		<club>Dynamo Moscow</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Pedro Quinonez</name>
+		<team>Ecuador</team>
+		<club>Emelec</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Luis Saritama</name>
+		<team>Ecuador</team>
+		<club>Barcelona SC</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Antonio Valencia</name>
+		<team>Ecuador</team>
+		<club>Manchester United</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Edison Mendez</name>
+		<team>Ecuador</team>
+		<club>Independiente Santa Fe</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Fidel Martinez</name>
+		<team>Ecuador</team>
+		<club>Tijuana</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Oswaldo Minda</name>
+		<team>Ecuador</team>
+		<club>Chivas USA</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Michael Arroyo</name>
+		<team>Ecuador</team>
+		<club>Atlante</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Felipe Caicedo</name>
+		<team>Ecuador</team>
+		<club>Al-Jazira</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jefferson Montero</name>
+		<team>Ecuador</team>
+		<club>Morelia</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Joao Rojas</name>
+		<team>Ecuador</team>
+		<club>Cruz Azul</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Armando Wila</name>
+		<team>Ecuador</team>
+		<club>Universidad Catolica</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jaime Ayovi</name>
+		<team>Ecuador</team>
+		<club>Tijuana</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Enner Valencia</name>
+		<team>Ecuador</team>
+		<club>Pachuca</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Cristian Penilla</name>
+		<team>Ecuador</team>
+		<club>Barcelona SC</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Angel Mena</name>
+		<team>Ecuador</team>
+		<club>Emelec</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Hugo Lloris</name>
+		<team>France</team>
+		<club>Tottenham Hotspur</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Steve Mandanda</name>
+		<team>France</team>
+		<club>Marseille</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Mickael Landreau</name>
+		<team>France</team>
+		<club>Bastia</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Mathieu Debuchy</name>
+		<team>France</team>
+		<club>Newcastle</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Lucas Digne</name>
+		<team>France</team>
+		<club>Paris St-Germain</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Laurent Koscielny</name>
+		<team>France</team>
+		<club>Arsenal</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Bacary Sagna</name>
+		<team>France</team>
+		<club>Arsenal</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Eliaquim Mangala</name>
+		<team>France</team>
+		<club>Porto</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Mamadou Sakho</name>
+		<team>France</team>
+		<club>Liverpool</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Raphael Varane</name>
+		<team>France</team>
+		<club>Real Madrid</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Yohan Cabaye</name>
+		<team>France</team>
+		<club>Paris St-Germain</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Blaise Matuidi</name>
+		<team>France</team>
+		<club>Paris St-Germain</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Clement Grenier</name>
+		<team>France</team>
+		<club>Lyon</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Rio Mavuba</name>
+		<team>France</team>
+		<club>Lille</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Paul Pogba</name>
+		<team>France</team>
+		<club>Juventus</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Moussa Sissoko</name>
+		<team>France</team>
+		<club>Newcastle</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mathieu Valbuena</name>
+		<team>France</team>
+		<club>Marseille</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Karim Benzema</name>
+		<team>France</team>
+		<club>Real Madrid</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Olivier Giroud</name>
+		<team>France</team>
+		<club>Arsenal</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Antoine Griezmann</name>
+		<team>France</team>
+		<club>Real Sociedad</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Loic Remy</name>
+		<team>France</team>
+		<club>Newcastle United</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Franck Ribery</name>
+		<team>France</team>
+		<club>Bayern Munich</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Stephane Ruffier</name>
+		<team>France</team>
+		<club>St Etienne</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Loic Perrin</name>
+		<team>France</team>
+		<club>St Etienne</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Maxime Gonalons</name>
+		<team>France</team>
+		<club>Lyon</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Alexandre Lacazette</name>
+		<team>France</team>
+		<club>Lyon</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Morgan Schneiderlin</name>
+		<team>France</team>
+		<club>Southampton</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Benoit Tremoulinas</name>
+		<team>France</team>
+		<club>Dynamo Kiev</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Remy Cabella</name>
+		<team>France</team>
+		<club>Montpellier</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Noel Valladares</name>
+		<team>Honduras</team>
+		<club>Olimpia</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Donis Escober</name>
+		<team>Honduras</team>
+		<club>Olimpia</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Luis Lopez</name>
+		<team>Honduras</team>
+		<club>Real Espana</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Brayan Beckeles</name>
+		<team>Honduras</team>
+		<club>Olimpia</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Emilio Izaguirre</name>
+		<team>Honduras</team>
+		<club>Celtic</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Juan Carlos Garcia</name>
+		<team>Honduras</team>
+		<club>Wigan</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Maynor Figueroa</name>
+		<team>Honduras</team>
+		<club>Hull</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Victor Bernardez</name>
+		<team>Honduras</team>
+		<club>San Jose Earthquakes</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Osman Chavez</name>
+		<team>Honduras</team>
+		<club>Qingdao Janoon</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Juan Pablo Montes</name>
+		<team>Honduras</team>
+		<club>Motagua</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Arnold Peralta</name>
+		<team>Honduras</team>
+		<club>Rangers</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Luis Garrido</name>
+		<team>Honduras</team>
+		<club>Olimpia</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Roger Espinoza</name>
+		<team>Honduras</team>
+		<club>Wigan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jorge Claros</name>
+		<team>Honduras</team>
+		<club>Motagua</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Wilson Palacios</name>
+		<team>Honduras</team>
+		<club>Stoke</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Oscar Garcia</name>
+		<team>Honduras</team>
+		<club>Houston Dynamo</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Andy Najar</name>
+		<team>Honduras</team>
+		<club>Anderlecht</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mario Martinez</name>
+		<team>Honduras</team>
+		<club>Real Espana</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Marvin Chavez</name>
+		<team>Honduras</team>
+		<club>Chivas USA</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jerry Bengtson</name>
+		<team>Honduras</team>
+		<club>New England Revolution</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jerry Palacios</name>
+		<team>Honduras</team>
+		<club>Alajuelense</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Carlo Costly</name>
+		<team>Honduras</team>
+		<club>Real Espana</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Rony Martinez</name>
+		<team>Honduras</team>
+		<club>Real Sociedad</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Sergio Romero</name>
+		<team>Argentina</team>
+		<club>Sampdoria</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Mariano Andujar</name>
+		<team>Argentina</team>
+		<club>Catania</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Agustin Orion</name>
+		<team>Argentina</team>
+		<club>Boca Juniors</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Pablo Zabaleta</name>
+		<team>Argentina</team>
+		<club>Manchester City</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Federico Fernandez</name>
+		<team>Argentina</team>
+		<club>Napoli</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ezequiel Garay</name>
+		<team>Argentina</team>
+		<club>Benfica</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Marcos Rojo</name>
+		<team>Argentina</team>
+		<club>Sporting Lisbon</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Hugo Campagnaro</name>
+		<team>Argentina</team>
+		<club>Inter Milan</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Martin Demichelis</name>
+		<team>Argentina</team>
+		<club>Manchester City</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jose Basanta</name>
+		<team>Argentina</team>
+		<club>Monterrey</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Nicolas Otamendi</name>
+		<team>Argentina</team>
+		<club>Atletico Mineiro</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Lisandro Lopez</name>
+		<team>Argentina</team>
+		<club>Getafe</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Gabriel Mercado</name>
+		<team>Argentina</team>
+		<club>River Plate</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Javier Mascherano</name>
+		<team>Argentina</team>
+		<club>Barcelona</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Fernando Gago</name>
+		<team>Argentina</team>
+		<club>Boca Juniors</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Lucas Biglia</name>
+		<team>Argentina</team>
+		<club>Lazio</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ever Banega</name>
+		<team>Argentina</team>
+		<club>Newell's Old Boys</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ricardo Alvarez</name>
+		<team>Argentina</team>
+		<club>Inter Milan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Augusto Fernandez</name>
+		<team>Argentina</team>
+		<club>Celta Vigo</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jose Sosa</name>
+		<team>Argentina</team>
+		<club>Atletico Madrid</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Angel Di Maria</name>
+		<team>Argentina</team>
+		<club>Real Madrid</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Maxi Rodriguez</name>
+		<team>Argentina</team>
+		<club>Newell's Old Boys</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Fabian Rinaudo</name>
+		<team>Argentina</team>
+		<club>Catania</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Enzo Perez</name>
+		<team>Argentina</team>
+		<club>Benfica</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Lionel Messi</name>
+		<team>Argentina</team>
+		<club>Barcelona</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Gonzalo Higuain</name>
+		<team>Argentina</team>
+		<club>Napoli</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Sergio Aguero</name>
+		<team>Argentina</team>
+		<club>Manchester City</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Rodrigo Palacio</name>
+		<team>Argentina</team>
+		<club>Inter Milan</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Ezequiel Lavezzi</name>
+		<team>Argentina</team>
+		<club>Paris St-Germain</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Franco Di Santo</name>
+		<team>Argentina</team>
+		<club>Werder Bremen</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Asmir Begovic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Stoke City</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Asmir Avdukic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Borac Banja Luka</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Jasmin Fejzic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>VFR Aalen</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Emir Spahic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Bayer Leverkusen</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Toni Sunjic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Zorya Lugansk</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Sead Kolasinac</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Schalke</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ognjen Vranjes</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Elazigspor</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ervin Zukanovic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Gent</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ermin Bicakcic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Eintracht Braunschweig</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Muhamed Besic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Ferencvaros</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Miralem Pjanic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Roma</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Izet Hajrovic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Galatasaray</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mensur Mujdza</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Freiburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Haris Medunjanin</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Gaziantepspor</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Senad Lulic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Lazio</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Anel Hadzic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Sturm</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Tino Susic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Hajduk</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Sejad Salihovic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Hoffenheim</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Zvjezdan Misimovic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Guizhour Renhe</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Senijad Ibricic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Erciyesspor</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Avdija Vrsaljevic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Hajduk</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Vedad Ibisevic</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>VfB Stuttgart</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Edin Dzeko</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Manchester City</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Edin Visca</name>
+		<team>Bosnia-Hercegovina</team>
+		<club>Istanbul BB</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Daniel Davari</name>
+		<team>Iran</team>
+		<club>Eintracht Braunschweig</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Alireza Haghighi</name>
+		<team>Iran</team>
+		<club>Sporting Covilha</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Rahman Ahmadi</name>
+		<team>Iran</team>
+		<club>Sepahan</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Sousha Makani</name>
+		<team>Iran</team>
+		<club>Foolad Khuzestan</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Khosro Heidari</name>
+		<team>Iran</team>
+		<club>Esteghlal</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Hossein Mahini</name>
+		<team>Iran</team>
+		<club>Persepolis</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Steven Beitashour</name>
+		<team>Iran</team>
+		<club>Vancouver Whitecaps</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Pejman Montazeri</name>
+		<team>Iran</team>
+		<club>Umm Salal</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jalal Hosseini</name>
+		<team>Iran</team>
+		<club>Persepolis</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Amir Sadeghi</name>
+		<team>Iran</team>
+		<club>Esteghlal</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Mohammad Reza Khanzadeh</name>
+		<team>Iran</team>
+		<club>Zob Ahan</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ahmad Alenemeh</name>
+		<team>Iran</team>
+		<club>Naft</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Hashem Beikzadeh</name>
+		<team>Iran</team>
+		<club>Esteghlal</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ehsan Hajsafi</name>
+		<team>Iran</team>
+		<club>Sepahan</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Mehrdad Pooladi</name>
+		<team>Iran</team>
+		<club>Persepolis</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Javad Nekounam</name>
+		<team>Iran</team>
+		<club>Al Kuwait</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Andranik Teymourian</name>
+		<team>Iran</team>
+		<club>Esteghlal</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Reza Haghighi</name>
+		<team>Iran</team>
+		<club>Persepolis</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ghasem Hadadifar</name>
+		<team>Iran</team>
+		<club>Zob Ahan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Bakhtiyar Rahmani</name>
+		<team>Iran</team>
+		<club>Foolad</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alireza Jahanbakhsh</name>
+		<team>Iran</team>
+		<club>NEC Nijmegen</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ashkan Dejagah</name>
+		<team>Iran</team>
+		<club>Fulham</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Masoud Shojaei</name>
+		<team>Iran</team>
+		<club>Las Palmas</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Mohammad Reza Khalatbari</name>
+		<team>Iran</team>
+		<club>Persepolis</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Mehdi Sharifi</name>
+		<team>Iran</team>
+		<club>Sepahan</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Reza Ghoochannejhad</name>
+		<team>Iran</team>
+		<club>Charlton</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Karim Ansarifard</name>
+		<team>Iran</team>
+		<club>Persepolis</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Sardar Azmoun</name>
+		<team>Iran</team>
+		<club>Rubin Kazan</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Vincent Enyeama</name>
+		<team>Nigeria</team>
+		<club>Lille</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Austin Ejide</name>
+		<team>Nigeria</team>
+		<club>Hapoel Be'er Sheva</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Daniel Akpeyi</name>
+		<team>Nigeria</team>
+		<club>Warri Wolves</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Chigozie Agbim</name>
+		<team>Nigeria</team>
+		<club>Gombe United</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Elderson Echiejile</name>
+		<team>Nigeria</team>
+		<club>Monaco</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Efe Ambrose</name>
+		<team>Nigeria</team>
+		<club>Celtic</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Godfrey Oboabona</name>
+		<team>Nigeria</team>
+		<club>Rizespor</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Azubuike Egwuekwe</name>
+		<team>Nigeria</team>
+		<club>Warri Wolves</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Kenneth Omeruo</name>
+		<team>Nigeria</team>
+		<club>Middlesbrough</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Juwon Oshaniwa</name>
+		<team>Nigeria</team>
+		<club>Ashdod</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Joseph Yobo</name>
+		<team>Nigeria</team>
+		<club>Norwich</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Kunle Odunlami</name>
+		<team>Nigeria</team>
+		<club>Sunshine Stars</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>John Mikel Obi</name>
+		<team>Nigeria</team>
+		<club>Chelsea</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ramon Azeez</name>
+		<team>Nigeria</team>
+		<club>Almeria</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ogenyi Onazi</name>
+		<team>Nigeria</team>
+		<club>Lazio</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Joel Obi</name>
+		<team>Nigeria</team>
+		<club>Parma</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Nnamdi Oduamadi</name>
+		<team>Nigeria</team>
+		<club>Varese</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ejike Uzoenyi</name>
+		<team>Nigeria</team>
+		<club>Enugu Rangers</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Nosa Igiebor</name>
+		<team>Nigeria</team>
+		<club>Real Betis</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Sunday Mba</name>
+		<team>Nigeria</team>
+		<club>Bastia</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Reuben Gabriel</name>
+		<team>Nigeria</team>
+		<club>Waasland-Beveren</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Michael Babatunde</name>
+		<team>Nigeria</team>
+		<club>Volyn Lutsk</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ahmed Musa</name>
+		<team>Nigeria</team>
+		<club>CSKA Moscow</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Shola Ameobi</name>
+		<team>Nigeria</team>
+		<club>Newcastle</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Emmanuel Emenike</name>
+		<team>Nigeria</team>
+		<club>Fenerbahce</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Peter Odemwingie</name>
+		<team>Nigeria</team>
+		<club>Stoke</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Michael Uchebo</name>
+		<team>Nigeria</team>
+		<club>Cercle Brugge</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Victor Moses</name>
+		<team>Nigeria</team>
+		<club>Liverpool</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Uche Nwofor</name>
+		<team>Nigeria</team>
+		<club>Heerenveen</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Manuel Neuer</name>
+		<team>Germany</team>
+		<club>Bayern Munich</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Roman Weidenfeller</name>
+		<team>Germany</team>
+		<club>Borussia Dortmund</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Ron-Robert Zieler</name>
+		<team>Germany</team>
+		<club>Hannover</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Jerome Boateng</name>
+		<team>Germany</team>
+		<club>Bayern Munich</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Erik Durm</name>
+		<team>Germany</team>
+		<club>Borussia Dortmund</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Kevin Grosskreutz</name>
+		<team>Germany</team>
+		<club>Borussia Dortmund</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Benedikt Howedes</name>
+		<team>Germany</team>
+		<club>Schalke</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Mats Hummels</name>
+		<team>Germany</team>
+		<club>Borussia Dortmund</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Philipp Lahm</name>
+		<team>Germany</team>
+		<club>Bayern Munich</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Per Mertesacker</name>
+		<team>Germany</team>
+		<club>Arsenal</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Shkodran Mustafi</name>
+		<team>Germany</team>
+		<club>Sampdoria</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Marcel Schmelzer</name>
+		<team>Germany</team>
+		<club>Borussia Dortmund</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Lars Bender</name>
+		<team>Germany</team>
+		<club>Bayer Leverkusen</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Julian Draxler</name>
+		<team>Germany</team>
+		<club>Schalke</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Matthias Ginter</name>
+		<team>Germany</team>
+		<club>Freiburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mario Gotze</name>
+		<team>Germany</team>
+		<club>Bayern Munich</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Sami Khedira</name>
+		<team>Germany</team>
+		<club>Real Madrid</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Christoph Kramer</name>
+		<team>Germany</team>
+		<club>Borussia Monchengladbach</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Toni Kroos</name>
+		<team>Germany</team>
+		<club>Bayern Munich</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Thomas Muller</name>
+		<team>Germany</team>
+		<club>Bayern Munich</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mesut Ozil</name>
+		<team>Germany</team>
+		<club>Arsenal</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Marco Reus</name>
+		<team>Germany</team>
+		<club>Borussia Dortmund</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Andre Schurrle</name>
+		<team>Germany</team>
+		<club>Chelsea</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Bastian Schweinsteiger</name>
+		<team>Germany</team>
+		<club>Bayern Munich</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Miroslav Klose</name>
+		<team>Germany</team>
+		<club>Lazio</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Kevin Volland</name>
+		<team>Germany</team>
+		<club>Hoffenheim</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Lukas Podolski</name>
+		<team>Germany</team>
+		<club>Arsenal</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Anthony Lopes</name>
+		<team>Portugal</team>
+		<club>Lyon</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Beto</name>
+		<team>Portugal</team>
+		<club>Sevilla</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Eduardo</name>
+		<team>Portugal</team>
+		<club>Braga</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Rui Patricio</name>
+		<team>Portugal</team>
+		<club>Sporting</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Andre Almeida</name>
+		<team>Portugal</team>
+		<club>Benfica</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Antunes</name>
+		<team>Portugal</team>
+		<club>Malaga</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Bruno Alves</name>
+		<team>Portugal</team>
+		<club>Fenerbahce</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Fabio Coentrao</name>
+		<team>Portugal</team>
+		<club>Real Madrid</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Joao Pereira</name>
+		<team>Portugal</team>
+		<club>Valencia</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Neto</name>
+		<team>Portugal</team>
+		<club>Zenit</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Pepe</name>
+		<team>Portugal</team>
+		<club>Real Madrid</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ricardo Costa</name>
+		<team>Portugal</team>
+		<club>Valencia</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Rolando</name>
+		<team>Portugal</team>
+		<club>Inter</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Andre Gomes</name>
+		<team>Portugal</team>
+		<club>Benfica</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Joao Mario</name>
+		<team>Portugal</team>
+		<club>Vitoria</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Joao Moutinho</name>
+		<team>Portugal</team>
+		<club>Monaco</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Miguel Veloso</name>
+		<team>Portugal</team>
+		<club>Dinamo Kiev</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Raul Meireles</name>
+		<team>Portugal</team>
+		<club>Fenerbahce</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ruben Amorim</name>
+		<team>Portugal</team>
+		<club>Benfica</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>William Carvalho</name>
+		<team>Portugal</team>
+		<club>Sporting</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Cristiano Ronaldo</name>
+		<team>Portugal</team>
+		<club>Real Madrid</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Eder</name>
+		<team>Portugal</team>
+		<club>SC Braga</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Helder Postiga</name>
+		<team>Portugal</team>
+		<club>Lazio</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Hugo Almeida</name>
+		<team>Portugal</team>
+		<club>Besiktas</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Ivan Cavaleiro</name>
+		<team>Portugal</team>
+		<club>Benfica</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Nani</name>
+		<team>Portugal</team>
+		<club>Manchester United</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Rafa</name>
+		<team>Portugal</team>
+		<club>Braga</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Ricardo Quaresma</name>
+		<team>Portugal</team>
+		<club>FC Porto</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Varela</name>
+		<team>Portugal</team>
+		<club>FC Porto</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Vieirinha</name>
+		<team>Portugal</team>
+		<club>Wolfsburg</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Fatau Dauda</name>
+		<team>Ghana</team>
+		<club>Orlando Pirates</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Adam Kwarasey</name>
+		<team>Ghana</team>
+		<club>Stromsgodset</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Stephen Adams</name>
+		<team>Ghana</team>
+		<club>Aduana Stars</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Samuel Inkoom</name>
+		<team>Ghana</team>
+		<club>Platanias</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Daniel Opare</name>
+		<team>Ghana</team>
+		<club>Standard Liege</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Harrison Afful</name>
+		<team>Ghana</team>
+		<club>Esperance</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jeffrey Schlupp</name>
+		<team>Ghana</team>
+		<club>Leicester</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>John Boye</name>
+		<team>Ghana</team>
+		<club>Rennes</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jonathan Mensah</name>
+		<team>Ghana</team>
+		<club>Evian</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jerry Akaminko</name>
+		<team>Ghana</team>
+		<club>Kisehirspor</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Rashid Sumalia</name>
+		<team>Ghana</team>
+		<club>Mamelodi Sundowns</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Michael Essien</name>
+		<team>Ghana</team>
+		<club>AC Milan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Sulley Muntari</name>
+		<team>Ghana</team>
+		<club>AC Milan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Rabiu Mohammed</name>
+		<team>Ghana</team>
+		<club>Kuban Krasnodar</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Kwadwo Asamoah</name>
+		<team>Ghana</team>
+		<club>Juventus</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Emmanuel Agyemang-Badu</name>
+		<team>Ghana</team>
+		<club>Udinese</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Afriyie Acquah</name>
+		<team>Ghana</team>
+		<club>Parma</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Christian Atsu</name>
+		<team>Ghana</team>
+		<club>Vitesse</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Albert Adomah</name>
+		<team>Ghana</team>
+		<club>Middlesbrough</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Andre Ayew</name>
+		<team>Ghana</team>
+		<club>Marseille</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mubarak Wakaso</name>
+		<team>Ghana</team>
+		<club>Rubin Kazan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Asamoah Gyan</name>
+		<team>Ghana</team>
+		<club>Al Ain</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Kevin-Prince Boateng</name>
+		<team>Ghana</team>
+		<club>Schalke 04</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Abdul Majeed Waris</name>
+		<team>Ghana</team>
+		<club>Valenciennes</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jordan Ayew</name>
+		<team>Ghana</team>
+		<club>Sochaux</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>David Accam</name>
+		<team>Ghana</team>
+		<club>Helsingborg</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Brad Guzan</name>
+		<team>United States</team>
+		<club>Aston Villa</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Tim Howard</name>
+		<team>United States</team>
+		<club>Everton</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Nick Rimando</name>
+		<team>United States</team>
+		<club>Real Salt Lake</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>DaMarcus Beasley</name>
+		<team>United States</team>
+		<club>Puebla</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Matt Besler</name>
+		<team>United States</team>
+		<club>Sporting Kansas City</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>John Brooks</name>
+		<team>United States</team>
+		<club>Hertha Berlin</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Geoff Cameron</name>
+		<team>United States</team>
+		<club>Stoke City</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Timmy Chandler</name>
+		<team>United States</team>
+		<club>Nuremberg</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Brad Evans</name>
+		<team>United States</team>
+		<club>Seattle Sounders</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Omar Gonzalez</name>
+		<team>United States</team>
+		<club>LA Galaxy</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Clarence Goodson</name>
+		<team>United States</team>
+		<club>San Jose Earthquakes</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Fabian Johnson</name>
+		<team>United States</team>
+		<club>Hoffenheim</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Michael Parkhurst</name>
+		<team>United States</team>
+		<club>Columbus Crew</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>DeAndre Yedlin</name>
+		<team>United States</team>
+		<club>Seattle Sounders</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Kyle Beckerman</name>
+		<team>United States</team>
+		<club>Real Salt Lake</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alejandro Bedoya</name>
+		<team>United States</team>
+		<club>Nantes</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Michael Bradley</name>
+		<team>United States</team>
+		<club>Toronto FC</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Joe Corona</name>
+		<team>United States</team>
+		<club>Club Tijuana</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Brad Davis</name>
+		<team>United States</team>
+		<club>Houston Dynamo</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mix Diskerud</name>
+		<team>United States</team>
+		<club>Rosenborg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Maurice Edu</name>
+		<team>United States</team>
+		<club>Philadelphia Union</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Julian Green</name>
+		<team>United States</team>
+		<club>Bayern Munich</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jermaine Jones</name>
+		<team>United States</team>
+		<club>Besiktas</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Graham Zusi</name>
+		<team>United States</team>
+		<club>Sporting Kansas City</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Jozy Altidore</name>
+		<team>United States</team>
+		<club>Sunderland</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Terrence Boyd</name>
+		<team>United States</team>
+		<club>Rapid Vienna</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Clint Dempsey</name>
+		<team>United States</team>
+		<club>Seattle Sounders</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Landon Donovan</name>
+		<team>United States</team>
+		<club>LA Galaxy</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Aron Johannsson</name>
+		<team>United States</team>
+		<club>AZ Alkmaar</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Chris Wondolowski</name>
+		<team>United States</team>
+		<club>San Jose Earthquakes</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Thibaut Courtois</name>
+		<team>Belgium</team>
+		<club>Atletico Madrid</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Simon Mignolet</name>
+		<team>Belgium</team>
+		<club>Liverpool</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Koen Casteels</name>
+		<team>Belgium</team>
+		<club>Hoffenheim</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Silvio Proto</name>
+		<team>Belgium</team>
+		<club>Anderlecht</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Toby Alderweireld</name>
+		<team>Belgium</team>
+		<club>Atletico Madrid</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Laurent Ciman</name>
+		<team>Belgium</team>
+		<club>Standard Liege</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Nicolas Lombaerts</name>
+		<team>Belgium</team>
+		<club>Zenit St Petersburg</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Vincent Kompany</name>
+		<team>Belgium</team>
+		<club>Manchester City</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Daniel Van Buyten</name>
+		<team>Belgium</team>
+		<club>Bayern Munich</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Anthony Vanden Borre</name>
+		<team>Belgium</team>
+		<club>Anderlecht</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Thomas Vermaelen</name>
+		<team>Belgium</team>
+		<club>Arsenal</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Jan Vertonghen</name>
+		<team>Belgium</team>
+		<club>Tottenham Hotspur</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Nacer Chadli</name>
+		<team>Belgium</team>
+		<club>Tottenham Hotspur</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Mousa Dembele</name>
+		<team>Belgium</team>
+		<club>Tottenham Hotspur</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Steven Defour</name>
+		<team>Belgium</team>
+		<club>Porto</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Kevin De Bruyne</name>
+		<team>Belgium</team>
+		<club>Wolfsburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Marouane Fellaini</name>
+		<team>Belgium</team>
+		<club>Manchester United</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Adnan Januzaj</name>
+		<team>Belgium</team>
+		<club>Manchester United</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Eden Hazard</name>
+		<team>Belgium</team>
+		<club>Chelsea</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Kevin Mirallas</name>
+		<team>Belgium</team>
+		<club>Everton</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Divock Origi</name>
+		<team>Belgium</team>
+		<club>Lille</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Axel Witsel</name>
+		<team>Belgium</team>
+		<club>Zenit St Petersburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Romelu Lukaku</name>
+		<team>Belgium</team>
+		<club>Everton</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Dries Mertens</name>
+		<team>Belgium</team>
+		<club>Napoli</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Sebastien Pocognoli</name>
+		<team>Belgium</team>
+		<club>Hannover</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Radia Nainggolan</name>
+		<team>Belgium</team>
+		<club>Roma</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Thorgan Hazard</name>
+		<team>Belgium</team>
+		<club>Zulte Waregem</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Guillaume Gillet</name>
+		<team>Belgium</team>
+		<club>Anderlecht</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Michy Batshuayi</name>
+		<team>Belgium</team>
+		<club>Standard Liege</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Jelle Van Damme</name>
+		<team>Belgium</team>
+		<club>Standard Liege</club>
+		<position>S</position>
+	</player>
+	<player>
+		<name>Izzedine Doukha</name>
+		<team>Algeria</team>
+		<club>USM El-Harrach</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Rais M'bolhi</name>
+		<team>Algeria</team>
+		<club>CSKA Sofia</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Cedric Si Mohamed</name>
+		<team>Algeria</team>
+		<club>CS Constantine</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Mohamed Lamine Zemmamouche</name>
+		<team>Algeria</team>
+		<club>USM Alger</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Essaid Belkalem</name>
+		<team>Algeria</team>
+		<club>Watford</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Madjid Bougherra</name>
+		<team>Algeria</team>
+		<club>Lekhwya Club</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Liassine Cadamuro</name>
+		<team>Algeria</team>
+		<club>Mallorca</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Faouzi Ghoualm</name>
+		<team>Algeria</team>
+		<club>Napoli</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Rafik Halliche</name>
+		<team>Algeria</team>
+		<club>Academica Coimbra</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Nacereddine Khoualed</name>
+		<team>Algeria</team>
+		<club>USM Alger</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Aissa Mandi</name>
+		<team>Algeria</team>
+		<club>Stade Reims</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Carl Medjani</name>
+		<team>Algeria</team>
+		<club>Valenciennes</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Djamel Mesbah</name>
+		<team>Algeria</team>
+		<club>Livorno</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Mehdi Mostefa</name>
+		<team>Algeria</team>
+		<club>AC Ajaccio</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Nabil Bentaleb</name>
+		<team>Algeria</team>
+		<club>Tottenham Hotspur</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ryad Boudebouz</name>
+		<team>Algeria</team>
+		<club>Bastia</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Yasine Brahimi</name>
+		<team>Algeria</team>
+		<club>Granada</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Adlene Guedioura</name>
+		<team>Algeria</team>
+		<club>Crystal Palace</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Amir Karaoui</name>
+		<team>Algeria</team>
+		<club>Entente de Setif</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Medhi Lacen</name>
+		<team>Algeria</team>
+		<club>Getafe</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Saphir Taider</name>
+		<team>Algeria</team>
+		<club>Inter Milan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Hassan Yebda</name>
+		<team>Algeria</team>
+		<club>Udinese</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Abdelmoumene Djabou</name>
+		<team>Algeria</team>
+		<club>Club Africain</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Rafik Djebbour</name>
+		<team>Algeria</team>
+		<club>Nottingham Forest</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Sofiane Feghouli</name>
+		<team>Algeria</team>
+		<club>Valencia</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Nabil Ghilas</name>
+		<team>Algeria</team>
+		<club>Porto</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Foued Kadir</name>
+		<team>Algeria</team>
+		<club>Rennes</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Riyad Mahrez</name>
+		<team>Algeria</team>
+		<club>Leicester</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Islam Slimani</name>
+		<team>Algeria</team>
+		<club>Sporting Lisbon</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Hilal Soudani</name>
+		<team>Algeria</team>
+		<club>Dinamo Zagreb</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Igor Akinfeev</name>
+		<team>Russia</team>
+		<club>CSKA Moscow</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Yury Lodygin</name>
+		<team>Russia</team>
+		<club>Zenit St Petersburg</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Sergey Ryzhikov</name>
+		<team>Russia</team>
+		<club>Rubin Kazan</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Alexander Anyukov</name>
+		<team>Russia</team>
+		<club>Zenit St Petersburg</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Alexey Berezutski</name>
+		<team>Russia</team>
+		<club>CSKA Moscow</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Vasili Berezutski</name>
+		<team>Russia</team>
+		<club>CSKA Moscow</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Vladimir Granat</name>
+		<team>Russia</team>
+		<club>Dynamo Moscow</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Andrey Eshchenko</name>
+		<team>Russia</team>
+		<club>Anzhi Makhachkala</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Sergei Ignashevich</name>
+		<team>Russia</team>
+		<club>CSKA Moscow</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Alexey Kozlov</name>
+		<team>Russia</team>
+		<club>Dynamo Moscow</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Dmitry Kombarov</name>
+		<team>Russia</team>
+		<club>Spartak Moscow</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Andrey Semenov</name>
+		<team>Russia</team>
+		<club>Terek Grozny</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Georgi Schennikov</name>
+		<team>Russia</team>
+		<club>CSKA Moscow</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Vladimir Bystrov</name>
+		<team>Russia</team>
+		<club>Anzhi Makhachkala</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Yury Gazinskiy</name>
+		<team>Russia</team>
+		<club>Krasnodar</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Denis Glushakov</name>
+		<team>Russia</team>
+		<club>Spartak Moscow</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Igor Denisov</name>
+		<team>Russia</team>
+		<club>Dynamo Moscow</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alan Dzagoev</name>
+		<team>Russia</team>
+		<club>CSKA Moscow</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Yury Zhirkov</name>
+		<team>Russia</team>
+		<club>Dynamo Moscow</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alexey Ionov</name>
+		<team>Russia</team>
+		<club>Dynamo Moscow</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Pavel Mogilevets</name>
+		<team>Russia</team>
+		<club>Rubin Kazan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Alexander Samedov</name>
+		<team>Russia</team>
+		<club>Lokomotiv Moscow</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Victor Faizulin</name>
+		<team>Russia</team>
+		<club>Zenit St Petersburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Oleg Shatov</name>
+		<team>Russia</team>
+		<club>Zenit St Petersburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Roman Shirokov</name>
+		<team>Russia</team>
+		<club>Krasnodar</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Artem Dzyuba</name>
+		<team>Russia</team>
+		<club>Rostov</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Maxim Kanunnikov</name>
+		<team>Russia</team>
+		<club>Amkar Perm</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Alexander Kerzhakov</name>
+		<team>Russia</team>
+		<club>Zenit St Petersburg</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Alexander Kokorin</name>
+		<team>Russia</team>
+		<club>Dynamo Moscow</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Pavel Pogrebnyak</name>
+		<team>Russia</team>
+		<club>Reading</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Jung Sung-ryeong</name>
+		<team>South Korea</team>
+		<club>Suwon Bluewings</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Kim Seung-gyu</name>
+		<team>South Korea</team>
+		<club>Ulsan Horang-i</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Lee Bum-young</name>
+		<team>South Korea</team>
+		<club>Busan I'Park</club>
+		<position>G</position>
+	</player>
+	<player>
+		<name>Kim Jin-soo</name>
+		<team>South Korea</team>
+		<club>Albirex Niigata</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Yun Suk-young</name>
+		<team>South Korea</team>
+		<club>QPR</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Kim Young-kwon</name>
+		<team>South Korea</team>
+		<club>Guangzhou Evergrande</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Hwang Seok-ho</name>
+		<team>South Korea</team>
+		<club>Sanfrecce Hiroshima</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Hong Jeong-ho</name>
+		<team>South Korea</team>
+		<club>Augsburg</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Kwak Tae-hwi</name>
+		<team>South Korea</team>
+		<club>Al Hilal</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Lee Yong</name>
+		<team>South Korea</team>
+		<club>Ulsan Horang-i</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Kim Chang-soo</name>
+		<team>South Korea</team>
+		<club>Kashiwa Reysol</club>
+		<position>D</position>
+	</player>
+	<player>
+		<name>Ki Seung-yueng</name>
+		<team>South Korea</team>
+		<club>Sunderland</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ha Dae-sung</name>
+		<team>South Korea</team>
+		<club>Beijing Guoan</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Han Kook-young</name>
+		<team>South Korea</team>
+		<club>Kashiwa Reysol</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Park Jung-woo</name>
+		<team>South Korea</team>
+		<club>Guangzhou R</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Son Heung-min</name>
+		<team>South Korea</team>
+		<club>Bayer Leverkusen</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Kim Bo-kyung</name>
+		<team>South Korea</team>
+		<club>Cardiff City</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Lee Chung-yong</name>
+		<team>South Korea</team>
+		<club>Bolton Wanderers</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Ji Dong-won</name>
+		<team>South Korea</team>
+		<club>Augsburg</club>
+		<position>M</position>
+	</player>
+	<player>
+		<name>Koo Ja-cheol</name>
+		<team>South Korea</team>
+		<club>Mainz</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Lee Keun-ho</name>
+		<team>South Korea</team>
+		<club>Sangju Sangmu</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Park Chu-young</name>
+		<team>South Korea</team>
+		<club>Arsenal</club>
+		<position>F</position>
+	</player>
+	<player>
+		<name>Kim Shin-wook</name>
+		<team>South Korea</team>
+		<club>Ulsan Horang-i</club>
+		<position>F</position>
+	</player>
+</players>
