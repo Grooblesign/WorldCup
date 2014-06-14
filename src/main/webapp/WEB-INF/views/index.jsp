@@ -30,5 +30,7 @@
 			</tr>
 		</c:forEach>
 	</table>
+	<br />
+	<a href="matches">Match predictions</a>
 </body>
 </html>
