@@ -315,10 +315,10 @@ public class DataLoader {
 			match.setTime("22:00");
 			match.setVenue("Arena Pernambuco, Recife");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(1);    
+			match.setTeam2Goals(2);
 
-			match.setTeam1GoalsAdam(2);
+			match.setTeam1GoalsAdam(1);
 			match.setTeam2GoalsAdam(1);
 
 			match.setTeam1GoalsEmily(1);
