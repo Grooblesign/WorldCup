@@ -1,16 +1,75 @@
 package uk.me.paulgarner.model;
 
 public class Player {
-	private String club;
+	private int index;
 	private String name;
 	private String position;
-	private String team;
+	private int teamIndex;
+	private int goals;
+	private int assists;
+	private int cleanSheets;
+	private int half;
+	private int full;
+	private int yellowCards;
+	private int redCards;
+	private int penaltyMiss;
 	
-	public String getClub() {
-		return club;
+	public int getIndex() {
+		return index;
 	}
-	public void setClub(String club) {
-		this.club = club;
+	public void setIndex(int index) {
+		this.index = index;
+	}
+	public int getGoals() {
+		return goals;
+	}
+	public void setGoals(int goals) {
+		this.goals = goals;
+	}
+	public int getAssists() {
+		return assists;
+	}
+	public void setAssists(int assists) {
+		this.assists = assists;
+	}
+	public int getCleanSheets() {
+		return cleanSheets;
+	}
+	public void setCleanSheets(int cleanSheets) {
+		this.cleanSheets = cleanSheets;
+	}
+	public int getHalf() {
+		return half;
+	}
+	public void setHalf(int half) {
+		this.half = half;
+	}
+	public int getFull() {
+		return full;
+	}
+	public void setFull(int full) {
+		this.full = full;
+	}
+	public int getYellowCards() {
+		return yellowCards;
+	}
+	public void setYellowCards(int yellowCards) {
+		this.yellowCards = yellowCards;
+	}
+	public int getRedCards() {
+		return redCards;
+	}
+	public void setRedCards(int redCards) {
+		this.redCards = redCards;
+	}
+	public int getPenaltyMiss() {
+		return penaltyMiss;
+	}
+	public void setPenaltyMiss(int penaltyMiss) {
+		this.penaltyMiss = penaltyMiss;
+	}
+	public void setTeamIndex(int teamIndex) {
+		this.teamIndex = teamIndex;
 	}
 	public String getName() {
 		return name;
@@ -24,10 +83,7 @@ public class Player {
 	public void setPosition(String position) {
 		this.position = position;
 	}
-	public String getTeam() {
-		return team;
-	}
-	public void setTeam(String team) {
-		this.team = team;
+	public int getTeamIndex() {
+		return teamIndex;
 	}
 }

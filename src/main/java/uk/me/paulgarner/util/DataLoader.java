@@ -1,16 +1,9 @@
 package uk.me.paulgarner.util;
 
-import java.io.File;
 import java.sql.Connection;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
-
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
-
-import org.w3c.dom.Document;
-import org.w3c.dom.NodeList;
 
 import uk.me.paulgarner.model.Constants;
 import uk.me.paulgarner.model.Match;
@@ -81,6 +74,32 @@ public class DataLoader {
 								team.getGroup(), team.getIndex(),
 								team.getName()));
 			}
+
+			st.executeUpdate("TRUNCATE Table \"Players\"");
+
+			List<Player> players = new ArrayList<Player>();
+			Player player = null;
+			
+			player = new Player();
+			player.setIndex(1);
+			player.setName("Iker Casillas");
+			player.setPosition("G");
+			player.setTeamIndex(Constants.SPAIN);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(2);
+			player.setName("Sergio Ramos");
+			player.setPosition("D");
+			player.setTeamIndex(Constants.SPAIN);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(3);
+			player.setName("Sergio Ramos");
+			player.setPosition("D");
+			player.setTeamIndex(Constants.SPAIN);
+			players.add(player);
 
 			st.executeUpdate("TRUNCATE Table \"Matches\"");
 
@@ -439,8 +458,8 @@ public class DataLoader {
 			match.setTime("13:00");
 			match.setVenue("Arena Fonte Nova, Salvador");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(4);    
+			match.setTeam2Goals(0);
 
 			match.setTeam1GoalsAdam(2);
 			match.setTeam2GoalsAdam(2);
@@ -1615,6 +1634,7 @@ public class DataLoader {
 								));
 			}
 
+			/*
 			File fXmlFile = new File(
 					"c:\\dev\\WorldCup\\app\\data\\players.xml");
 			DocumentBuilderFactory dbFactory = DocumentBuilderFactory
@@ -1629,8 +1649,8 @@ public class DataLoader {
 
 			NodeList nList = doc.getElementsByTagName("player");
 
-			List<Player> player = new ArrayList<Player>();
-
+			*/
+			
 			ConnectionFactory.closeConnection(conn);
 		} catch (Exception ex) {
 			System.out.println("Exception in data loader: " + ex.getMessage());
