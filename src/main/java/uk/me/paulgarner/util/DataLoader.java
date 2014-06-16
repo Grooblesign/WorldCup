@@ -408,8 +408,8 @@ public class DataLoader {
 			match.setTime("19:00");
 			match.setVenue("Estádio do Maracanã, Rio de Janeiro");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(2);    
+			match.setTeam2Goals(1);
 
 			match.setTeam1GoalsAdam(2);
 			match.setTeam2GoalsAdam(1);
