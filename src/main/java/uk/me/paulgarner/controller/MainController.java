@@ -25,6 +25,7 @@ import uk.me.paulgarner.model.Person;
 import uk.me.paulgarner.model.Player;
 import uk.me.paulgarner.model.Team;
 import uk.me.paulgarner.service.MatchService;
+import uk.me.paulgarner.service.PlayerService;
 import uk.me.paulgarner.util.ConnectionFactory;
 import uk.me.paulgarner.util.DataLoader;
 
@@ -494,29 +495,6 @@ public class MainController {
 		return "info";
 	}
 
-	@RequestMapping(value = "/post", method = RequestMethod.GET)
-	public String PostTest(Model model) {
-		Player player = new Player();
-		// player.setLastname("Lampard");
-		// player.setFirstname("Frank");
-
-		model.addAttribute("player", player);
-
-		return "posttest";
-	}
-
-	@RequestMapping(value = "/post", method = RequestMethod.POST)
-	public String PostTestPost(@ModelAttribute("player") Player player,
-			BindingResult result) {
-		// System.out.println(player.getLastname());
-		return "info";
-	}
-
-	@RequestMapping(value = "/spa")
-	public String Spa(Model model) {
-		return "spa";
-	}
-
 	@RequestMapping(value = "/matches/rest")
 	public @ResponseBody
 	List<Match> JsonMatches(Model model) throws SQLException {
@@ -549,4 +527,40 @@ public class MainController {
 
 		return "matches";
 	}
+	
+	@RequestMapping(value = "/paul", method = RequestMethod.GET)
+	public String Paul(Model model) throws SQLException {
+
+		PlayerService service = new PlayerService();
+		
+		Connection conn = ConnectionFactory.getConnection();
+		Statement st = conn.createStatement();
+		ResultSet rs;
+		
+		List<Player> players = new ArrayList<Player>();
+		
+		rs = st.executeQuery("SELECT \"Player1\", \"Player2\", \"Player3\", \"Player4\", \"Player5\", \"Player6\", \"Player7\", \"Player8\", \"Player9\", \"Player10\", \"Player11\" FROM \"People\" WHERE \"Name\"='Paul'");
+		rs.next();
+		players.add(service.find(rs.getInt(1)));
+		players.add(service.find(rs.getInt(2)));
+		players.add(service.find(rs.getInt(3)));
+		players.add(service.find(rs.getInt(4)));
+		players.add(service.find(rs.getInt(5)));
+		players.add(service.find(rs.getInt(6)));
+		players.add(service.find(rs.getInt(7)));
+		players.add(service.find(rs.getInt(8)));
+		players.add(service.find(rs.getInt(9)));
+		players.add(service.find(rs.getInt(10)));
+		players.add(service.find(rs.getInt(11)));
+		
+		rs.close();
+
+		ConnectionFactory.closeConnection(conn);
+		
+		model.addAttribute("person", "Paul");
+		model.addAttribute("team", players);
+
+		return "fantasy";
+	}
+	
 }

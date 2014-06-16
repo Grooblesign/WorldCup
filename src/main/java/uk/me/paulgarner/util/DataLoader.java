@@ -30,7 +30,51 @@ public class DataLoader {
 						.format("INSERT INTO \"People\" (\"Name\") VALUES ('%s')",
 								person));
 			}
+			
+			st.executeUpdate("UPDATE \"People\" SET \"Fantasy\" = true WHERE \"Name\" = 'Adam'");
+			
+			st.executeUpdate("UPDATE \"People\" SET \"Fantasy\" = true WHERE \"Name\" = 'Kyle'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player1\" = 12 WHERE \"Name\" = 'Kyle'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player2\" = 13 WHERE \"Name\" = 'Kyle'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player3\" = 14 WHERE \"Name\" = 'Kyle'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player4\" = 15 WHERE \"Name\" = 'Kyle'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player5\" = 16 WHERE \"Name\" = 'Kyle'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player6\" = 17 WHERE \"Name\" = 'Kyle'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player7\" = 18 WHERE \"Name\" = 'Kyle'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player8\" = 27 WHERE \"Name\" = 'Kyle'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player9\" = 6 WHERE \"Name\" = 'Kyle'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player10\" = 11 WHERE \"Name\" = 'Kyle'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player11\" = 19 WHERE \"Name\" = 'Kyle'");
+			
+			st.executeUpdate("UPDATE \"People\" SET \"Fantasy\" = true WHERE \"Name\" = 'Luke'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player1\" = 20 WHERE \"Name\" = 'Luke'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player2\" = 5 WHERE \"Name\" = 'Luke'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player3\" = 2 WHERE \"Name\" = 'Luke'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player4\" = 21 WHERE \"Name\" = 'Luke'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player5\" = 22 WHERE \"Name\" = 'Luke'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player6\" = 23 WHERE \"Name\" = 'Luke'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player7\" = 24 WHERE \"Name\" = 'Luke'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player8\" = 7 WHERE \"Name\" = 'Luke'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player9\" = 25 WHERE \"Name\" = 'Luke'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player10\" = 11 WHERE \"Name\" = 'Luke'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player11\" = 26 WHERE \"Name\" = 'Luke'");
+			
+			st.executeUpdate("UPDATE \"People\" SET \"Fantasy\" = true WHERE \"Name\" = 'Paul'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player1\" = 1 WHERE \"Name\" = 'Paul'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player2\" = 2 WHERE \"Name\" = 'Paul'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player3\" = 3 WHERE \"Name\" = 'Paul'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player4\" = 4 WHERE \"Name\" = 'Paul'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player5\" = 5 WHERE \"Name\" = 'Paul'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player6\" = 6 WHERE \"Name\" = 'Paul'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player7\" = 7 WHERE \"Name\" = 'Paul'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player8\" = 8 WHERE \"Name\" = 'Paul'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player9\" = 9 WHERE \"Name\" = 'Paul'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player10\" = 10 WHERE \"Name\" = 'Paul'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player11\" = 11 WHERE \"Name\" = 'Paul'");
 
+			st.executeUpdate("UPDATE \"People\" SET \"Fantasy\" = false WHERE \"Name\" = 'Emily'");
+			st.executeUpdate("UPDATE \"People\" SET \"Fantasy\" = false WHERE \"Name\" = 'John'");
+			st.executeUpdate("UPDATE \"People\" SET \"Fantasy\" = false WHERE \"Name\" = 'Nicola'");
 
 			st.executeUpdate("TRUNCATE Table \"Teams\"");
 
@@ -96,10 +140,188 @@ public class DataLoader {
 
 			player = new Player();
 			player.setIndex(3);
-			player.setName("Sergio Ramos");
+			player.setName("David Luiz");
+			player.setPosition("D");
+			player.setTeamIndex(Constants.BRAZIL);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(4);
+			player.setName("Pablo Zabaleta");
+			player.setPosition("D");
+			player.setTeamIndex(Constants.ARGENTINA);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(5);
+			player.setName("Daniel Alves");
+			player.setPosition("D");
+			player.setTeamIndex(Constants.BRAZIL);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(6);
+			player.setName("Arjen Robben");
+			player.setPosition("M");
+			player.setTeamIndex(Constants.NETHERLANDS);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(7);
+			player.setName("Andres Iniesta");
+			player.setPosition("M");
+			player.setTeamIndex(Constants.SPAIN);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(8);
+			player.setName("Andrea Pirlo");
+			player.setPosition("M");
+			player.setTeamIndex(Constants.ITALY);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(9);
+			player.setName("Lionel Messi");
+			player.setPosition("F");
+			player.setTeamIndex(Constants.ARGENTINA);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(10);
+			player.setName("Sergio Aguero");
+			player.setPosition("F");
+			player.setTeamIndex(Constants.ARGENTINA);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(11);
+			player.setName("Neymar");
+			player.setPosition("F");
+			player.setTeamIndex(Constants.BRAZIL);
+			players.add(player);
+			
+			player = new Player();
+			player.setIndex(12);
+			player.setName("Manuel Neuer");
+			player.setPosition("G");
+			player.setTeamIndex(Constants.GERMANY);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(13);
+			player.setName("Philipp Lahm");
+			player.setPosition("D");
+			player.setTeamIndex(Constants.GERMANY);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(14);
+			player.setName("Dante");
+			player.setPosition("D");
+			player.setTeamIndex(Constants.BRAZIL);
+			players.add(player);
+			
+			player = new Player();
+			player.setIndex(15);
+			player.setName("Gary Cahill");
+			player.setPosition("D");
+			player.setTeamIndex(Constants.ENGLAND);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(16);
+			player.setName("Cesc Fabregas");
+			player.setPosition("M");
+			player.setTeamIndex(Constants.SPAIN);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(17);
+			player.setName("Yaya Toure");
+			player.setPosition("M");
+			player.setTeamIndex(Constants.IVORY_COAST);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(18);
+			player.setName("Steven Gerrard");
+			player.setPosition("M");
+			player.setTeamIndex(Constants.ENGLAND);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(19);
+			player.setName("Mario Mandzukic");
+			player.setPosition("F");
+			player.setTeamIndex(Constants.CROATIA);
+			players.add(player);
+			
+			player = new Player();
+			player.setIndex(20);
+			player.setName("Thibaut Courtois");
+			player.setPosition("G");
+			player.setTeamIndex(Constants.BELGIUM);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(21);
+			player.setName("Eliaquim Mangala");
+			player.setPosition("D");
+			player.setTeamIndex(Constants.FRANCE);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(22);
+			player.setName("Jordi Alba");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.SPAIN);
 			players.add(player);
+
+			player = new Player();
+			player.setIndex(23);
+			player.setName("Paul Pogba");
+			player.setPosition("M");
+			player.setTeamIndex(Constants.FRANCE);
+			players.add(player);
+			
+			player = new Player();
+			player.setIndex(24);
+			player.setName("Thomas Muller");
+			player.setPosition("M");
+			player.setTeamIndex(Constants.GERMANY);
+			players.add(player);
+			
+			player = new Player();
+			player.setIndex(25);
+			player.setName("Cristiano Ronaldo");
+			player.setPosition("F");
+			player.setTeamIndex(Constants.PORTUGAL);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(26);
+			player.setName("Ezequiel Lavezzi");
+			player.setPosition("F");
+			player.setTeamIndex(Constants.ARGENTINA);
+			players.add(player);
+			
+			player = new Player();
+			player.setIndex(27);
+			player.setName("Mesut Ozil");
+			player.setPosition("M");
+			player.setTeamIndex(Constants.GERMANY);
+			players.add(player);
+
+			for (Player thisPlayer : players) {
+				st.executeUpdate(String
+						.format("INSERT INTO \"Players\" (\"Index\", \"Name\", \"TeamIndex\", \"Position\") VALUES (%s, '%s', %s, '%s')",
+								thisPlayer.getIndex(),
+								thisPlayer.getName(),
+								thisPlayer.getTeamIndex(),
+								thisPlayer.getPosition()
+								));
+			}
 
 			st.executeUpdate("TRUNCATE Table \"Matches\"");
 
@@ -489,8 +711,8 @@ public class DataLoader {
 			match.setTime("16:00");
 			match.setVenue("Arena da Baixada, Curitiba");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(0);    
+			match.setTeam2Goals(0);
 
 			match.setTeam1GoalsAdam(0);
 			match.setTeam2GoalsAdam(1);
@@ -575,7 +797,38 @@ public class DataLoader {
 			matches.add(match);
 
 			match = new Match();
+			match.setTeam1Index(Constants.BRAZIL);
+			match.setTeam2Index(Constants.MEXICO);
 			match.setIndex(16);
+			match.setDate("17 June 2014");
+			match.setTime("16:00");
+			match.setVenue("Estádio Castelão, Fortaleza");
+			
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			match.setTeam1GoalsAdam(3);
+			match.setTeam2GoalsAdam(1);
+
+			match.setTeam1GoalsEmily(3);
+			match.setTeam2GoalsEmily(1);
+
+			match.setTeam1GoalsJohn(3);
+			match.setTeam2GoalsJohn(2);
+
+			match.setTeam1GoalsKyle(4);
+			match.setTeam2GoalsKyle(1);
+
+			match.setTeam1GoalsLuke(3);
+			match.setTeam2GoalsLuke(0);
+
+			match.setTeam1GoalsPaul(3);
+			match.setTeam2GoalsPaul(1);
+
+			matches.add(match);
+
+			match = new Match();
+			match.setIndex(17);
 			match.setTeam1Index(Constants.RUSSIA);
 			match.setTeam2Index(Constants.SOUTH_KOREA);
 			match.setDate("17 June 2014");
@@ -605,36 +858,6 @@ public class DataLoader {
 			
 			matches.add(match);
 
-			match = new Match();
-			match.setTeam1Index(Constants.BRAZIL);
-			match.setTeam2Index(Constants.MEXICO);
-			match.setIndex(17);
-			match.setDate("17 June 2014");
-			match.setTime("16:00");
-			match.setVenue("Estádio Castelão, Fortaleza");
-			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
-
-			match.setTeam1GoalsAdam(3);
-			match.setTeam2GoalsAdam(1);
-
-			match.setTeam1GoalsEmily(3);
-			match.setTeam2GoalsEmily(1);
-
-			match.setTeam1GoalsJohn(3);
-			match.setTeam2GoalsJohn(2);
-
-			match.setTeam1GoalsKyle(4);
-			match.setTeam2GoalsKyle(1);
-
-			match.setTeam1GoalsLuke(3);
-			match.setTeam2GoalsLuke(0);
-
-			match.setTeam1GoalsPaul(3);
-			match.setTeam2GoalsPaul(1);
-
-			matches.add(match);
 
 			match = new Match();
 			match.setTeam1Index(Constants.CAMEROON);
@@ -1633,23 +1856,6 @@ public class DataLoader {
 								_match.getTeam2GoalsJohn()
 								));
 			}
-
-			/*
-			File fXmlFile = new File(
-					"c:\\dev\\WorldCup\\app\\data\\players.xml");
-			DocumentBuilderFactory dbFactory = DocumentBuilderFactory
-					.newInstance();
-			DocumentBuilder dBuilder = dbFactory.newDocumentBuilder();
-			Document doc = dBuilder.parse(fXmlFile);
-
-			doc.getDocumentElement().normalize();
-
-			System.out.println("Root element :"
-					+ doc.getDocumentElement().getNodeName());
-
-			NodeList nList = doc.getElementsByTagName("player");
-
-			*/
 			
 			ConnectionFactory.closeConnection(conn);
 		} catch (Exception ex) {

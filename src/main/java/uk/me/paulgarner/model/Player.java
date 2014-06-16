@@ -1,5 +1,9 @@
 package uk.me.paulgarner.model;
 
+import java.sql.SQLException;
+
+import uk.me.paulgarner.service.TeamService;
+
 public class Player {
 	private int index;
 	private String name;
@@ -13,6 +17,17 @@ public class Player {
 	private int yellowCards;
 	private int redCards;
 	private int penaltyMiss;
+	
+	public String getTeamName() throws SQLException {
+		TeamService service = new TeamService();
+		Team team = service.find(teamIndex);
+		
+		return team.getName(); 
+	}
+	
+	public int getPoints() {
+		return 0;
+	}
 	
 	public int getIndex() {
 		return index;
