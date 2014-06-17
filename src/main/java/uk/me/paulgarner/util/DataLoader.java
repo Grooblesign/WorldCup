@@ -879,35 +879,34 @@ public class DataLoader {
 			
 			matches.add(match);
 
-
 			match = new Match();
-			match.setTeam1Index(Constants.CAMEROON);
-			match.setTeam2Index(Constants.CROATIA);
 			match.setIndex(18);
+			match.setTeam1Index(Constants.AUSTRALIA);
+			match.setTeam2Index(Constants.NETHERLANDS);
 			match.setDate("18 June 2014");
-			match.setTime("19:00");
-			match.setVenue("Arena Amazônia, Manaus");
+			match.setTime("13:00");
+			match.setVenue("Estádio Beira-Rio, Porto Alegre");
 			
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
 
 			match.setTeam1GoalsAdam(0);
-			match.setTeam2GoalsAdam(1);
+			match.setTeam2GoalsAdam(3);
 
 			match.setTeam1GoalsEmily(1);
-			match.setTeam2GoalsEmily(0);
+			match.setTeam2GoalsEmily(2);
 
-			match.setTeam1GoalsJohn(3);
-			match.setTeam2GoalsJohn(2);
+			match.setTeam1GoalsJohn(1);
+			match.setTeam2GoalsJohn(3);
 
-			match.setTeam1GoalsKyle(1);
-			match.setTeam2GoalsKyle(1);
+			match.setTeam1GoalsKyle(0);
+			match.setTeam2GoalsKyle(4);
 
-			match.setTeam1GoalsLuke(1);
-			match.setTeam2GoalsLuke(2);
+			match.setTeam1GoalsLuke(0);
+			match.setTeam2GoalsLuke(5);
 
-			match.setTeam1GoalsPaul(1);
-			match.setTeam2GoalsPaul(2);
+			match.setTeam1GoalsPaul(0);
+			match.setTeam2GoalsPaul(4);
 
 			matches.add(match);
 
@@ -943,33 +942,33 @@ public class DataLoader {
 			matches.add(match);
 
 			match = new Match();
+			match.setTeam1Index(Constants.CAMEROON);
+			match.setTeam2Index(Constants.CROATIA);
 			match.setIndex(20);
-			match.setTeam1Index(Constants.AUSTRALIA);
-			match.setTeam2Index(Constants.NETHERLANDS);
 			match.setDate("18 June 2014");
-			match.setTime("13:00");
-			match.setVenue("Estádio Beira-Rio, Porto Alegre");
+			match.setTime("19:00");
+			match.setVenue("Arena Amazônia, Manaus");
 			
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
 
 			match.setTeam1GoalsAdam(0);
-			match.setTeam2GoalsAdam(3);
+			match.setTeam2GoalsAdam(1);
 
 			match.setTeam1GoalsEmily(1);
-			match.setTeam2GoalsEmily(2);
+			match.setTeam2GoalsEmily(0);
 
-			match.setTeam1GoalsJohn(1);
-			match.setTeam2GoalsJohn(3);
+			match.setTeam1GoalsJohn(3);
+			match.setTeam2GoalsJohn(2);
 
-			match.setTeam1GoalsKyle(0);
-			match.setTeam2GoalsKyle(4);
+			match.setTeam1GoalsKyle(1);
+			match.setTeam2GoalsKyle(1);
 
-			match.setTeam1GoalsLuke(0);
-			match.setTeam2GoalsLuke(5);
+			match.setTeam1GoalsLuke(1);
+			match.setTeam2GoalsLuke(2);
 
-			match.setTeam1GoalsPaul(0);
-			match.setTeam2GoalsPaul(4);
+			match.setTeam1GoalsPaul(1);
+			match.setTeam2GoalsPaul(2);
 
 			matches.add(match);
 
