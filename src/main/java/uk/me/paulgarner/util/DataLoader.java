@@ -32,6 +32,17 @@ public class DataLoader {
 			}
 			
 			st.executeUpdate("UPDATE \"People\" SET \"Fantasy\" = true WHERE \"Name\" = 'Adam'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player1\" = 20 WHERE \"Name\" = 'Adam'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player2\" = 28 WHERE \"Name\" = 'Adam'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player3\" = 29 WHERE \"Name\" = 'Adam'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player4\" = 13 WHERE \"Name\" = 'Adam'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player5\" = 2 WHERE \"Name\" = 'Adam'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player6\" = 23 WHERE \"Name\" = 'Adam'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player7\" = 30 WHERE \"Name\" = 'Adam'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player8\" = 7 WHERE \"Name\" = 'Adam'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player9\" = 11 WHERE \"Name\" = 'Adam'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player10\" = 31 WHERE \"Name\" = 'Adam'");
+			st.executeUpdate("UPDATE \"People\" SET \"Player11\" = 9 WHERE \"Name\" = 'Adam'");
 			
 			st.executeUpdate("UPDATE \"People\" SET \"Fantasy\" = true WHERE \"Name\" = 'Kyle'");
 			st.executeUpdate("UPDATE \"People\" SET \"Player1\" = 12 WHERE \"Name\" = 'Kyle'");
