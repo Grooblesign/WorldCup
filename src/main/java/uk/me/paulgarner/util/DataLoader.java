@@ -129,6 +129,11 @@ public class DataLoader {
 			player.setName("Iker Casillas");
 			player.setPosition("G");
 			player.setTeamIndex(Constants.SPAIN);
+			
+			// Spain vs Netherlands
+			player.setFull(player.getFull() + 1);
+			player.setYellowCards(player.getYellowCards() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -136,6 +141,10 @@ public class DataLoader {
 			player.setName("Sergio Ramos");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.SPAIN);
+
+			// Spain vs Netherlands
+			player.setFull(player.getFull() + 1);
+
 			players.add(player);
 
 			player = new Player();
@@ -143,6 +152,10 @@ public class DataLoader {
 			player.setName("David Luiz");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.BRAZIL);
+			
+			// Brazil v Croatia
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -315,11 +328,19 @@ public class DataLoader {
 
 			for (Player thisPlayer : players) {
 				st.executeUpdate(String
-						.format("INSERT INTO \"Players\" (\"Index\", \"Name\", \"TeamIndex\", \"Position\") VALUES (%s, '%s', %s, '%s')",
+						.format("INSERT INTO \"Players\" (\"Index\", \"Name\", \"TeamIndex\", \"Position\", \"Assists\", \"CleanSheets\", \"Full\", \"Goals\", \"Half\", \"PenaltyMiss\", \"RedCards\", \"YellowCards\") VALUES (%s, '%s', %s, '%s', %s, %s, %s, %s, %s, %s, %s, %s)",
 								thisPlayer.getIndex(),
 								thisPlayer.getName(),
 								thisPlayer.getTeamIndex(),
-								thisPlayer.getPosition()
+								thisPlayer.getPosition(),
+								thisPlayer.getAssists(),
+								thisPlayer.getCleanSheets(),
+								thisPlayer.getFull(),
+								thisPlayer.getGoals(),
+								thisPlayer.getHalf(),
+								thisPlayer.getPenaltyMiss(),
+								thisPlayer.getRedCards(),
+								thisPlayer.getYellowCards()
 								));
 			}
 
@@ -804,8 +825,8 @@ public class DataLoader {
 			match.setTime("16:00");
 			match.setVenue("Estádio Castelão, Fortaleza");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(0);    
+			match.setTeam2Goals(0);
 
 			match.setTeam1GoalsAdam(3);
 			match.setTeam2GoalsAdam(1);

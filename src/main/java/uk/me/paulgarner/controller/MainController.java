@@ -528,9 +528,43 @@ public class MainController {
 		return "matches";
 	}
 	
+	@RequestMapping(value = "/adam", method = RequestMethod.GET)
+	public String Adam(Model model) throws SQLException {
+		
+		model.addAttribute("person", "Adam");
+		model.addAttribute("team", getPlayers("Adam"));
+
+		return "fantasy";
+	}
+
+	@RequestMapping(value = "/kyle", method = RequestMethod.GET)
+	public String Kyle(Model model) throws SQLException {
+		
+		model.addAttribute("person", "Kyle");
+		model.addAttribute("team", getPlayers("Kyle"));
+
+		return "fantasy";
+	}
+
+	@RequestMapping(value = "/luke", method = RequestMethod.GET)
+	public String Luke(Model model) throws SQLException {
+		
+		model.addAttribute("person", "Luke");
+		model.addAttribute("team", getPlayers("Luke"));
+
+		return "fantasy";
+	}
+
 	@RequestMapping(value = "/paul", method = RequestMethod.GET)
 	public String Paul(Model model) throws SQLException {
+		
+		model.addAttribute("person", "Paul");
+		model.addAttribute("team", getPlayers("Paul"));
 
+		return "fantasy";
+	}
+
+	private List<Player> getPlayers(String person)  throws SQLException {
 		PlayerService service = new PlayerService();
 		
 		Connection conn = ConnectionFactory.getConnection();
@@ -539,7 +573,7 @@ public class MainController {
 		
 		List<Player> players = new ArrayList<Player>();
 		
-		rs = st.executeQuery("SELECT \"Player1\", \"Player2\", \"Player3\", \"Player4\", \"Player5\", \"Player6\", \"Player7\", \"Player8\", \"Player9\", \"Player10\", \"Player11\" FROM \"People\" WHERE \"Name\"='Paul'");
+		rs = st.executeQuery(String.format("SELECT \"Player1\", \"Player2\", \"Player3\", \"Player4\", \"Player5\", \"Player6\", \"Player7\", \"Player8\", \"Player9\", \"Player10\", \"Player11\" FROM \"People\" WHERE \"Name\"='%s'", person));
 		rs.next();
 		players.add(service.find(rs.getInt(1)));
 		players.add(service.find(rs.getInt(2)));
@@ -556,11 +590,7 @@ public class MainController {
 		rs.close();
 
 		ConnectionFactory.closeConnection(conn);
-		
-		model.addAttribute("person", "Paul");
-		model.addAttribute("team", players);
 
-		return "fantasy";
+		return players;
 	}
-	
 }
