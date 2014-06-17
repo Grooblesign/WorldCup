@@ -325,6 +325,35 @@ public class DataLoader {
 			player.setPosition("M");
 			player.setTeamIndex(Constants.GERMANY);
 			players.add(player);
+			
+			player = new Player();
+			player.setIndex(28);
+			player.setName("Thiago Silva");
+			player.setPosition("D");
+			player.setTeamIndex(Constants.BRAZIL);
+			players.add(player);
+			
+			player = new Player();
+			player.setIndex(29);
+			player.setName("Laurent Koscielny");
+			player.setPosition("D");
+			player.setTeamIndex(Constants.FRANCE);
+			players.add(player);
+
+			player = new Player();
+			player.setIndex(30);
+			player.setName("Eden Hazard");
+			player.setPosition("M");
+			player.setTeamIndex(Constants.BELGIUM);
+			players.add(player);
+			
+			player = new Player();
+			player.setIndex(31);
+			player.setName("Luis Suarez");
+			player.setPosition("A");
+			player.setTeamIndex(Constants.ARGENTINA);
+			players.add(player);
+			
 
 			for (Player thisPlayer : players) {
 				st.executeUpdate(String
