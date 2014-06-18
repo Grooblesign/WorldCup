@@ -166,6 +166,9 @@ public class DataLoader {
 			
 			// Brazil v Croatia
 			player.setFull(player.getFull() + 1);
+			// Brazil v Mexico
+			player.setFull(player.getFull() + 1);
+			player.setCleanSheets(player.getCleanSheets() + 1);
 			
 			players.add(player);
 
@@ -181,6 +184,13 @@ public class DataLoader {
 			player.setName("Daniel Alves");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.BRAZIL);
+			
+			// Brazil v Croatia
+			player.setFull(player.getFull() + 1);
+			// Brazil v Mexico
+			player.setFull(player.getFull() + 1);
+			player.setCleanSheets(player.getCleanSheets() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -188,6 +198,11 @@ public class DataLoader {
 			player.setName("Arjen Robben");
 			player.setPosition("M");
 			player.setTeamIndex(Constants.NETHERLANDS);
+			
+			// Germany v Netherland
+			player.setFull(player.getFull() + 2);
+			player.setGoals(player.getGoals() + 2);
+			
 			players.add(player);
 
 			player = new Player();
@@ -896,8 +911,8 @@ public class DataLoader {
 			match.setTime("19:00");
 			match.setVenue("Arena Pantanal, Cuiabá");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(1);    
+			match.setTeam2Goals(1);
 
 			match.setTeam1GoalsAdam(2);
 			match.setTeam2GoalsAdam(0);
