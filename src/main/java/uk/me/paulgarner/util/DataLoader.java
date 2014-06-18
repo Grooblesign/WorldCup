@@ -1060,37 +1060,6 @@ public class DataLoader {
 
 			match = new Match();
 			match.setIndex(22);
-			match.setTeam1Index(Constants.JAPAN);
-			match.setTeam2Index(Constants.GREECE);
-			match.setDate("19 June 2014");
-			match.setTime("19:00");
-			match.setVenue("Arena das Dunas, Natal");
-			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
-
-			match.setTeam1GoalsAdam(1);
-			match.setTeam2GoalsAdam(0);
-
-			match.setTeam1GoalsEmily(2);
-			match.setTeam2GoalsEmily(1);
-
-			match.setTeam1GoalsJohn(1);
-			match.setTeam2GoalsJohn(2);
-
-			match.setTeam1GoalsKyle(1);
-			match.setTeam2GoalsKyle(0);
-
-			match.setTeam1GoalsLuke(2);
-			match.setTeam2GoalsLuke(0);
-
-			match.setTeam1GoalsPaul(1);
-			match.setTeam2GoalsPaul(0);
-			
-			matches.add(match);
-
-			match = new Match();
-			match.setIndex(23);
 			match.setTeam1Index(Constants.URUGUAY);
 			match.setTeam2Index(Constants.ENGLAND);
 			match.setDate("19 June 2014");
@@ -1117,6 +1086,37 @@ public class DataLoader {
 
 			match.setTeam1GoalsPaul(1);
 			match.setTeam2GoalsPaul(1);
+			
+			matches.add(match);
+
+			match = new Match();
+			match.setIndex(23);
+			match.setTeam1Index(Constants.JAPAN);
+			match.setTeam2Index(Constants.GREECE);
+			match.setDate("19 June 2014");
+			match.setTime("19:00");
+			match.setVenue("Arena das Dunas, Natal");
+			
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			match.setTeam1GoalsAdam(1);
+			match.setTeam2GoalsAdam(0);
+
+			match.setTeam1GoalsEmily(2);
+			match.setTeam2GoalsEmily(1);
+
+			match.setTeam1GoalsJohn(1);
+			match.setTeam2GoalsJohn(2);
+
+			match.setTeam1GoalsKyle(1);
+			match.setTeam2GoalsKyle(0);
+
+			match.setTeam1GoalsLuke(2);
+			match.setTeam2GoalsLuke(0);
+
+			match.setTeam1GoalsPaul(1);
+			match.setTeam2GoalsPaul(0);
 			
 			matches.add(match);
 
@@ -1246,37 +1246,6 @@ public class DataLoader {
 
 			match = new Match();
 			match.setIndex(28);
-			match.setTeam1Index(Constants.NIGERIA);
-			match.setTeam2Index(Constants.BOSNIA_AND_HERZEGOVINA);
-			match.setDate("21 June 2014");
-			match.setTime("19:00");
-			match.setVenue("Arena Pantanal, Cuiabá");
-			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
-
-			match.setTeam1GoalsAdam(0);
-			match.setTeam2GoalsAdam(2);
-			
-			match.setTeam1GoalsEmily(0);
-			match.setTeam2GoalsEmily(1);
-
-			match.setTeam1GoalsJohn(2);
-			match.setTeam2GoalsJohn(2);
-
-			match.setTeam1GoalsKyle(0);
-			match.setTeam2GoalsKyle(2);
-
-			match.setTeam1GoalsLuke(0);
-			match.setTeam2GoalsLuke(2);
-
-			match.setTeam1GoalsPaul(0);
-			match.setTeam2GoalsPaul(0);
-			
-			matches.add(match);
-
-			match = new Match();
-			match.setIndex(29);
 			match.setTeam1Index(Constants.GERMANY);
 			match.setTeam2Index(Constants.GHANA);
 			match.setDate("21 June 2014");
@@ -1304,6 +1273,37 @@ public class DataLoader {
 			match.setTeam1GoalsPaul(3);
 			match.setTeam2GoalsPaul(0);
 
+			matches.add(match);
+
+			match = new Match();
+			match.setIndex(29);
+			match.setTeam1Index(Constants.NIGERIA);
+			match.setTeam2Index(Constants.BOSNIA_AND_HERZEGOVINA);
+			match.setDate("21 June 2014");
+			match.setTime("19:00");
+			match.setVenue("Arena Pantanal, Cuiabá");
+			
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			match.setTeam1GoalsAdam(0);
+			match.setTeam2GoalsAdam(2);
+			
+			match.setTeam1GoalsEmily(0);
+			match.setTeam2GoalsEmily(1);
+
+			match.setTeam1GoalsJohn(2);
+			match.setTeam2GoalsJohn(2);
+
+			match.setTeam1GoalsKyle(0);
+			match.setTeam2GoalsKyle(2);
+
+			match.setTeam1GoalsLuke(0);
+			match.setTeam2GoalsLuke(2);
+
+			match.setTeam1GoalsPaul(0);
+			match.setTeam2GoalsPaul(0);
+			
 			matches.add(match);
 
 			match = new Match();
