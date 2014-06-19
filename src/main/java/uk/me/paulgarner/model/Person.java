@@ -58,6 +58,4 @@ public class Person implements Comparable {
 		else
 			return -1;
 	}
-	
-	
 }

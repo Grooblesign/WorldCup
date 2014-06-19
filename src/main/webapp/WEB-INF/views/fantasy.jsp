@@ -10,7 +10,7 @@
 	<body>
 		<h1>${person}'s Team</h1>
 		
-		<table width="90%">
+		<table id="fantasyTable" width="90%">
 			<tr>
 				<thead>
 					<td>Name</td>
@@ -32,15 +32,78 @@
 				<td>${player.name}</td>
 				<td>${player.teamName}</td>
 				<td>${player.position}</td>
-				<td>${player.goals}</td>
-				<td>${player.assists}</td>
-				<td>${player.cleanSheets}</td>
-				<td>${player.half}</td>
-				<td>${player.full}</td>
-				<td>${player.yellowCards}</td>
-				<td>${player.redCards}</td>
-				<td>${player.penaltyMiss}</td>
-				<td>${player.points}</td>
+				<c:choose>
+      				<c:when test="${player.goals != 0}">
+						<td>${player.goals}</td>
+					</c:when>
+					<c:otherwise>
+						<td>&nbsp</td>
+					</c:otherwise>
+				</c:choose>
+				<c:choose>
+      				<c:when test="${player.assists != 0}">
+						<td>${player.assists}</td>
+					</c:when>
+					<c:otherwise>
+						<td>&nbsp</td>
+					</c:otherwise>
+				</c:choose>
+				<c:choose>
+      				<c:when test="${player.cleanSheets != 0}">
+						<td>${player.cleanSheets}</td>
+					</c:when>
+					<c:otherwise>
+						<td>&nbsp</td>
+					</c:otherwise>
+				</c:choose>
+				<c:choose>
+      				<c:when test="${player.half != 0}">
+						<td>${player.half}</td>
+					</c:when>
+					<c:otherwise>
+						<td>&nbsp</td>
+					</c:otherwise>
+				</c:choose>
+				<c:choose>
+      				<c:when test="${player.full != 0}">
+						<td>${player.full}</td>
+					</c:when>
+					<c:otherwise>
+						<td>&nbsp</td>
+					</c:otherwise>
+				</c:choose>
+				<c:choose>
+      				<c:when test="${player.yellowCards != 0}">
+						<td>${player.yellowCards}</td>
+					</c:when>
+					<c:otherwise>
+						<td>&nbsp</td>
+					</c:otherwise>
+				</c:choose>
+				<c:choose>
+      				<c:when test="${player.redCards != 0}">
+						<td>${player.redCards}</td>
+					</c:when>
+					<c:otherwise>
+						<td>&nbsp</td>
+					</c:otherwise>
+				</c:choose>
+				<c:choose>
+      				<c:when test="${player.penaltyMiss != 0}">
+						<td>${player.penaltyMiss}</td>
+					</c:when>
+					<c:otherwise>
+						<td>&nbsp</td>
+					</c:otherwise>
+				</c:choose>
+				<c:choose>
+      				<c:when test="${player.points != 0}">
+						<td>${player.points}</td>
+					</c:when>
+					<c:otherwise>
+						<td>&nbsp</td>
+					</c:otherwise>
+				</c:choose>
 			</tr>
 		</c:forEach>
 		</table>

@@ -20,6 +20,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import uk.me.paulgarner.model.FantasyPlayer;
 import uk.me.paulgarner.model.Match;
 import uk.me.paulgarner.model.Person;
 import uk.me.paulgarner.model.Player;
@@ -53,14 +54,6 @@ public class MainController {
 
 		rs.close();
 
-		/*
-		 * Person adam = people.get(0); adam.setExact(4); adam.setResult(21);
-		 * adam.setBonus(12);
-		 * 
-		 * Person paul = people.get(6); paul.setExact(6); paul.setResult(17);
-		 * paul.setBonus(11);
-		 */
-
 		ConnectionFactory.closeConnection(conn);
 
 		List<Match> matches = (new MatchService()).findAll();
@@ -91,6 +84,44 @@ public class MainController {
 		Collections.sort(people);
 
 		model.addAttribute("people", people);
+		
+		List<FantasyPlayer> fantasy = new ArrayList<FantasyPlayer>();
+		
+		FantasyPlayer person = new FantasyPlayer();
+		person.setName("Adam");
+		List<Player> players = getPlayers("Adam");
+		for (Player player : players) {
+			person.setPoints(person.getPoints() + player.getPoints());
+		}
+		fantasy.add(person);
+		
+		person = new FantasyPlayer();
+		person.setName("Kyle");
+		players = getPlayers("Kyle");
+		for (Player player : players) {
+			person.setPoints(person.getPoints() + player.getPoints());
+		}
+		fantasy.add(person);
+		
+		person = new FantasyPlayer();
+		person.setName("Luke");
+		players = getPlayers("Luke");
+		for (Player player : players) {
+			person.setPoints(person.getPoints() + player.getPoints());
+		}
+		fantasy.add(person);
+		
+		person = new FantasyPlayer();
+		person.setName("Paul");
+		players = getPlayers("Paul");
+		for (Player player : players) {
+			person.setPoints(person.getPoints() + player.getPoints());
+		}
+		fantasy.add(person);
+
+		Collections.sort(fantasy);
+
+		model.addAttribute("fantasy", fantasy);
 
 		return "index";
 	}
@@ -528,7 +559,7 @@ public class MainController {
 		return "matches";
 	}
 	
-	@RequestMapping(value = "/adam", method = RequestMethod.GET)
+	@RequestMapping(value = "/Adam", method = RequestMethod.GET)
 	public String Adam(Model model) throws SQLException {
 		
 		model.addAttribute("person", "Adam");
@@ -537,7 +568,7 @@ public class MainController {
 		return "fantasy";
 	}
 
-	@RequestMapping(value = "/kyle", method = RequestMethod.GET)
+	@RequestMapping(value = "/Kyle", method = RequestMethod.GET)
 	public String Kyle(Model model) throws SQLException {
 		
 		model.addAttribute("person", "Kyle");
@@ -546,7 +577,7 @@ public class MainController {
 		return "fantasy";
 	}
 
-	@RequestMapping(value = "/luke", method = RequestMethod.GET)
+	@RequestMapping(value = "/Luke", method = RequestMethod.GET)
 	public String Luke(Model model) throws SQLException {
 		
 		model.addAttribute("person", "Luke");
@@ -555,7 +586,7 @@ public class MainController {
 		return "fantasy";
 	}
 
-	@RequestMapping(value = "/paul", method = RequestMethod.GET)
+	@RequestMapping(value = "/Paul", method = RequestMethod.GET)
 	public String Paul(Model model) throws SQLException {
 		
 		model.addAttribute("person", "Paul");

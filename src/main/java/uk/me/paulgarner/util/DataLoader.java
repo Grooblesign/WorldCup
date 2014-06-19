@@ -145,6 +145,9 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			player.setYellowCards(player.getYellowCards() + 1);
 			
+			// Spain vs Chile
+			player.setFull(player.getFull() + 1);
+
 			players.add(player);
 
 			player = new Player();
@@ -152,8 +155,11 @@ public class DataLoader {
 			player.setName("Sergio Ramos");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.SPAIN);
-
+			
 			// Spain vs Netherlands
+			player.setFull(player.getFull() + 1);
+
+			// Spain vs Chile
 			player.setFull(player.getFull() + 1);
 
 			players.add(player);
@@ -166,6 +172,7 @@ public class DataLoader {
 			
 			// Brazil v Croatia
 			player.setFull(player.getFull() + 1);
+			
 			// Brazil v Mexico
 			player.setFull(player.getFull() + 1);
 			player.setCleanSheets(player.getCleanSheets() + 1);
@@ -177,6 +184,10 @@ public class DataLoader {
 			player.setName("Pablo Zabaleta");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.ARGENTINA);
+			
+			// Argentina v Bosnia
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -187,6 +198,7 @@ public class DataLoader {
 			
 			// Brazil v Croatia
 			player.setFull(player.getFull() + 1);
+			
 			// Brazil v Mexico
 			player.setFull(player.getFull() + 1);
 			player.setCleanSheets(player.getCleanSheets() + 1);
@@ -199,9 +211,13 @@ public class DataLoader {
 			player.setPosition("M");
 			player.setTeamIndex(Constants.NETHERLANDS);
 			
-			// Germany v Netherland
-			player.setFull(player.getFull() + 2);
+			// Spain v Netherland
+			player.setFull(player.getFull() + 1);
 			player.setGoals(player.getGoals() + 2);
+			
+			// Neth vs Aus
+			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 1);
 			
 			players.add(player);
 
@@ -210,6 +226,13 @@ public class DataLoader {
 			player.setName("Andres Iniesta");
 			player.setPosition("M");
 			player.setTeamIndex(Constants.SPAIN);
+			
+			// Spain v Netherlands
+			player.setFull(player.getFull() + 2);
+			
+			// Spain vs Chile
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -217,6 +240,10 @@ public class DataLoader {
 			player.setName("Andrea Pirlo");
 			player.setPosition("M");
 			player.setTeamIndex(Constants.ITALY);
+
+			// Italy v England
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -224,6 +251,11 @@ public class DataLoader {
 			player.setName("Lionel Messi");
 			player.setPosition("F");
 			player.setTeamIndex(Constants.ARGENTINA);
+			
+			// Argentina v Bosnia
+			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -231,6 +263,10 @@ public class DataLoader {
 			player.setName("Sergio Aguero");
 			player.setPosition("F");
 			player.setTeamIndex(Constants.ARGENTINA);
+			
+			// Argentina v Bosnia
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -238,6 +274,15 @@ public class DataLoader {
 			player.setName("Neymar");
 			player.setPosition("F");
 			player.setTeamIndex(Constants.BRAZIL);
+			
+			// Brazil v Croatia
+			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 2);
+			player.setYellowCards(player.getYellowCards() + 1);
+			
+			// Brazil v Mexico
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 			
 			player = new Player();
@@ -245,6 +290,11 @@ public class DataLoader {
 			player.setName("Manuel Neuer");
 			player.setPosition("G");
 			player.setTeamIndex(Constants.GERMANY);
+			
+			// Germany v Portugal
+			player.setCleanSheets(player.getCleanSheets() + 1);
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -252,6 +302,11 @@ public class DataLoader {
 			player.setName("Philipp Lahm");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.GERMANY);
+			
+			// Germany v Portugal
+			player.setCleanSheets(player.getCleanSheets() + 1);
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -259,6 +314,13 @@ public class DataLoader {
 			player.setName("Dante");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.BRAZIL);
+			
+			// Brazil v Croatia
+			// DNP
+			
+			// Brazil v Mexico
+			// DNP
+			
 			players.add(player);
 			
 			player = new Player();
@@ -266,6 +328,10 @@ public class DataLoader {
 			player.setName("Gary Cahill");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.ENGLAND);
+			
+			// Italy v England
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -273,6 +339,10 @@ public class DataLoader {
 			player.setName("Cesc Fabregas");
 			player.setPosition("M");
 			player.setTeamIndex(Constants.SPAIN);
+			
+			// DNP
+			// DNP
+			
 			players.add(player);
 
 			player = new Player();
@@ -280,6 +350,10 @@ public class DataLoader {
 			player.setName("Yaya Toure");
 			player.setPosition("M");
 			player.setTeamIndex(Constants.IVORY_COAST);
+			
+			// IC v JAP
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -287,6 +361,10 @@ public class DataLoader {
 			player.setName("Steven Gerrard");
 			player.setPosition("M");
 			player.setTeamIndex(Constants.ENGLAND);
+			
+			// Italy v England
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -294,6 +372,12 @@ public class DataLoader {
 			player.setName("Mario Mandzukic");
 			player.setPosition("F");
 			player.setTeamIndex(Constants.CROATIA);
+			
+			// DNP
+			
+			// CAm v CRO
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 			
 			player = new Player();
@@ -301,6 +385,10 @@ public class DataLoader {
 			player.setName("Thibaut Courtois");
 			player.setPosition("G");
 			player.setTeamIndex(Constants.BELGIUM);
+			
+			// Bel v Alg
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -308,6 +396,9 @@ public class DataLoader {
 			player.setName("Eliaquim Mangala");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.FRANCE);
+			
+			// DNP
+			
 			players.add(player);
 
 			player = new Player();
@@ -315,6 +406,13 @@ public class DataLoader {
 			player.setName("Jordi Alba");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.SPAIN);
+			
+			// Spain v Netherlands
+			player.setFull(player.getFull() + 1);
+			
+			// Spain vs Chile
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -322,6 +420,11 @@ public class DataLoader {
 			player.setName("Paul Pogba");
 			player.setPosition("M");
 			player.setTeamIndex(Constants.FRANCE);
+			
+			// France v Honduras
+			player.setFull(player.getFull() + 1);
+			player.setYellowCards(player.getYellowCards() + 1);
+			
 			players.add(player);
 			
 			player = new Player();
@@ -329,6 +432,11 @@ public class DataLoader {
 			player.setName("Thomas Muller");
 			player.setPosition("M");
 			player.setTeamIndex(Constants.GERMANY);
+			
+			// Germany v Portugal
+			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 3);
+			
 			players.add(player);
 			
 			player = new Player();
@@ -336,6 +444,10 @@ public class DataLoader {
 			player.setName("Cristiano Ronaldo");
 			player.setPosition("F");
 			player.setTeamIndex(Constants.PORTUGAL);
+			
+			// Germany v Portugal
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -343,6 +455,10 @@ public class DataLoader {
 			player.setName("Ezequiel Lavezzi");
 			player.setPosition("F");
 			player.setTeamIndex(Constants.ARGENTINA);
+			
+			// Argentina v Bosnia
+			// DNP
+			
 			players.add(player);
 			
 			player = new Player();
@@ -350,6 +466,10 @@ public class DataLoader {
 			player.setName("Mesut Ozil");
 			player.setPosition("M");
 			player.setTeamIndex(Constants.GERMANY);
+			
+			// Germany v Portugal
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 			
 			player = new Player();
@@ -357,6 +477,14 @@ public class DataLoader {
 			player.setName("Thiago Silva");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.BRAZIL);
+			
+			// Brazil v Croatia
+			player.setFull(player.getFull() + 1);
+			
+			// Brazil v Mexico
+			player.setFull(player.getFull() + 1);
+			player.setYellowCards(player.getYellowCards() + 1);
+			
 			players.add(player);
 			
 			player = new Player();
@@ -364,6 +492,9 @@ public class DataLoader {
 			player.setName("Laurent Koscielny");
 			player.setPosition("D");
 			player.setTeamIndex(Constants.FRANCE);
+			
+			// DNP
+			
 			players.add(player);
 
 			player = new Player();
@@ -371,13 +502,21 @@ public class DataLoader {
 			player.setName("Eden Hazard");
 			player.setPosition("M");
 			player.setTeamIndex(Constants.BELGIUM);
+
+			// BEL v ALG
+			player.setAssists(player.getAssists() + 1);
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 			
 			player = new Player();
 			player.setIndex(31);
 			player.setName("Luis Suarez");
 			player.setPosition("A");
-			player.setTeamIndex(Constants.ARGENTINA);
+			player.setTeamIndex(Constants.URUGUAY);
+			
+			// DNP
+			
 			players.add(player);
 			
 

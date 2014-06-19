@@ -10,6 +10,11 @@
 <body>
 	<h1>Brazil 2014</h1>
 
+	<a href="matches">View match predictions</a>
+
+	<br />
+	<br />
+
 	<table width="40%">
 		<thead>
 			<tr>
@@ -31,6 +36,22 @@
 		</c:forEach>
 	</table>
 	<br />
-	<a href="matches">Match predictions</a>
+	<table width="40%">
+		<thead>
+			<tr>
+				<td>Name</td>
+				<td>Fantasy Pts</td>
+				<td>&nbsp;</td>
+			</tr>
+		</thead>
+		<c:forEach items="${fantasy}" var="person">
+			<tr>
+				<td>${person.name}</td>
+				<td>${person.points}</td>
+				<td><a href="${person.name}">View points</a></td>
+			</tr>
+		</c:forEach>
+	</table>
+	
 </body>
 </html>

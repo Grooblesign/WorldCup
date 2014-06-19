@@ -34,3 +34,8 @@ thead {
 .matchesTableResult {
 	text-align: center;
 }
+#fantasyTable td {
+    border: thin solid;
+    background-color: white;
+    padding: 0.35em;
+}
