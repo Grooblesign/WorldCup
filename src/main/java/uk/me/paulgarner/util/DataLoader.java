@@ -482,6 +482,7 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			
 			// Brazil v Mexico
+			player.setCleanSheets(player.getCleanSheets() + 1);
 			player.setFull(player.getFull() + 1);
 			player.setYellowCards(player.getYellowCards() + 1);
 			
