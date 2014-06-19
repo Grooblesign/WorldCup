@@ -18,7 +18,7 @@
 	<table width="40%">
 		<thead>
 			<tr>
-				<td>Name</td>
+				<td width=40%">Name</td>
 				<td>E</td>
 				<td>R</td>
 				<td>B</td>
@@ -46,7 +46,7 @@
 		</thead>
 		<c:forEach items="${fantasy}" var="person">
 			<tr>
-				<td>${person.name}</td>
+				<td width="40%">${person.name}</td>
 				<td>${person.points}</td>
 				<td><a href="${person.name}">View points</a></td>
 			</tr>
