@@ -377,6 +377,7 @@ public class DataLoader {
 			
 			// CAm v CRO
 			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 2);
 			
 			players.add(player);
 			
