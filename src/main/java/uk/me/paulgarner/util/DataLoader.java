@@ -354,6 +354,9 @@ public class DataLoader {
 			// IC v JAP
 			player.setFull(player.getFull() + 1);
 			
+			// IC v COL
+			player.setFull(player.getFull() + 1);
+
 			players.add(player);
 
 			player = new Player();
