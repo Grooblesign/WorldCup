@@ -228,7 +228,7 @@ public class DataLoader {
 			player.setTeamIndex(Constants.SPAIN);
 			
 			// Spain v Netherlands
-			player.setFull(player.getFull() + 2);
+			player.setFull(player.getFull() + 1);
 			
 			// Spain vs Chile
 			player.setFull(player.getFull() + 1);
