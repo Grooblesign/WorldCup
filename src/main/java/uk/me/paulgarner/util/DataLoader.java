@@ -1222,8 +1222,8 @@ public class DataLoader {
 			match.setTeam1GoalsKyle(1);
 			match.setTeam2GoalsKyle(1);
 
-			match.setTeam1GoalsLuke(2);
-			match.setTeam2GoalsLuke(1);
+			match.setTeam1GoalsLuke(1);
+			match.setTeam2GoalsLuke(2);
 
 			match.setTeam1GoalsPaul(1);
 			match.setTeam2GoalsPaul(1);
