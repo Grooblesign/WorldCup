@@ -522,6 +522,10 @@ public class DataLoader {
 			
 			// DNP
 			
+			// U v E
+			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 2);
+			
 			players.add(player);
 			
 
