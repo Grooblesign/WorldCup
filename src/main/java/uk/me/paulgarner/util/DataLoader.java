@@ -1245,8 +1245,8 @@ public class DataLoader {
 			match.setTime("19:00");
 			match.setVenue("Arena das Dunas, Natal");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(0);    
+			match.setTeam2Goals(0);
 
 			match.setTeam1GoalsAdam(1);
 			match.setTeam2GoalsAdam(0);
