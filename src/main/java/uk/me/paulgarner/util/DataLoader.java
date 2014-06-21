@@ -1276,8 +1276,8 @@ public class DataLoader {
 			match.setTime("13:00");
 			match.setVenue("Arena Pernambuco, Recife");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(0);    
+			match.setTeam2Goals(1);
 
 			match.setTeam1GoalsAdam(2);
 			match.setTeam2GoalsAdam(0);
@@ -1307,8 +1307,8 @@ public class DataLoader {
 			match.setTime("16:00");
 			match.setVenue("Arena Fonte Nova, Salvador");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(2);    
+			match.setTeam2Goals(5);
 
 			match.setTeam1GoalsAdam(0);
 			match.setTeam2GoalsAdam(2);
@@ -1338,8 +1338,8 @@ public class DataLoader {
 			match.setTime("19:00");
 			match.setVenue("Arena da Baixada, Curitiba");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(1);    
+			match.setTeam2Goals(2);
 
 			match.setTeam1GoalsAdam(0);
 			match.setTeam2GoalsAdam(1);
