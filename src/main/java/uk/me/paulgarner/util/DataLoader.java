@@ -188,6 +188,9 @@ public class DataLoader {
 			// Argentina v Bosnia
 			player.setFull(player.getFull() + 1);
 			
+			// v Iran
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -259,6 +262,10 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			player.setGoals(player.getGoals() + 1);
 			
+			// Argentina v Iran
+			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 1);
+
 			players.add(player);
 
 			player = new Player();
@@ -270,6 +277,9 @@ public class DataLoader {
 			// Argentina v Bosnia
 			player.setFull(player.getFull() + 1);
 			
+			// v Iran
+			player.setFull(player.getFull() + 1);
+
 			players.add(player);
 
 			player = new Player();
@@ -478,6 +488,9 @@ public class DataLoader {
 			
 			// Argentina v Bosnia
 			// DNP
+			
+			// v Iran
+			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
 			
