@@ -244,6 +244,9 @@ public class DataLoader {
 			// Italy v England
 			player.setFull(player.getFull() + 1);
 			
+			// Italy v Costa Rica
+			player.setFull(player.getFull() + 1);
+
 			players.add(player);
 
 			player = new Player();
@@ -332,6 +335,9 @@ public class DataLoader {
 			// Italy v England
 			player.setFull(player.getFull() + 1);
 			
+			// England v Uru
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -368,6 +374,10 @@ public class DataLoader {
 			// Italy v England
 			player.setFull(player.getFull() + 1);
 			
+			// ENG v URU
+			player.setFull(player.getFull() + 1);
+			player.setYellowCards(player.getYellowCards() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -403,6 +413,9 @@ public class DataLoader {
 			
 			// DNP
 			
+			// v SWI
+			// DNP
+			
 			players.add(player);
 
 			player = new Player();
@@ -428,6 +441,9 @@ public class DataLoader {
 			// France v Honduras
 			player.setFull(player.getFull() + 1);
 			player.setYellowCards(player.getYellowCards() + 1);
+			
+			// v SWi
+			// DNP
 			
 			players.add(player);
 			
@@ -499,6 +515,9 @@ public class DataLoader {
 			player.setTeamIndex(Constants.FRANCE);
 			
 			// DNP
+			
+			// v SWI
+			player.setHalf(player.getHalf() + 1);
 			
 			players.add(player);
 
