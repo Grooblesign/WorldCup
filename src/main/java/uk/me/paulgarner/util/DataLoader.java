@@ -1432,8 +1432,8 @@ public class DataLoader {
 			match.setTime("16:00");
 			match.setVenue("Estádio Castelão, Fortaleza");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(2);    
+			match.setTeam2Goals(2);
 
 			match.setTeam1GoalsAdam(3);
 			match.setTeam2GoalsAdam(0);
@@ -1463,8 +1463,8 @@ public class DataLoader {
 			match.setTime("19:00");
 			match.setVenue("Arena Pantanal, Cuiabá");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(1);    
+			match.setTeam2Goals(0);
 
 			match.setTeam1GoalsAdam(0);
 			match.setTeam2GoalsAdam(2);
