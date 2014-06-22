@@ -307,6 +307,8 @@ public class DataLoader {
 			// Germany v Portugal
 			player.setCleanSheets(player.getCleanSheets() + 1);
 			player.setFull(player.getFull() + 1);
+			// v Ghana
+			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
 
@@ -318,6 +320,8 @@ public class DataLoader {
 			
 			// Germany v Portugal
 			player.setCleanSheets(player.getCleanSheets() + 1);
+			player.setFull(player.getFull() + 1);
+			// v Ghana
 			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
@@ -466,6 +470,10 @@ public class DataLoader {
 			// Germany v Portugal
 			player.setFull(player.getFull() + 1);
 			player.setGoals(player.getGoals() + 3);
+			// v Ghana
+			player.setFull(player.getFull() + 1);
+			player.setAssists(player.getAssists() + 1);
+
 			
 			players.add(player);
 			
@@ -501,6 +509,8 @@ public class DataLoader {
 			player.setTeamIndex(Constants.GERMANY);
 			
 			// Germany v Portugal
+			player.setFull(player.getFull() + 1);
+			// v Ghana
 			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
