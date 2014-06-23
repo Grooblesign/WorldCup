@@ -34,6 +34,10 @@ thead {
 .matchesTableResult {
 	text-align: center;
 }
+.matchesTableResultExact {
+	text-align: center;
+    background-color: yellow;
+}
 #fantasyTable td {
     border: thin solid;
     background-color: white;

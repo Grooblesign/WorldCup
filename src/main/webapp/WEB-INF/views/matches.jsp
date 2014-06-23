@@ -41,7 +41,14 @@
 				<td class="matchesTableResult">${match.team1GoalsEmily} - ${match.team2GoalsEmily}</td>
 				<td class="matchesTableResult">${match.team1GoalsJohn} - ${match.team2GoalsJohn}</td>
 				<td class="matchesTableResult">${match.team1GoalsKyle} - ${match.team2GoalsKyle}</td>
-				<td class="matchesTableResult">${match.team1GoalsLuke} - ${match.team2GoalsLuke}</td>
+				<c:choose>
+					<c:when test="${match.team1Goals == match.team1GoalsLuke && match.team2Goals == match.team2GoalsLuke}">
+						<td class="matchesTableResultExact">${match.team1GoalsLuke} - ${match.team2GoalsLuke}</td>
+					</c:when>
+					<c:otherwise>	
+						<td class="matchesTableResult">${match.team1GoalsLuke} - ${match.team2GoalsLuke}</td>
+					</c:otherwise>
+				</c:choose>
 				<td class="matchesTableResult">${match.team1GoalsPaul} - ${match.team2GoalsPaul}</td>
 				</tr>
 			</c:forEach>
