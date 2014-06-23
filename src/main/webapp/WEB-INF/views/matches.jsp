@@ -79,7 +79,7 @@
 				</c:choose>
 				<c:choose>
 					<c:when test="${(match.team1Goals == match.team1GoalsPaul) && (match.team2Goals == match.team2GoalsPaul)}">
-						<td class="matchesTableResult">${match.team1GoalsPaul} - ${match.team2GoalsPaul}</td>
+						<td class="matchesTableResultExact">${match.team1GoalsPaul} - ${match.team2GoalsPaul}</td>
 					</c:when>
 					<c:otherwise>	
 						<td class="matchesTableResult">${match.team1GoalsPaul} - ${match.team2GoalsPaul}</td>
