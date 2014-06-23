@@ -1839,68 +1839,6 @@ public class DataLoader {
 
 			match = new Match();
 			match.setIndex(41);
-			match.setTeam1Index(Constants.HONDURAS);
-			match.setTeam2Index(Constants.SWITZERLAND);
-			match.setDate("25 June 2014");
-			match.setTime("17:00");
-			match.setVenue("Arena Amazônia, Manaus");
-			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
-
-			match.setTeam1GoalsAdam(0);
-			match.setTeam2GoalsAdam(2);
-
-			match.setTeam1GoalsEmily(0);
-			match.setTeam2GoalsEmily(2);
-			
-			match.setTeam1GoalsJohn(2);
-			match.setTeam2GoalsJohn(2);
-
-			match.setTeam1GoalsKyle(1);
-			match.setTeam2GoalsKyle(2);
-
-			match.setTeam1GoalsLuke(0);
-			match.setTeam2GoalsLuke(3);
-
-			match.setTeam1GoalsPaul(0);
-			match.setTeam2GoalsPaul(2);
-			
-			matches.add(match);
-
-			match = new Match();
-			match.setIndex(42);
-			match.setTeam1Index(Constants.ECUADOR);
-			match.setTeam2Index(Constants.FRANCE);
-			match.setDate("25 June 2014");
-			match.setTime("17:00");
-			match.setVenue("Estádio do Maracanã, Rio de Janeiro");
-			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
-
-			match.setTeam1GoalsAdam(1);
-			match.setTeam2GoalsAdam(3);
-
-			match.setTeam1GoalsEmily(0);
-			match.setTeam2GoalsEmily(2);
-
-			match.setTeam1GoalsJohn(1);
-			match.setTeam2GoalsJohn(2);
-
-			match.setTeam1GoalsKyle(1);
-			match.setTeam2GoalsKyle(1);
-
-			match.setTeam1GoalsLuke(1);
-			match.setTeam2GoalsLuke(2);
-
-			match.setTeam1GoalsPaul(1);
-			match.setTeam2GoalsPaul(2);
-			
-			matches.add(match);
-
-			match = new Match();
-			match.setIndex(43);
 			match.setTeam1Index(Constants.NIGERIA);
 			match.setTeam2Index(Constants.ARGENTINA);
 			match.setDate("25 June 2014");
@@ -1931,7 +1869,7 @@ public class DataLoader {
 			matches.add(match);
 
 			match = new Match();
-			match.setIndex(44);
+			match.setIndex(42);
 			match.setTeam1Index(Constants.BOSNIA_AND_HERZEGOVINA);
 			match.setTeam2Index(Constants.IRAN);
 			match.setDate("25 June 2014");
@@ -1958,6 +1896,68 @@ public class DataLoader {
 
 			match.setTeam1GoalsPaul(3);
 			match.setTeam2GoalsPaul(1);
+			
+			matches.add(match);
+
+			match = new Match();
+			match.setIndex(43);
+			match.setTeam1Index(Constants.HONDURAS);
+			match.setTeam2Index(Constants.SWITZERLAND);
+			match.setDate("25 June 2014");
+			match.setTime("17:00");
+			match.setVenue("Arena Amazônia, Manaus");
+			
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			match.setTeam1GoalsAdam(0);
+			match.setTeam2GoalsAdam(2);
+
+			match.setTeam1GoalsEmily(0);
+			match.setTeam2GoalsEmily(2);
+			
+			match.setTeam1GoalsJohn(2);
+			match.setTeam2GoalsJohn(2);
+
+			match.setTeam1GoalsKyle(1);
+			match.setTeam2GoalsKyle(2);
+
+			match.setTeam1GoalsLuke(0);
+			match.setTeam2GoalsLuke(3);
+
+			match.setTeam1GoalsPaul(0);
+			match.setTeam2GoalsPaul(2);
+			
+			matches.add(match);
+
+			match = new Match();
+			match.setIndex(44);
+			match.setTeam1Index(Constants.ECUADOR);
+			match.setTeam2Index(Constants.FRANCE);
+			match.setDate("25 June 2014");
+			match.setTime("17:00");
+			match.setVenue("Estádio do Maracanã, Rio de Janeiro");
+			
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			match.setTeam1GoalsAdam(1);
+			match.setTeam2GoalsAdam(3);
+
+			match.setTeam1GoalsEmily(0);
+			match.setTeam2GoalsEmily(2);
+
+			match.setTeam1GoalsJohn(1);
+			match.setTeam2GoalsJohn(2);
+
+			match.setTeam1GoalsKyle(1);
+			match.setTeam2GoalsKyle(1);
+
+			match.setTeam1GoalsLuke(1);
+			match.setTeam2GoalsLuke(2);
+
+			match.setTeam1GoalsPaul(1);
+			match.setTeam2GoalsPaul(2);
 			
 			matches.add(match);
 
