@@ -28,11 +28,11 @@ thead {
 }
 #matchesTable td {
     border: thin solid;
-    background-color: white;
     padding: 0.35em;
 }
 .matchesTableResult {
 	text-align: center;
+    background-color: white;
 }
 .matchesTableResultExact {
 	text-align: center;
