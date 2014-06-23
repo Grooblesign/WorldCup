@@ -43,7 +43,7 @@
 				<td class="matchesTableResult">${match.team1GoalsKyle} - ${match.team2GoalsKyle}</td>
 				<c:choose>
 					<c:when test="${(match.team1Goals == match.team1GoalsLuke) && (match.team2Goals == match.team2GoalsLuke)}">
-						<td class="matchesTableResultExact">${match.team1GoalsLuke} - ${match.team2GoalsLuke}</td>
+						<td class="matchesTableResultExact">${match.team1GoalsLuke} -- ${match.team2GoalsLuke}</td>
 					</c:when>
 					<c:otherwise>	
 						<td class="matchesTableResult">${match.team1GoalsLuke} - ${match.team2GoalsLuke}</td>
