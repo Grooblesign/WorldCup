@@ -168,7 +168,7 @@ public class DataLoader {
 			// v Aus
 			player.setCleanSheets(player.getCleanSheets() + 1);
 			player.setFull(player.getFull() + 1);
-			player.setYellowwCards(player.getYellowCards() + 1);
+			player.setYellowCards(player.getYellowCards() + 1);
 
 			players.add(player);
 
