@@ -147,6 +147,9 @@ public class DataLoader {
 			
 			// Spain vs Chile
 			player.setFull(player.getFull() + 1);
+			
+			// v Aus
+			// DNP
 
 			players.add(player);
 
@@ -161,6 +164,11 @@ public class DataLoader {
 
 			// Spain vs Chile
 			player.setFull(player.getFull() + 1);
+			
+			// v Aus
+			player.setCleanSheets(player.getCleanSheets() + 1);
+			player.setFull(player.getFull() + 1);
+			player.setYellowwCards(player.getYellowCards() + 1);
 
 			players.add(player);
 
@@ -222,6 +230,10 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			player.setGoals(player.getGoals() + 1);
 			
+			// vs Chile
+			player.setFull(player.getFull() + 1);
+			player.setAssists(player.getAssists() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -235,6 +247,11 @@ public class DataLoader {
 			
 			// Spain vs Chile
 			player.setFull(player.getFull() + 1);
+			
+			// vs Aud
+			player.setAssists(player.getAssists() + 1);
+			player.setFull(player.getFull() + 1);
+			
 			
 			players.add(player);
 
@@ -362,6 +379,7 @@ public class DataLoader {
 			
 			// DNP
 			// DNP
+			// DNP
 			
 			players.add(player);
 
@@ -417,6 +435,10 @@ public class DataLoader {
 			// Bel v Alg
 			player.setFull(player.getFull() + 1);
 			
+			// vs Rus
+			player.setCleanSheets(player.getCleanSheets() + 1);
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -442,6 +464,9 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			
 			// Spain vs Chile
+			player.setFull(player.getFull() + 1);
+			
+			// vs Aus
 			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
@@ -484,6 +509,10 @@ public class DataLoader {
 			player.setTeamIndex(Constants.PORTUGAL);
 			
 			// Germany v Portugal
+			player.setFull(player.getFull() + 1);
+			
+			// vs USA
+			player.setAssists(player.getAssists() + 1);
 			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
@@ -554,6 +583,10 @@ public class DataLoader {
 			player.setAssists(player.getAssists() + 1);
 			player.setFull(player.getFull() + 1);
 			
+			// BEL v RUS
+			player.setAssists(player.getAssists() + 1);
+			player.setFull(player.getFull() + 1);
+
 			players.add(player);
 			
 			player = new Player();
