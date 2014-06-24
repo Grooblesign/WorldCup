@@ -1692,8 +1692,8 @@ public class DataLoader {
 			match.setTime("17:00");
 			match.setVenue("Estádio Nacional Mané Garrincha, Brasília");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(1);    
+			match.setTeam2Goals(4);
 
 			match.setTeam1GoalsAdam(1);
 			match.setTeam2GoalsAdam(4);
@@ -1723,8 +1723,8 @@ public class DataLoader {
 			match.setTime("17:00");
 			match.setVenue("Arena Pernambuco, Recife");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(1);    
+			match.setTeam2Goals(3);
 
 			match.setTeam1GoalsAdam(1);
 			match.setTeam2GoalsAdam(1);
@@ -1754,8 +1754,8 @@ public class DataLoader {
 			match.setTime("13:00");
 			match.setVenue("Arena das Dunas, Natal");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(0);    
+			match.setTeam2Goals(1);
 
 			match.setTeam1GoalsAdam(1);
 			match.setTeam2GoalsAdam(1);
@@ -1785,8 +1785,8 @@ public class DataLoader {
 			match.setTime("13:00");
 			match.setVenue("Estádio Mineirão, Belo Horizonte");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(0);    
+			match.setTeam2Goals(0);
 
 			match.setTeam1GoalsAdam(0);
 			match.setTeam2GoalsAdam(2);
