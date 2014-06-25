@@ -185,6 +185,10 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			player.setCleanSheets(player.getCleanSheets() + 1);
 			
+			// Brazil v Cam
+			player.setFull(player.getFull() + 1);
+			player.setAssists(player.getAssists() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -197,6 +201,9 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			
 			// v Iran
+			player.setFull(player.getFull() + 1);
+			
+			// vs Nigeria
 			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
@@ -213,6 +220,9 @@ public class DataLoader {
 			// Brazil v Mexico
 			player.setFull(player.getFull() + 1);
 			player.setCleanSheets(player.getCleanSheets() + 1);
+			
+			// Brazil v Cam
+			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
 
@@ -248,7 +258,7 @@ public class DataLoader {
 			// Spain vs Chile
 			player.setFull(player.getFull() + 1);
 			
-			// vs Aud
+			// vs Aus
 			player.setAssists(player.getAssists() + 1);
 			player.setFull(player.getFull() + 1);
 			
@@ -266,6 +276,9 @@ public class DataLoader {
 			
 			// Italy v Costa Rica
 			player.setFull(player.getFull() + 1);
+			
+			// vs URU
+			player.setFull(player.getFull() + 1);
 
 			players.add(player);
 
@@ -282,6 +295,10 @@ public class DataLoader {
 			// Argentina v Iran
 			player.setFull(player.getFull() + 1);
 			player.setGoals(player.getGoals() + 1);
+			
+			// Argentina v Nigeria
+			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 2);
 
 			players.add(player);
 
@@ -296,6 +313,9 @@ public class DataLoader {
 			
 			// v Iran
 			player.setFull(player.getFull() + 1);
+			
+			// vs Nigeria
+			player.setHalf(player.getHalf() + 1);
 
 			players.add(player);
 
@@ -313,6 +333,10 @@ public class DataLoader {
 			// Brazil v Mexico
 			player.setFull(player.getFull() + 1);
 			
+			// Brazil v Cam
+			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 2);
+			
 			players.add(player);
 			
 			player = new Player();
@@ -324,8 +348,11 @@ public class DataLoader {
 			// Germany v Portugal
 			player.setCleanSheets(player.getCleanSheets() + 1);
 			player.setFull(player.getFull() + 1);
+			
 			// v Ghana
 			player.setFull(player.getFull() + 1);
+			
+			// v 
 			
 			players.add(player);
 
@@ -338,6 +365,7 @@ public class DataLoader {
 			// Germany v Portugal
 			player.setCleanSheets(player.getCleanSheets() + 1);
 			player.setFull(player.getFull() + 1);
+			
 			// v Ghana
 			player.setFull(player.getFull() + 1);
 			
@@ -355,6 +383,9 @@ public class DataLoader {
 			// Brazil v Mexico
 			// DNP
 			
+			// vs Cameroon
+			// DNP
+			
 			players.add(player);
 			
 			player = new Player();
@@ -368,6 +399,11 @@ public class DataLoader {
 			
 			// England v Uru
 			player.setFull(player.getFull() + 1);
+			
+			// vs Costa
+			player.setCleanSheets(player.getCleanSheets() + 1);
+			player.setFull(player.getFull() + 1);
+			
 			
 			players.add(player);
 
@@ -394,6 +430,9 @@ public class DataLoader {
 			
 			// IC v COL
 			player.setFull(player.getFull() + 1);
+			
+			// vs GRE
+			player.setFull(player.getFull() + 1);
 
 			players.add(player);
 
@@ -410,6 +449,10 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			player.setYellowCards(player.getYellowCards() + 1);
 			
+			// vs Costa
+			player.setHalf(player.getHalf() + 1);
+			
+			
 			players.add(player);
 
 			player = new Player();
@@ -423,6 +466,9 @@ public class DataLoader {
 			// CAm v CRO
 			player.setFull(player.getFull() + 1);
 			player.setGoals(player.getGoals() + 2);
+			
+			// vs Mex
+			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
 			
@@ -495,6 +541,7 @@ public class DataLoader {
 			// Germany v Portugal
 			player.setFull(player.getFull() + 1);
 			player.setGoals(player.getGoals() + 3);
+			
 			// v Ghana
 			player.setFull(player.getFull() + 1);
 			player.setAssists(player.getAssists() + 1);
@@ -529,6 +576,9 @@ public class DataLoader {
 			// v Iran
 			player.setFull(player.getFull() + 1);
 			
+			// vs Nigeria
+			// DNP
+			
 			players.add(player);
 			
 			player = new Player();
@@ -557,6 +607,9 @@ public class DataLoader {
 			player.setCleanSheets(player.getCleanSheets() + 1);
 			player.setFull(player.getFull() + 1);
 			player.setYellowCards(player.getYellowCards() + 1);
+			
+			//  vs Cam
+			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
 			
@@ -600,6 +653,9 @@ public class DataLoader {
 			// U v E
 			player.setFull(player.getFull() + 1);
 			player.setGoals(player.getGoals() + 2);
+			
+			// vs ITA
+			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
 			
