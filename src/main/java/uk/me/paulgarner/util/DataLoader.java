@@ -541,7 +541,7 @@ public class DataLoader {
 			// Germany v Portugal
 			player.setFull(player.getFull() + 1);
 			player.setGoals(player.getGoals() + 3);
-			
+				
 			// v Ghana
 			player.setFull(player.getFull() + 1);
 			player.setAssists(player.getAssists() + 1);
@@ -1996,8 +1996,8 @@ public class DataLoader {
 			match.setTime("17:00");
 			match.setVenue("Arena Amazônia, Manaus");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(0);    
+			match.setTeam2Goals(3);
 
 			match.setTeam1GoalsAdam(0);
 			match.setTeam2GoalsAdam(2);
@@ -2027,8 +2027,8 @@ public class DataLoader {
 			match.setTime("17:00");
 			match.setVenue("Estádio do Maracanã, Rio de Janeiro");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(0);    
+			match.setTeam2Goals(0);
 
 			match.setTeam1GoalsAdam(1);
 			match.setTeam2GoalsAdam(3);
