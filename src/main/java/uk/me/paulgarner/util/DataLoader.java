@@ -503,6 +503,9 @@ public class DataLoader {
 			// v SWI
 			// DNP
 			
+			// v Ecu
+			// DNP
+			
 			players.add(player);
 
 			player = new Player();
@@ -534,6 +537,9 @@ public class DataLoader {
 			
 			// v SWi
 			// DNP
+			
+			// v Ecu
+			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
 			
@@ -639,6 +645,9 @@ public class DataLoader {
 			
 			// v SWI
 			player.setHalf(player.getHalf() + 1);
+			
+			// v Ecu
+			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
 
