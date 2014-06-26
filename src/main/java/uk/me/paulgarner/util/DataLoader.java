@@ -262,7 +262,6 @@ public class DataLoader {
 			player.setAssists(player.getAssists() + 1);
 			player.setFull(player.getFull() + 1);
 			
-			
 			players.add(player);
 
 			player = new Player();
@@ -352,7 +351,9 @@ public class DataLoader {
 			// v Ghana
 			player.setFull(player.getFull() + 1);
 			
-			// v 
+			// v USA
+			player.setCleanSheets(player.getCleanSheets() + 1);
+			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
 
@@ -367,6 +368,10 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			
 			// v Ghana
+			player.setFull(player.getFull() + 1);
+			
+			// v USA
+			player.setCleanSheets(player.getCleanSheets() + 1);
 			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
@@ -546,6 +551,9 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			player.setAssists(player.getAssists() + 1);
 
+			// v USA
+			player.setGoals(player.getGoals() + 1);
+			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
 			
@@ -561,6 +569,10 @@ public class DataLoader {
 			// vs USA
 			player.setAssists(player.getAssists() + 1);
 			player.setFull(player.getFull() + 1);
+			
+			// vs Ghana
+			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 1);
 			
 			players.add(player);
 
@@ -589,7 +601,11 @@ public class DataLoader {
 			
 			// Germany v Portugal
 			player.setFull(player.getFull() + 1);
+			
 			// v Ghana
+			player.setFull(player.getFull() + 1);
+			
+			// v USA
 			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
