@@ -2146,8 +2146,8 @@ public class DataLoader {
 			match.setTime("17:00");
 			match.setVenue("Arena de São Paulo, São Paulo");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(0);    
+			match.setTeam2Goals(1);
 
 			match.setTeam1GoalsAdam(0);
 			match.setTeam2GoalsAdam(2);
@@ -2177,8 +2177,8 @@ public class DataLoader {
 			match.setTime("17:00");
 			match.setVenue("Arena da Baixada, Curitiba");
 			
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(1);    
+			match.setTeam2Goals(1);
 
 			match.setTeam1GoalsAdam(0);
 			match.setTeam2GoalsAdam(1);
