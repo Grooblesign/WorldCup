@@ -647,6 +647,7 @@ public class DataLoader {
 			player.setHalf(player.getHalf() + 1);
 			
 			// v Ecu
+			player.setCleanSheets(player.getCleanSheets() + 1);
 			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
