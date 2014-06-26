@@ -23,7 +23,6 @@
 					<td>F</td>
 					<td>Y</td>
 					<td>R</td>
-					<td>P</td>
 					<td>Pts</td>
 				</thead>
 			<tr>
@@ -83,14 +82,6 @@
 				<c:choose>
       				<c:when test="${player.redCards != 0}">
 						<td>${player.redCards}</td>
-					</c:when>
-					<c:otherwise>
-						<td>&nbsp</td>
-					</c:otherwise>
-				</c:choose>
-				<c:choose>
-      				<c:when test="${player.penaltyMiss != 0}">
-						<td>${player.penaltyMiss}</td>
 					</c:when>
 					<c:otherwise>
 						<td>&nbsp</td>
