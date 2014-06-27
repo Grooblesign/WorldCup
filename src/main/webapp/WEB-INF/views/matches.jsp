@@ -86,6 +86,9 @@
 					</c:otherwise>
 				</c:choose>
 				</tr>
+				<c:if test="${(match.index == 48)}">
+					</tr>
+				</c:if>
 			</c:forEach>
 			</table>
 			<br />
