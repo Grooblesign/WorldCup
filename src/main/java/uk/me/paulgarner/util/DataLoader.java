@@ -2233,6 +2233,32 @@ public class DataLoader {
 
 			matches.add(match);
 
+			match = new Match();
+			match.setIndex(51);
+			match.setTeam1Index(Constants.NETHERLANDS);
+			match.setTeam2Index(Constants.MEXICO);
+			match.setDate("29 June 2014");
+			match.setTime("13:00");
+			match.setVenue("Estádio Castelão, Fortaleza");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			matches.add(match);
+
+			match = new Match();
+			match.setIndex(52);
+			match.setTeam1Index(Constants.COSTA_RICA);
+			match.setTeam2Index(Constants.GREECE);
+			match.setDate("29 June 2014");
+			match.setTime("17:00");
+			match.setVenue("Arena Pernambuco, Recife");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			matches.add(match);
+			
 			for (Match _match : matches) {
 				StringBuilder SQL = new StringBuilder();
 				SQL.append("INSERT INTO \"Matches\" (");
