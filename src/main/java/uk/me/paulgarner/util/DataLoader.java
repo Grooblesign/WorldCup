@@ -2207,6 +2207,14 @@ public class DataLoader {
 			
 			matches.add(match);
 
+			match = new Match();
+			match.setIndex(49);
+			match.setTeam1Index(Constants.BRAZIL);
+			match.setTeam2Index(Constants.CHILE);
+			match.setDate("28 June 2014");
+			match.setTime("13:00");
+			match.setVenue("Estádio Mineirão, Belo Horizonte");
+
 			for (Match _match : matches) {
 				StringBuilder SQL = new StringBuilder();
 				SQL.append("INSERT INTO \"Matches\" (");
