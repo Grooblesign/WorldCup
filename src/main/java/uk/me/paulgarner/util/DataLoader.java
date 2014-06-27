@@ -2214,6 +2214,10 @@ public class DataLoader {
 			match.setDate("28 June 2014");
 			match.setTime("13:00");
 			match.setVenue("Estádio Mineirão, Belo Horizonte");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
 			matches.add(match);
 
 			match = new Match();
@@ -2223,6 +2227,10 @@ public class DataLoader {
 			match.setDate("28 June 2014");
 			match.setTime("17:00");
 			match.setVenue("Estádio do Maracanã, Rio de Janeiro");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
 			matches.add(match);
 
 			for (Match _match : matches) {
