@@ -2259,6 +2259,58 @@ public class DataLoader {
 
 			matches.add(match);
 			
+			match = new Match();
+			match.setIndex(53);
+			match.setTeam1Index(Constants.FRANCE);
+			match.setTeam2Index(Constants.NIGERIA);
+			match.setDate("30 June 2014");
+			match.setTime("13:00");
+			match.setVenue("Estádio Nacional Mané Garrincha, Brasília");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			matches.add(match);
+			
+			match = new Match();
+			match.setIndex(54);
+			match.setTeam1Index(Constants.GERMANY);
+			match.setTeam2Index(Constants.ALGERIA);
+			match.setDate("30 June 2014");
+			match.setTime("17:00");
+			match.setVenue("Estádio Beira-Rio, Porto Alegre");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			matches.add(match);
+			
+			match = new Match();
+			match.setIndex(55);
+			match.setTeam1Index(Constants.ARGENTINA);
+			match.setTeam2Index(Constants.SWITZERLAND);
+			match.setDate("01 July 2014");
+			match.setTime("13:00");
+			match.setVenue("Arena de São Paulo, São Paulo");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			matches.add(match);
+			
+			match = new Match();
+			match.setIndex(56);
+			match.setTeam1Index(Constants.BELGIUM);
+			match.setTeam2Index(Constants.UNITED_STATES);
+			match.setDate("01 July 2014");
+			match.setTime("17:00");
+			match.setVenue("Arena Fonte Nova, Salvador");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			matches.add(match);
+
 			for (Match _match : matches) {
 				StringBuilder SQL = new StringBuilder();
 				SQL.append("INSERT INTO \"Matches\" (");
