@@ -490,6 +490,10 @@ public class DataLoader {
 			player.setCleanSheets(player.getCleanSheets() + 1);
 			player.setFull(player.getFull() + 1);
 			
+			// vs SK
+			player.setCleanSheets(player.getCleanSheets() + 1);
+			player.setFull(player.getFull() + 1);
+			
 			players.add(player);
 
 			player = new Player();
@@ -665,6 +669,9 @@ public class DataLoader {
 			// BEL v RUS
 			player.setAssists(player.getAssists() + 1);
 			player.setFull(player.getFull() + 1);
+			
+			// v SK
+			player.setHalf(player.getHalf() + 1);
 
 			players.add(player);
 			
