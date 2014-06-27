@@ -87,6 +87,18 @@
 				</c:choose>
 				</tr>
 				<c:if test="${(match.index == 48)}">
+					<tr>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
+						<td>&nbsp;</td>
 					</tr>
 				</c:if>
 			</c:forEach>
