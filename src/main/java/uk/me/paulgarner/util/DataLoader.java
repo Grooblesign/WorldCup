@@ -2214,6 +2214,16 @@ public class DataLoader {
 			match.setDate("28 June 2014");
 			match.setTime("13:00");
 			match.setVenue("Estádio Mineirão, Belo Horizonte");
+			matches.add(match);
+
+			match = new Match();
+			match.setIndex(50);
+			match.setTeam1Index(Constants.COLOMBIA);
+			match.setTeam2Index(Constants.URUGUAY);
+			match.setDate("28 June 2014");
+			match.setTime("17:00");
+			match.setVenue("Estádio do Maracanã, Rio de Janeiro");
+			matches.add(match);
 
 			for (Match _match : matches) {
 				StringBuilder SQL = new StringBuilder();
