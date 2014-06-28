@@ -2218,6 +2218,12 @@ public class DataLoader {
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
 
+			match.setTeam1GoalsPaul(2);
+			match.setTeam2GoalsPaul(0);
+
+			match.setTeam1GoalsEmily(3);
+			match.setTeam2GoalsEmily(1);
+
 			matches.add(match);
 
 			match = new Match();
@@ -2230,6 +2236,12 @@ public class DataLoader {
 
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
+
+			match.setTeam1GoalsEmily(2);
+			match.setTeam2GoalsEmily(1);
+
+			match.setTeam1GoalsPaul(3);
+			match.setTeam2GoalsPaul(0);
 
 			matches.add(match);
 
@@ -2244,6 +2256,12 @@ public class DataLoader {
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
 
+			match.setTeam1GoalsEmily(2);
+			match.setTeam2GoalsEmily(1);
+
+			match.setTeam1GoalsPaul(1);
+			match.setTeam2GoalsPaul(0);
+
 			matches.add(match);
 
 			match = new Match();
@@ -2254,8 +2272,14 @@ public class DataLoader {
 			match.setTime("17:00");
 			match.setVenue("Arena Pernambuco, Recife");
 
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1GoalsEmily(1);
+			match.setTeam2GoalsEmily(0);
+
+			match.setTeam1GoalsPaul(1);
+			match.setTeam2GoalsPaul(0);
+
+			match.setTeam1Goals(1);    
+			match.setTeam2Goals(0);
 
 			matches.add(match);
 			
@@ -2267,8 +2291,14 @@ public class DataLoader {
 			match.setTime("13:00");
 			match.setVenue("Estádio Nacional Mané Garrincha, Brasília");
 
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1Goals(2);    
+			match.setTeam2Goals(1);
+
+			match.setTeam1GoalsEmily(2);
+			match.setTeam2GoalsEmily(1);
+
+			match.setTeam1GoalsPaul(2);
+			match.setTeam2GoalsPaul(1);
 
 			matches.add(match);
 			
@@ -2280,8 +2310,14 @@ public class DataLoader {
 			match.setTime("17:00");
 			match.setVenue("Estádio Beira-Rio, Porto Alegre");
 
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1GoalsEmily(2);
+			match.setTeam2GoalsEmily(0);
+
+			match.setTeam1GoalsPaul(2);
+			match.setTeam2GoalsPaul(0);
+
+			match.setTeam1Goals(2);    
+			match.setTeam2Goals(0);
 
 			matches.add(match);
 			
@@ -2293,8 +2329,14 @@ public class DataLoader {
 			match.setTime("13:00");
 			match.setVenue("Arena de São Paulo, São Paulo");
 
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1GoalsEmily(4);
+			match.setTeam2GoalsEmily(2);
+
+			match.setTeam1GoalsPaul(2);
+			match.setTeam2GoalsPaul(0);
+
+			match.setTeam1Goals(2);    
+			match.setTeam2Goals(1);
 
 			matches.add(match);
 			
@@ -2306,8 +2348,14 @@ public class DataLoader {
 			match.setTime("17:00");
 			match.setVenue("Arena Fonte Nova, Salvador");
 
-			match.setTeam1Goals(-1);    
-			match.setTeam2Goals(-1);
+			match.setTeam1GoalsPaul(1);
+			match.setTeam2GoalsPaul(0);
+
+			match.setTeam1GoalsEmily(1);
+			match.setTeam2GoalsEmily(0);
+
+			match.setTeam1Goals(1);    
+			match.setTeam2Goals(0);
 
 			matches.add(match);
 
