@@ -189,6 +189,11 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			player.setAssists(player.getAssists() + 1);
 			
+			// Chile
+			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 1);
+			
+			
 			players.add(player);
 
 			player = new Player();
@@ -223,6 +228,10 @@ public class DataLoader {
 			
 			// Brazil v Cam
 			player.setFull(player.getFull() + 1);
+			
+			// Chile
+			player.setFull(player.getFull() + 1);
+			player.setYellowCards(player.getYellowCards() + 1);
 			
 			players.add(player);
 
@@ -336,6 +345,9 @@ public class DataLoader {
 			player.setFull(player.getFull() + 1);
 			player.setGoals(player.getGoals() + 2);
 			
+			// Chile
+			player.setFull(player.getFull() + 1);
+
 			players.add(player);
 			
 			player = new Player();
@@ -635,6 +647,10 @@ public class DataLoader {
 			player.setYellowCards(player.getYellowCards() + 1);
 			
 			//  vs Cam
+			player.setFull(player.getFull() + 1);
+			
+			// Chile
+			player.setAssists(player.getAssists() + 1);
 			player.setFull(player.getFull() + 1);
 			
 			players.add(player);
