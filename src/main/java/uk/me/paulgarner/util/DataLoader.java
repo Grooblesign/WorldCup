@@ -2224,6 +2224,9 @@ public class DataLoader {
 			match.setTeam1GoalsEmily(3);
 			match.setTeam2GoalsEmily(1);
 
+			match.setTeam1GoalsLuke(3);
+			match.setTeam2GoalsLuke(1);
+
 			match.setTeam1GoalsPaul(2);
 			match.setTeam2GoalsPaul(0);
 
@@ -2245,6 +2248,9 @@ public class DataLoader {
 
 			match.setTeam1GoalsEmily(2);
 			match.setTeam2GoalsEmily(1);
+
+			match.setTeam1GoalsLuke(2);
+			match.setTeam2GoalsLuke(1);
 
 			match.setTeam1GoalsPaul(3);
 			match.setTeam2GoalsPaul(0);
@@ -2268,6 +2274,9 @@ public class DataLoader {
 			match.setTeam1GoalsEmily(2);
 			match.setTeam2GoalsEmily(1);
 
+			match.setTeam1GoalsLuke(4);
+			match.setTeam2GoalsLuke(1);
+
 			match.setTeam1GoalsPaul(1);
 			match.setTeam2GoalsPaul(0);
 
@@ -2289,6 +2298,9 @@ public class DataLoader {
 
 			match.setTeam1GoalsEmily(1);
 			match.setTeam2GoalsEmily(0);
+
+			match.setTeam1GoalsLuke(2);
+			match.setTeam2GoalsLuke(0);
 
 			match.setTeam1GoalsPaul(1);
 			match.setTeam2GoalsPaul(0);
@@ -2312,6 +2324,9 @@ public class DataLoader {
 			match.setTeam1GoalsEmily(2);
 			match.setTeam2GoalsEmily(1);
 
+			match.setTeam1GoalsLuke(3);
+			match.setTeam2GoalsLuke(0);
+
 			match.setTeam1GoalsPaul(2);
 			match.setTeam2GoalsPaul(1);
 
@@ -2333,6 +2348,9 @@ public class DataLoader {
 
 			match.setTeam1GoalsEmily(2);
 			match.setTeam2GoalsEmily(0);
+
+			match.setTeam1GoalsLuke(4);
+			match.setTeam2GoalsLuke(0);
 
 			match.setTeam1GoalsPaul(2);
 			match.setTeam2GoalsPaul(0);
@@ -2356,6 +2374,9 @@ public class DataLoader {
 			match.setTeam1GoalsEmily(4);
 			match.setTeam2GoalsEmily(2);
 
+			match.setTeam1GoalsLuke(3);
+			match.setTeam2GoalsLuke(2);
+
 			match.setTeam1GoalsPaul(2);
 			match.setTeam2GoalsPaul(1);
 
@@ -2377,6 +2398,9 @@ public class DataLoader {
 
 			match.setTeam1GoalsEmily(1);
 			match.setTeam2GoalsEmily(0);
+
+			match.setTeam1GoalsLuke(2);
+			match.setTeam2GoalsLuke(1);
 
 			match.setTeam1GoalsPaul(1);
 			match.setTeam2GoalsPaul(0);
