@@ -2218,11 +2218,14 @@ public class DataLoader {
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
 
-			match.setTeam1GoalsPaul(2);
-			match.setTeam2GoalsPaul(0);
+			match.setTeam1GoalsAdam(2);
+			match.setTeam2GoalsAdam(0);
 
 			match.setTeam1GoalsEmily(3);
 			match.setTeam2GoalsEmily(1);
+
+			match.setTeam1GoalsPaul(2);
+			match.setTeam2GoalsPaul(0);
 
 			matches.add(match);
 
@@ -2236,6 +2239,9 @@ public class DataLoader {
 
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
+
+			match.setTeam1GoalsAdam(3);
+			match.setTeam2GoalsAdam(1);
 
 			match.setTeam1GoalsEmily(2);
 			match.setTeam2GoalsEmily(1);
@@ -2256,6 +2262,9 @@ public class DataLoader {
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
 
+			match.setTeam1GoalsAdam(3);
+			match.setTeam2GoalsAdam(0);
+
 			match.setTeam1GoalsEmily(2);
 			match.setTeam2GoalsEmily(1);
 
@@ -2274,6 +2283,9 @@ public class DataLoader {
 
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
+
+			match.setTeam1GoalsAdam(1);
+			match.setTeam2GoalsAdam(0);
 
 			match.setTeam1GoalsEmily(1);
 			match.setTeam2GoalsEmily(0);
@@ -2294,6 +2306,9 @@ public class DataLoader {
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
 
+			match.setTeam1GoalsAdam(4);
+			match.setTeam2GoalsAdam(1);
+
 			match.setTeam1GoalsEmily(2);
 			match.setTeam2GoalsEmily(1);
 
@@ -2312,6 +2327,9 @@ public class DataLoader {
 
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
+
+			match.setTeam1GoalsAdam(2);
+			match.setTeam2GoalsAdam(0);
 
 			match.setTeam1GoalsEmily(2);
 			match.setTeam2GoalsEmily(0);
@@ -2332,6 +2350,9 @@ public class DataLoader {
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
 
+			match.setTeam1GoalsAdam(2);
+			match.setTeam2GoalsAdam(1);
+
 			match.setTeam1GoalsEmily(4);
 			match.setTeam2GoalsEmily(2);
 
@@ -2351,11 +2372,14 @@ public class DataLoader {
 			match.setTeam1Goals(-1);    
 			match.setTeam2Goals(-1);
 
-			match.setTeam1GoalsPaul(1);
-			match.setTeam2GoalsPaul(0);
+			match.setTeam1GoalsAdam(1);
+			match.setTeam2GoalsAdam(0);
 
 			match.setTeam1GoalsEmily(1);
 			match.setTeam2GoalsEmily(0);
+
+			match.setTeam1GoalsPaul(1);
+			match.setTeam2GoalsPaul(0);
 
 			matches.add(match);
 
