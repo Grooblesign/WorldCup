@@ -41,12 +41,6 @@
 					<c:when test="${match.getMatchPointsForPerson('Adam') == 4}">
 						<td class="matchesTableResultExact">${match.team1GoalsAdam} - ${match.team2GoalsAdam}</td>
 					</c:when>
-					<c:when test="${match.getMatchPointsForPerson('Adam') == 1}">
-						<td class="matchesTableResultNotExact">${match.team1GoalsAdam} - ${match.team2GoalsAdam}</td>
-					</c:when>
-					<c:when test="${match.getMatchPointsForPerson('Adam') == 2}">
-						<td class="matchesTableResultBonus">${match.team1GoalsAdam} - ${match.team2GoalsAdam}</td>
-					</c:when>
 					<c:otherwise>	
 						<td class="matchesTableResult">${match.team1GoalsAdam} - ${match.team2GoalsAdam}</td>
 					</c:otherwise>
