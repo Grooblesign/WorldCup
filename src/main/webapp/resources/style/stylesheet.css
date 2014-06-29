@@ -38,6 +38,14 @@ thead {
 	text-align: center;
     background-color: lime;
 }
+.matchesTableResultBonus {
+	text-align: center;
+    background-color: yellow;
+}
+.matchesTableResultNotExact {
+	text-align: center;
+    background-color: orange;
+}
 #fantasyTable td {
     border: thin solid;
     background-color: white;
