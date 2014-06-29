@@ -38,7 +38,7 @@
 					</c:otherwise>
 				</c:choose>
 				<c:choose>
-					<c:when test="${(match.getTeam1Goals == match.getTeam1GoalsAdam) && (match.getTeam2Goals == match.getTeam2GoalsAdam)}">
+					<c:when test="${(match.team1Goals == match.team1GoalsAdam) && (match.team2Goals == match.team2GoalsAdam)}">
 						<td class="matchesTableResultExact">${match.team1GoalsAdam} - ${match.team2GoalsAdam}</td>
 					</c:when>
 					<c:otherwise>	
@@ -46,7 +46,7 @@
 					</c:otherwise>
 				</c:choose>
 				<c:choose>
-					<c:when test="${(match.getTeam1Goals == match.getTeam1GoalsEmily) && (match.getTeam2Goals == match.getTeam2GoalsEmily)}">
+					<c:when test="${(match.team1Goals == match.team1GoalsEmily) && (match.team2Goals == match.team2GoalsEmily)}">
 						<td class="matchesTableResultExact">${match.team1GoalsEmily} - ${match.team2GoalsEmily}</td>
 					</c:when>
 					<c:otherwise>	
@@ -54,7 +54,7 @@
 					</c:otherwise>
 				</c:choose>
 				<c:choose>
-					<c:when test="${(match.getTeam1Goals == match.getTeam1GoalsJohn) && (match.getTeam2Goals == match.getTeam2GoalsJohn)}">
+					<c:when test="${(match.team1Goals == match.team1GoalsJohn) && (match.team2Goals == match.team2GoalsJohn)}">
 						<td class="matchesTableResultExact">${match.team1GoalsJohn} - ${match.team2GoalsJohn}</td>
 					</c:when>
 					<c:otherwise>	
@@ -62,7 +62,7 @@
 					</c:otherwise>
 				</c:choose>
 				<c:choose>
-					<c:when test="${(match.getTeam1Goals == match.getTeam1GoalsKyle) && (match.getTeam2Goals == match.getTeam2GoalsKyle)}">
+					<c:when test="${(match.team1Goals == match.team1GoalsKyle) && (match.team2Goals == match.team2GoalsKyle)}">
 						<td class="matchesTableResultExact">${match.team1GoalsKyle} - ${match.team2GoalsKyle}</td>
 					</c:when>
 					<c:otherwise>	
@@ -70,7 +70,7 @@
 					</c:otherwise>
 				</c:choose>
 				<c:choose>
-					<c:when test="${(match.getTeam1Goals == match.getTeam1GoalsLuke) && (match.getTeam2Goals == match.getTeam2GoalsLuke)}">
+					<c:when test="${(match.team1Goals == match.team1GoalsLuke) && (match.team2Goals == match.team2GoalsLuke)}">
 						<td class="matchesTableResultExact">${match.team1GoalsLuke} - ${match.team2GoalsLuke}</td>
 					</c:when>
 					<c:otherwise>	
@@ -78,7 +78,7 @@
 					</c:otherwise>
 				</c:choose>
 				<c:choose>
-					<c:when test="${(match.getTeam1Goals == match.getTeam1GoalsPaul) && (match.getTeam2Goals == match.getTeam2GoalsPaul)}">
+					<c:when test="${(match.team1Goals == match.team1GoalsPaul) && (match.team2Goals == match.team2GoalsPaul)}">
 						<td class="matchesTableResultExact">${match.team1GoalsPaul} - ${match.team2GoalsPaul}</td>
 					</c:when>
 					<c:otherwise>	
