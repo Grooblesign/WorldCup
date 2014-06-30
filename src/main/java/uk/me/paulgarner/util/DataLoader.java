@@ -2460,6 +2460,45 @@ public class DataLoader {
 
 			matches.add(match);
 
+			match = new Match();
+			match.setIndex(58);
+			match.setTeam1Index(Constants.BRAZIL);
+			match.setTeam2Index(Constants.COLOMBIA);
+			match.setDate("04 July 2014");
+			match.setTime("17:00");
+			match.setVenue("Estádio Castelão, Fortaleza");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			matches.add(match);
+			
+			match = new Match();
+			match.setIndex(59);
+			// match.setTeam1Index(Constants.BRAZIL);
+			// match.setTeam2Index(Constants.COLOMBIA);
+			match.setDate("05 July 2014");
+			match.setTime("13:00");
+			match.setVenue("Estádio Nacional Mané Garrincha, Brasília");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			matches.add(match);
+
+			match = new Match();
+			match.setIndex(60);
+			match.setTeam1Index(Constants.NETHERLANDS);
+			match.setTeam2Index(Constants.COSTA_RICA);
+			match.setDate("05 July 2014");
+			match.setTime("17:00");
+			match.setVenue("Arena Fonte Nova, Salvador");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			matches.add(match);
+
 			for (Match _match : matches) {
 				StringBuilder SQL = new StringBuilder();
 				SQL.append("INSERT INTO \"Matches\" (");
