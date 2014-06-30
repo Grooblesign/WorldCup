@@ -2458,7 +2458,7 @@ public class DataLoader {
 			match = new Match();
 			match.setIndex(57);
 			match.setTeam1Index(Constants.FRANCE);
-			// match.setTeam2Index(Constants.UNITED_STATES);
+			match.setTeam2Index(Constants.GERMANY);
 			match.setDate("04 July 2014");
 			match.setTime("13:00");
 			match.setVenue("Estádio do Maracanã, Rio de Janeiro");
