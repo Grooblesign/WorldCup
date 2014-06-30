@@ -557,6 +557,10 @@ public class DataLoader {
 			// v Ecu
 			player.setFull(player.getFull() + 1);
 			
+			// v Nig
+			player.setFull(player.getFull() + 1);
+			player.setGoals(player.getGoals() + 1);
+			
 			players.add(player);
 			
 			player = new Player();
@@ -670,6 +674,10 @@ public class DataLoader {
 			player.setCleanSheets(player.getCleanSheets() + 1);
 			player.setFull(player.getFull() + 1);
 			
+			// v Nig
+			player.setFull(player.getFull() + 1);
+			player.setCleanSheets(player.getCleanSheets() + 1);
+
 			players.add(player);
 
 			player = new Player();
