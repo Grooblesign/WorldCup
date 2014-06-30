@@ -2447,6 +2447,19 @@ public class DataLoader {
 
 			matches.add(match);
 
+			match = new Match();
+			match.setIndex(57);
+			match.setTeam1Index(Constants.FRANCE);
+			// match.setTeam2Index(Constants.UNITED_STATES);
+			match.setDate("04 July 2014");
+			match.setTime("13:00");
+			match.setVenue("Estádio do Maracanã, Rio de Janeiro");
+
+			match.setTeam1Goals(-1);    
+			match.setTeam2Goals(-1);
+
+			matches.add(match);
+
 			for (Match _match : matches) {
 				StringBuilder SQL = new StringBuilder();
 				SQL.append("INSERT INTO \"Matches\" (");

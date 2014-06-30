@@ -86,7 +86,7 @@
 					</c:otherwise>
 				</c:choose>
 				</tr>
-				<c:if test="${(match.index == 48)}">
+				<c:if test="${(match.index == 48) || (match.index == 56) }">
 					<tr>
 						<td>&nbsp;</td>
 						<td>&nbsp;</td>
