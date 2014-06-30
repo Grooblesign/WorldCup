@@ -2380,7 +2380,7 @@ public class DataLoader {
 			match.setVenue("Estádio Beira-Rio, Porto Alegre");
 
 			match.setTeam1Goals(2);    
-			match.setTeam2Goals(0);
+			match.setTeam2Goals(1);
 
 			match.setTeam1GoalsAdam(2);
 			match.setTeam2GoalsAdam(0);
